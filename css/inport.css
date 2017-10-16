@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+/*minstart*/
+@media screen and (min-width:0px){
+#port { height: 400vh;}   
+
+.tPort:before, .tAbout:before {
+    content: "";
+    display: block;
+    width: 122px;
+    height: 10px;
+    background: #ffcf55;}
+    
+.tAbout:before { width: 128px;}
+
+#portFolio {
+    height: auto;
+    background: #222;
+    padding-bottom: 30px;}
+    
+#portBox {
+    width: 84vw;
+    margin: auto;
+    background: #222;}
+    
+#portBox a {
+    display: block;
+    width: 84vw;
+    height: 63vw;
+    border-radius: 3px;
+    color: transparent;
+    text-align: center;
+    background-size: contain;
+    margin-top: 20px;}
+    
+#portBox a:hover { 
+    color: #fff;}
+    
+#portBox a:nth-child(1) { margin-top: 0;}
+    
+#portBox a:nth-child(1) { background-image: url(../portImg/1.jpg);}
+#portBox a:nth-child(2) { background-image: url(../portImg/2.jpg);}
+#portBox a:nth-child(3) { background-image: url(../portImg/3.jpg);}
+#portBox a:nth-child(4) { background-image: url(../portImg/4.jpg);}
+#portBox a:nth-child(5) { background-image: url(../portImg/5.jpg);}
+#portBox a:nth-child(6) { background-image: url(../portImg/6.jpg);}
+#portBox a:nth-child(7) { background-image: url(../portImg/7.r1.jpg);}
+
+a h1 {
+    display: block;
+    height: 63vw;
+    width: 84vw;
+    font-size: 2vh;
+    font-weight: normal;
+    line-height: 63vw;
+    color: inherit;
+    background: transparent;
+    overflow: hidden;}
+    
+a h1:before {
+    content: "UI Concept　|　";
+    font-size: 2.4vh;
+    font-weight: bold;
+    line-height: 30px;}
+    
+#portBox a:hover h1 { background: rgba(34, 34, 34, 0.9);}
+}
+
+
+/*769start*/
+@media screen and (min-width:769px){
+.tPort, .tAbout { 
+    height: 100px;
+    line-height: 80px;
+    padding-top: 140px;}     
+
+#portBox { overflow: hidden;}
+    
+#portBox a {
+    width: calc(42vw - 16px);
+    height: calc(31.5vw - 12px);
+    float: left;}
+    
+#portBox a { 
+    margin-top: 0px;
+    margin-bottom: 30px;}
+    
+#portBox a:nth-child(even) { margin-left: 32px;}
+    
+a h1 {
+    width: calc(42vw - 16px);
+    height: calc(31.5vw - 12px);
+    line-height: calc(31.5vw - 12px);}
+}
+
+/*1136start*/
+@media screen and (min-width:1136px){
+.tPort, .tAbout { 
+    padding-top: 94px;
+    width: 1024px;
+    margin: auto;} 
+    
+#portFolio {
+    height: auto;} 
+
+#portBox { 
+    width: 1024px;
+    overflow: hidden;}
+    
+#portBox a {
+    width: 328px;
+    height: 246px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;}
+
+#portBox a:nth-child(even) { margin-left: 20px;}
+#portBox a:nth-child(3n+1) { margin-left: 0}
+
+a h1 {
+    width: 328px;
+    height: 246px;
+    font-size: 14px;
+    line-height: 244.5px;}
+    
+a h1:before { font-size: 16px;}
+}
+/*1366end*/
+
+/*orientation*/
+@media screen and (min-width: 415px) and (max-width: 736px) and (orientation: landscape){ 
+.tPort, .tAbout { 
+    height: 90px;
+    line-height: 50px;
+    padding-top: 82px;}   
+    
+#portBox { overflow: hidden;}
+    
+#portBox a {
+    width: calc(42vw - 16px);
+    height: calc(31.5vw - 12px);
+    float: left;}
+    
+#portBox a { 
+    margin-top: 0px;
+    margin-bottom: 30px;}
+    
+#portBox a:nth-child(even) { margin-left: 32px;}
+    
+a h1 {
+    width: calc(42vw - 16px);
+    height: calc(31.5vw - 12px);
+    line-height: calc(31.5vw - 12px);
+    font-size: 2vw;}
+    
+a h1:before { font-size: 2.2vw;}
+
+}
+/*orientation*/

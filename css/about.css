@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+/*minstart*/
+@media screen and (min-width:0px){
+#aboutMe { 
+    height: auto;
+    background: #2a2a2a;}
+    
+#meBox1 {
+    width: 84vw;
+    height: 50vw;
+    overflow: hidden;
+    border-radius: 3px;
+    margin-left: 8vw;}
+
+#meBox2, #meBox3, #meBox4{
+    width: 84vw;
+    margin-left: 8vw;}
+    
+#meBox4{ padding-bottom: 110px;}
+    
+#imgMe { 
+    width: 84vw;
+    margin: auto;
+    margin-top: -16vw;}
+    
+h2, h3, h4, h5 { 
+    color: #fff;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;}
+    
+h2 { 
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 38px;
+    padding-top: 30px;
+    color: rgba(255, 207, 85, 0.6);
+    clear: both;}
+    
+h3 { 
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: bold;}
+    
+h4 { 
+    font-size: 13px;
+    line-height: 22px;}
+    
+h4 span{ 
+    font-size: 15px;
+    font-weight: bold;}
+    
+h5 {
+    font-size: 12px;
+    line-height: 22px;
+    padding-top: 10px;
+    color: #aaa;}
+    
+.skiBox {
+    width: 84vw;
+    height: auto;}
+    
+.skicon, .skiDes {
+    width: 8vw;
+    height: 8.4vw;
+    margin-right: 4vw;
+    margin-bottom: 20px;
+    display: block;
+    float: left;} 
+    
+.skiDes { 
+    color: #fff;
+    width: 30vw;
+    font-size: 14px;
+    line-height: 8.4vw;
+    margin-right: 0;}
+ 
+}
+/*minend*/
+
+/*769start*/
+@media screen and (min-width:769px){
+#meBox1 {
+    width: 84vw;
+    height: 48vw;
+    overflow: hidden;
+    border-radius: 2px;}
+    
+#imgMe { 
+    width: 84vw;
+    margin: auto;
+    margin-top: -16vw;}
+    
+.skicon, .skiDes {
+    width: 8vw;
+    height: 8.4vw;
+    margin-right: 3vw;
+    margin-bottom: 30px;
+    display: block;
+    float: left;} 
+    
+.skiDes { 
+    color: #fff;
+    width: 17vw;
+    font-size: 14px;
+    line-height: 8.4vw;
+    margin-right: 0;}
+}
+
+/*1136start*/
+@media screen and (min-width:1136px){
+#aboutMe { 
+    min-height: 700px;
+    height: 100vh;}
+
+#meBox {
+    width: 260px;
+    height: 180px;
+    margin-left: calc(50vw - 512px);
+    float: left;}
+    
+#meBox1 { 
+    width: 260px;
+    height: 130px;
+    margin-left: 0;
+    margin-top: 20px;}
+    
+#imgMe { 
+    width: 260px;
+    margin-top: -50px;
+    margin-left: 0;}    
+    
+#meBox2 {
+    width: 260px;
+    margin-left: 0;}
+    
+#meBox3 { 
+    width: 280px;
+    margin-left: 0;
+    margin-right: calc(50vw - 512px);
+    margin-top: -24px;
+    float: right;}
+    
+.skiBox {
+    width: 340px;
+    height: auto;}
+    
+.skicon, .skiDes {
+    width: 40px;
+    height: 42px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    display: block;
+    float: left;} 
+    
+.skiDes { 
+    color: #fff;
+    width: 110px;
+    font-size: 14px;
+    line-height: 42px;
+    margin-right: 0;}
+    
+#meBox4 {
+    width: 330px;
+    margin-left: 92px;
+    margin-top: -24px;
+    padding-bottom: 0;
+    float: left;}
+}
+
+/*orientation*/
+@media screen and (min-width: 415px) and (max-width: 769px) and (orientation: landscape){ 
+    
+#imgMe { 
+    width: 80vw;
+    margin: 0;
+    margin-top: -120px;} 
+}
+/*orientation*/
