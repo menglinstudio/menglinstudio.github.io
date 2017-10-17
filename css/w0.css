@@ -304,13 +304,47 @@
         text-align: center;}
     
     /*loading*/
-    #loading {
+    #wait {
         display: block;
         height: 100vh;
-        font-weight: 100vw;
+        width: 100vw;
         background: #fff;
-        
-    }
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;}
+    
+    .loading {
+        display: block;
+        text-align: center;
+        color: #ffcf55;
+        font-size: 32px;
+        width: 50px;
+        height: 37px;
+        padding-top: 13px;
+        position: absolute;
+        top: calc(50vh - 25px);
+        left: calc(50vw - 25px);
+        -webkit-animation: loading 2s infinite linear;
+        -moz-animation: loading 2s infinite linear;
+        -o-animation: loading 2s infinite linear;
+        animation: loading 2s infinite linear;}
+    
+    @keyframes loading {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); } }
+    
+    @-webkit-keyframes loading {
+        from { -webkit-transform: rotate(360deg); }
+        to { -webkit-transform: rotate(0deg); } }
+
+    @-moz-keyframes loading {
+        from { -moz-transform: rotate(360deg); }
+        to { -moz-transform: rotate(0deg); } }
+    
+    @-o-keyframes loading {
+        from { -o-transform: rotate(360deg); }
+        to { -o-transform: rotate(0deg); }}
 }
 
     

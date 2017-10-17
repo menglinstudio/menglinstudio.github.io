@@ -1,5 +1,5 @@
 $(window).load(function(){
-	$('#loading').hide();
+	$('#wait').hide();
 	});
 
 $(function (){
