@@ -280,7 +280,7 @@
         letter-spacing: 0.3px;
         text-align: center;
         color: #222;
-        background: #fcfcfc;
+        background: #f7f7f7;
         clear: both;}
     
     /*go to top*/
@@ -303,6 +303,14 @@
         height: 38px;
         text-align: center;}
     
+    /*loading*/
+    #loading {
+        display: block;
+        height: 100vh;
+        font-weight: 100vw;
+        background: #fff;
+        
+    }
 }
 
     
