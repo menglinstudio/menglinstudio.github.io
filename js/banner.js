@@ -3,17 +3,15 @@ $(function (){
         $(window).scroll(function(){
     var $this = $(this);
     var $thisTop=$this.scrollTop();
-    var _x = $('#menglin').height();
-    var _y = $('#linkBox').height();
-    var _z = _x - _y;
+    var _x = $('#intro').height();
+    var _y = $('#guide').height();
+    var _z = _x + _y;
                         
     if($thisTop < _z){
-        $('#headBar').hide ();
-        $('#goBar').hide ();
+        $('#goTop').hide ();
     }
     else{
-　　　$('#headBar').show ();
-     $('#goBar').show ();
+　　　$('#goTop').show ();
 　　　}                
 　　})
 　});

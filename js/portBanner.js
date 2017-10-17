@@ -5,10 +5,10 @@ $(function (){
     var $thisTop=$this.scrollTop();
                         
     if($thisTop < 50){
-        $('#headBar').hide ();
+        $('#goTop').hide ();
     }
     else{
-　　　$('#headBar').show ();
+　　　$('#goTop').show ();
 　　　}                
 　　})
 　});
