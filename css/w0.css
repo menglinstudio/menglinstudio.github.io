@@ -24,7 +24,7 @@
         color: #222;
         position: absolute;
         top: calc(40vh - 105px);
-        left: calc(50vw - 122px);
+        left: calc(50vw - 130px);
         color: #ddd;}
     
     #introI, #introM {
@@ -34,12 +34,12 @@
         color: #222;
         position: absolute;
         top: calc(40vh - 35px);
-        left: calc(50vw - 122px);}
+        left: calc(50vw - 120px);}
     
     #introM {
         font-weight: 900;
         top: calc(40vh + 35px);
-        left: calc(50vw - 122px);}
+        left: calc(50vw - 120px);}
     
     #tri1 {
         width: 0;
@@ -94,7 +94,7 @@
         line-height: 40px;
         padding-top: 24px;
         width: 100px;
-        height: 100px;
+        height: 76px;
         text-align: center;
         margin: auto;}
     
@@ -134,7 +134,7 @@
         letter-spacing: 1px;
         color: #222;
         position: relative;
-        left: 14vw;
+        left: calc(8vw + 40px);
         top: 30px;
         z-index: 1;}   
     
@@ -146,7 +146,7 @@
         background: #fafafa;
         float: left;}
     
-    #portBox {
+    .portBox {
         width: 84vw;
         height: 90px;
         background: #f3f3f3;
@@ -288,7 +288,7 @@
         display: none;
         width: 50px;
         height: 52px;
-        border-radius: 15px;
+        border-radius: 12px;
         background: #ffcf55;
         position: fixed;
         top: 3vh;
