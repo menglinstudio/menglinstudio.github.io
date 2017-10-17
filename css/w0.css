@@ -124,7 +124,6 @@
     
     /*p2*/
     #portFolio {
-        height: 100vh;
         background: #fafafa;
         padding-bottom: 30px;}
     
@@ -134,7 +133,7 @@
         height: 36px;
         background: #ffcf55;
         position: relative;
-        top: 160px;
+        top: 100px;
         left: 8vw;}
     
     .tPort, .tAbout {
@@ -146,28 +145,51 @@
         color: #222;
         position: relative;
         left: 15vw;
-        top: 140px;}   
+        top: 150px;
+        z-index: 2;
+    }   
     
     #portPART {
         width: 84vw;
-        height: 100vh;
-        margin-top: 180px;
+        height: 140vh;
+        margin-top: 240px;
         margin-left: 8vw;
-        background: #fafafa;
+        background: transparent;
         float: left;}
     
-    #portBoxW {
-        
-    }
-
-    #poox a {
-        display: block;
-        width: 120px;
+    #portBox {
+        width: 84vw;
         height: 90px;
-        color: #222;
-        background: #222;
+        background: #f3f3f3;
+        margin-top: 10px;}
+
+    .portBoxA {
+        display: block;
+        width: 84vw;
+        height: 90px;
         background-size: contain;
         background-repeat: no-repeat;}
+    
+    .portBoxA h1 {
+        display: table-cell;
+        vertical-align: middle;
+        height: 90px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        padding-left: 136px;
+        color: #222;}
+    
+    .portBoxA h1 span {
+        font-weight: 900;}
+    
+    .A1 { background-image: url(../portImg/1.jpg);}
+    .A2 { background-image: url(../portImg/2.jpg);}
+    .A3 { background-image: url(../portImg/3.jpg);}
+    .A4 { background-image: url(../portImg/4.jpg);}
+    .A5 { background-image: url(../portImg/5.jpg);}
+    .A6 { background-image: url(../portImg/6.jpg);}
+    .AR1 { background-image: url(../portImg/7.r1.jpg);}
 
 
 }
