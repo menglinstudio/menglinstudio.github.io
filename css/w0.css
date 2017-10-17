@@ -124,8 +124,10 @@
     
     /*p2*/
     #portFolio {
+        display: block;
+        height: 920px;
         background: #fafafa;
-        padding-bottom: 30px;}
+        overflow: hidden;}
     
     #tri3 {
         display: block;
@@ -133,35 +135,34 @@
         height: 36px;
         background: #ffcf55;
         position: relative;
-        top: 100px;
+        top: 70px;
         left: 8vw;}
     
     .tPort, .tAbout {
         display: block;
-        height: 6vh;
+        height: 36px;
         font-size: 36px;
         font-weight: 900;
         letter-spacing: 1px;
         color: #222;
         position: relative;
-        left: 15vw;
-        top: 150px;
-        z-index: 2;
-    }   
+        left: 14vw;
+        top: 50px;
+        z-index: 1;}   
     
     #portPART {
         width: 84vw;
-        height: 140vh;
-        margin-top: 240px;
+        height: 800px;
+        margin-top: 60px;
         margin-left: 8vw;
-        background: transparent;
+        background: #fafafa;
         float: left;}
     
     #portBox {
         width: 84vw;
         height: 90px;
         background: #f3f3f3;
-        margin-top: 10px;}
+        margin-top: 20px;}
 
     .portBoxA {
         display: block;
@@ -192,6 +193,94 @@
     .AR1 { background-image: url(../portImg/7.r1.jpg);}
 
 
+    /*p3*/
+    
+    #aboutMe { 
+        display: block;
+        height: 1400px;
+        background: #fafafa;}
+    
+    #tri4 {
+        display: block;
+        width: 144px;
+        height: 36px;
+        background: #ffcf55;
+        position: relative;
+        top: 70px;
+        left: 8vw;}
+    
+    #tri5 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 8vw 16vw;
+        border-color: transparent transparent #fff transparent;
+        display: block;
+        position: relative;
+        top: -12vw;
+        left: 71vw;}
+    
+    #meBox1 {
+        width: 84vw;
+        height: 50vw;
+        overflow: hidden;
+        margin-left: 8vw;
+        margin-top: 100px;}
+    
+    #meBox2, #meBox3, #meBox4 {
+        width: 84vw;
+        margin-left: 8vw;}
+    
+    #meBox4{ padding-bottom: 110px;}
+    
+    #imgMe { 
+        width: 84vw;
+        margin: auto;
+        margin-top: -16vw;}
+    
+    h2, h3, h4, h5, h6 { 
+    color: #222;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;}
+    
+    h2 { 
+        font-size: 16px;
+        font-weight: 700;
+        font-style: italic;
+        line-height: 27px;
+        padding-top: 42px;
+        color: #f4bc2e;}
+
+    h3 { 
+        font-size: 32px;
+        line-height: 36px;
+        font-weight: 700;}
+
+    h4 { 
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;}
+    
+    h4 span { 
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;}
+    
+    h5 {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        padding-top: 6px;
+        color: #555;}
+    
+    h6 {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        padding-top: 20px;
+        color: #555;}
+
+    
 }
 
     
