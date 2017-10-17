@@ -284,7 +284,7 @@
         clear: both;}
     
     /*go to top*/
-    #goTop, #goTop a {
+    #goTop, #goTop a, #goMeng, #goMeng a, #goPort, #goPort a {
         display: none;
         width: 50px;
         height: 52px;
@@ -294,14 +294,16 @@
         top: 3vh;
         right: 3vh;}
     
-    #goTop a {
+    #goTop a, #goMeng a, #goPort a {
         display: block;
         color: #222;
         background: transparent;
         font-size: 32px;
-        padding-top: 14px;
-        height: 38px;
+        padding-top: 15px;
+        height: 37px;
         text-align: center;}
+    
+    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(5vh + 50px);}
     
     /*loading*/
     #wait {
