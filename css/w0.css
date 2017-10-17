@@ -104,21 +104,19 @@
         display: block;
         color: #222;
         font-size: 40px;
+        line-height: 40px;
+        padding-top: 26px;
         width: 100px;
         height: 100px;
-        padding-top: 26px;
         text-align: center;
         margin: auto;}
     
     .gButton h1 {
-        display: block;
         height: 20px;
-        line-height: 48px;
+        line-height: 18px;
         font-size: 14px;
         font-weight: 500;
-        letter-spacing: 0.5px;
-        margin-top: -16px;
-        text-align: center;}
+        letter-spacing: 0.5px;}
     
     .gA { 
         margin-left: 50px;}
