@@ -2,7 +2,21 @@
 
 *{  font-family: 'Roboto', 'Material Icons' !important;}
 
-@media screen and (min-width:1136px){  
+#copyRight {
+    display: block;
+    width: 100vw;
+    height: 30px;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffcf55;
+    background: #333;
+    margin-top: -80px;
+    border-bottom: 2px solid #2a2a2a;
+    clear: both;
+    display: none;}
+
+@media screen and (min-width:0px){  
     
     /*p1*/
     #intro { 
@@ -17,8 +31,8 @@
         font-weight: 900;
         color: #222;
         position: absolute;
-        top: 30vh;
-        left: calc(50vw - 190px);
+        top: calc(40vh - 105px);
+        left: calc(50vw - 122px);
         color: #ddd;}
     
     #introI, #introM {
@@ -27,34 +41,35 @@
         font-weight: 400;
         color: #222;
         position: absolute;
-        top: calc(30vh + 70px);
-        left: calc(50vw - 190px);}
+        top: calc(40vh - 35px);
+        left: calc(50vw - 122px);}
     
     #introM {
         font-weight: 900;
-        left: calc(50vw - 58px);}
+        top: calc(40vh + 35px);
+        left: calc(50vw - 122px);}
     
     #tri1 {
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 100px 200px 0 0;
+        border-width: 10vh 20vh 0 0;
         border-color: #ffcf55 transparent transparent transparent;
         display: block;
         position: absolute;
-        top: 50px;
-        left: 50px;}
+        top: 25px;
+        left: 25px;}
     
     #tri2 {
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 0 0 100px 200px;
+        border-width: 0 0 10vh 20vh;
         border-color: transparent transparent #ffcf55 transparent;
         display: block;
         position: absolute;
-        bottom: calc(20vh + 50px);
-        right: 50px;}
+        bottom: calc(20vh + 25px);
+        right: 25px;}
     
     #guide {
         width: 100vw;
@@ -62,7 +77,7 @@
         background: #fcfcfc;}
     
     #guideBox {
-        width: 300px;
+        width: 250px;
         height: 100px;
         margin: auto;}
     
@@ -99,8 +114,5 @@
         margin: auto;}
     
     .gA { 
-        margin-left: 100px;}
+        margin-left: 50px;}
     
-    
-    /*p2*/
-}    
