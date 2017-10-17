@@ -1,6 +1,11 @@
 @charset "utf-8";
 
-*{  font-family: 'Roboto', 'Material Icons' !important;}
+*{  
+    font-family: 'Roboto', 'Material Icons' !important;
+    direction: ltr;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
 
 #copyRight {
     display: block;
@@ -95,24 +100,61 @@
     .gButton:hover {
         background: #f3f3f3;}
     
-    .gButton h1 {
-        display: block;
-        height: 20px;
-        font-size: 14px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        margin-top: -16px;
-        text-align: center;}
-    
     .gButton a {
         display: block;
+        color: #222;
         font-size: 40px;
-        width: 40px;
-        height: 40px;
+        width: 100px;
+        height: 100px;
         padding-top: 26px;
         text-align: center;
         margin: auto;}
     
+    .gButton h1 {
+        display: block;
+        height: 20px;
+        line-height: 48px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin-top: -16px;
+        text-align: center;}
+    
     .gA { 
         margin-left: 50px;}
+    
+    
+    /*p2*/
+    #portFolio {
+        background: #fafafa;
+        padding-bottom: 30px;}
+    
+    #tri3 {
+        display: block;
+        width: 144px;
+        height: 36px;
+        background: #ffcf55;
+        position: relative;
+        top: 160px;
+        left: 8vw;}
+    
+    .tPort, .tAbout {
+        display: block;
+        height: 6vh;
+        font-size: 36px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        color: #222;
+        position: relative;
+        left: 15vw;
+        top: 140px;}   
+    
+    #portBox {
+        width: 84vw;
+        margin: auto;
+        margin-top: 180px;
+        background: #fafafa;}
+    }
+
+}
     
