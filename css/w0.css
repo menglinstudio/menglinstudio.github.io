@@ -60,7 +60,7 @@
         border-color: transparent transparent #ffcf55 transparent;
         display: block;
         position: absolute;
-        bottom: calc(20vh + 25px);
+        top: calc(70vh - 25px);
         right: 25px;}
     
     #guide {
