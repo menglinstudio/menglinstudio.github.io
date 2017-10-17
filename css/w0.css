@@ -124,6 +124,7 @@
     
     /*p2*/
     #portFolio {
+        height: 100vh;
         background: #fafafa;
         padding-bottom: 30px;}
     
@@ -147,12 +148,28 @@
         left: 15vw;
         top: 140px;}   
     
-    #portBox {
+    #portPART {
         width: 84vw;
-        margin: auto;
+        height: 100vh;
         margin-top: 180px;
-        background: #fafafa;}
+        margin-left: 8vw;
+        background: #fafafa;
+        float: left;}
+    
+    #portBoxW {
+        
     }
 
+    #poox a {
+        display: block;
+        width: 120px;
+        height: 90px;
+        color: #222;
+        background: #222;
+        background-size: contain;
+        background-repeat: no-repeat;}
+
+
 }
+
     
