@@ -186,7 +186,7 @@
     #aboutMe { 
         display: block;
         height: auto;
-        background: #fafafa;
+        background: #f8f8f8;
         padding-bottom: 30px;}
     
     #tri4 {
@@ -227,8 +227,7 @@
     
     h2, h3, h4, h5, h6 { 
     color: #222;
-    word-spacing: 0.8px;
-    letter-spacing: 0.2px;}
+    word-spacing: 0.5px;}
     
     h2 { 
         font-size: 20px;
@@ -248,28 +247,30 @@
     h4 { 
         font-size: 13px;
         font-weight: 400;
-        line-height: 22px;}
+        line-height: 21px;
+        padding-bottom: 8px;}
     
     h4 span { 
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 700;
-        line-height: 24px;}
+        line-height: 21px;
+        padding-bottom: 0px;}
     
     h5 {
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 900;
+        font-style: italic;
         line-height: 20px;
-        letter-spacing: 0px;
         padding-top: 8px;
         color: #555;}
     
     h6 {
         font-size: 13px;
-        font-weight: 700;
+        font-weight: 900;
+        font-style: italic;
         line-height: 18px;
-        letter-spacing: 0px;
-        padding-top: 20px;
-        color: #555;}
+        padding-top: 16px;
+        color: #f4bc2e;}
     
     /*cpright*/
     #copyRight {
@@ -282,7 +283,7 @@
         letter-spacing: 0.3px;
         text-align: center;
         color: #222;
-        background: #f8f8f8;
+        background: #f6f6f6;
         clear: both;}
     
     /*go to top*/
