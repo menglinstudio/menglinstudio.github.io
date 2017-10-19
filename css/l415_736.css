@@ -1,0 +1,355 @@
+@charset "utf-8";
+
+*{  
+    font-family: 'Roboto', 'Material Icons' !important;
+    direction: ltr;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 736px) and (orientation: landscape){  
+    
+    /*p1*/
+    #intro { 
+        display: block;
+        width: 100vw;
+        height: 80vh;
+        font-weight: 900;}
+    
+    #introH {
+        display: block;
+        font-size: 60px;
+        font-weight: 900;
+        color: #222;
+        position: absolute;
+        top: calc(40vh - 105px);
+        left: calc(50vw - 130px);
+        color: #ddd;}
+    
+    #introI, #introM {
+        display: block;
+        font-size: 60px;
+        font-weight: 400;
+        color: #222;
+        position: absolute;
+        top: calc(40vh - 35px);
+        left: calc(50vw - 120px);}
+    
+    #introM {
+        font-weight: 900;
+        top: calc(40vh + 35px);
+        left: calc(50vw - 120px);}
+    
+    #tri1 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10vh 20vh 0 0;
+        border-color: #ffcf55 transparent transparent transparent;
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 25px;}
+    
+    #tri2 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 10vh 20vh;
+        border-color: transparent transparent #ffcf55 transparent;
+        display: block;
+        position: absolute;
+        top: calc(70vh - 25px);
+        right: 25px;}
+    
+    #guide {
+        width: 100vw;
+        height: 20vh;
+        background: #fcfcfc;}
+    
+    #guideBox {
+        width: 240px;
+        height: 100px;
+        margin: auto;}
+    
+    .gButton {
+        display: block;
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        color: #222;
+        background: #fcfcfc;
+        float: left;
+        margin-top: calc(10vh - 50px);}
+    
+    .gButton:hover {
+        background: #f3f3f3;}
+    
+    .gButton a {
+        display: block;
+        color: #333;
+        font-size: 36px;
+        line-height: 40px;
+        padding-top: 24px;
+        width: 100px;
+        height: 76px;
+        text-align: center;
+        margin: auto;}
+    
+    .gButton h1 {
+        height: 20px;
+        line-height: 18px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.5px;}
+    
+    .gA { 
+        margin-left: 40px;}
+    
+    
+    /*p2*/
+    #portFolio {
+        display: block;
+        height: 940px;
+        background: #fafafa;
+        overflow: hidden;}
+    
+    #tri3 {
+        display: block;
+        width: 186px;
+        height: 36px;
+        background: #ffcf55;
+        position: relative;
+        top: 50px;
+        left: 8vw;}
+    
+    .tPort, .tAbout {
+        display: block;
+        width: 250px;
+        height: 36px;
+        font-size: 36px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        color: #222;
+        position: relative;
+        left: calc(8vw + 40px);
+        top: 28px;
+        z-index: 1;}   
+    
+    #portPART {
+        width: 84vw;
+        height: 800px;
+        margin-top: 60px;
+        margin-left: 8vw;
+        background: #fafafa;
+        float: left;}
+    
+    .portBox {
+        width: 84vw;
+        height: 90px;
+        background: #f8f8f8;
+        margin-top: 20px;}
+
+    .portBoxA {
+        display: block;
+        width: 84vw;
+        height: 90px;
+        background-size: contain;
+        background-repeat: no-repeat;}
+    
+    .portBoxA h1 {
+        display: table-cell;
+        vertical-align: middle;
+        height: 90px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        padding-left: 136px;
+        color: #222;}
+    
+    .portBoxA h1 span {
+        font-weight: 900;}
+    
+    .A1 { background-image: url(../portImg/1.jpg);}
+    .A2 { background-image: url(../portImg/2.jpg);}
+    .A3 { background-image: url(../portImg/3.jpg);}
+    .A4 { background-image: url(../portImg/4.jpg);}
+    .A5 { background-image: url(../portImg/5.jpg);}
+    .A6 { background-image: url(../portImg/6.jpg);}
+    .AR1 { background-image: url(../portImg/7.r1.jpg);}
+
+
+    /*p3*/
+    
+    #aboutMe { 
+        display: block;
+        height: auto;
+        background: #f8f8f8;
+        padding-bottom: 30px;}
+    
+    #tri4 {
+        display: block;
+        width: 236px;
+        height: 36px;
+        background: #ffcf55;
+        position: relative;
+        top: 50px;
+        left: 8vw;}
+    
+    #tri5 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 8vw 16vw;
+        border-color: transparent transparent #fff transparent;
+        display: block;
+        position: relative;
+        top: -12vw;
+        left: 71vw;}
+    
+    #meBox1 {
+        width: 84vw;
+        height: 50vw;
+        overflow: hidden;
+        margin-left: 8vw;
+        margin-top: 80px;}
+    
+    #meBox2, #meBox3, #meBox4 {
+        width: 84vw;
+        margin-left: 8vw;}
+    
+    #meS { 
+        width: 84vw;
+        margin: auto;
+        margin-top: -16vw;}
+    
+    h2, h3, h4, h5, h6 { 
+    color: #222;
+    word-spacing: 0.5px;}
+    
+    h2 { 
+        font-size: 20px;
+        font-weight: 900;
+        font-style: italic;
+        line-height: 27px;
+        padding-top: 36px;
+        color: #f4bc2e;}
+
+    h3 { 
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: -3px;}
+
+    h4 { 
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        padding-bottom: 8px;}
+    
+    h4 span { 
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 21px;
+        padding-bottom: 0px;}
+    
+    h5 {
+        font-size: 13px;
+        font-weight: 900;
+        font-style: italic;
+        line-height: 20px;
+        padding-top: 8px;
+        color: #555;}
+    
+    h6 {
+        font-size: 13px;
+        font-weight: 900;
+        font-style: italic;
+        line-height: 18px;
+        padding-top: 16px;
+        color: #f4bc2e;}
+    
+    /*cpright*/
+    #copyRight {
+        display: block;
+        width: 100vw;
+        height: 40px;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        color: #222;
+        background: #f6f6f6;
+        clear: both;}
+    
+    /*go to top*/
+    #goTop, #goTop a, #goMeng, #goMeng a, #goPort, #goPort a {
+        display: none;
+        width: 50px;
+        height: 52px;
+        border-radius: 12px;
+        background: #ffcf55;
+        position: fixed;
+        top: 3vh;
+        right: 3vh;}
+    
+    #goTop a, #goMeng a, #goPort a {
+        display: block;
+        color: #222;
+        background: transparent;
+        font-size: 32px;
+        padding-top: 15px;
+        height: 37px;
+        text-align: center;}
+    
+    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(5vh + 50px);}
+    
+    /*loading*/
+    #wait {
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        background: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;}
+    
+    .loading {
+        display: block;
+        text-align: center;
+        color: #ffcf55;
+        font-size: 32px;
+        width: 50px;
+        height: 37px;
+        padding-top: 13px;
+        position: absolute;
+        top: calc(50vh - 25px);
+        left: calc(50vw - 25px);
+        -webkit-animation: loading 2s infinite linear;
+        -moz-animation: loading 2s infinite linear;
+        -o-animation: loading 2s infinite linear;
+        animation: loading 2s infinite linear;}
+    
+    @keyframes loading {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); } }
+    
+    @-webkit-keyframes loading {
+        from { -webkit-transform: rotate(360deg); }
+        to { -webkit-transform: rotate(0deg); } }
+
+    @-moz-keyframes loading {
+        from { -moz-transform: rotate(360deg); }
+        to { -moz-transform: rotate(0deg); } }
+    
+    @-o-keyframes loading {
+        from { -o-transform: rotate(360deg); }
+        to { -o-transform: rotate(0deg); }}
+}
+
+    
