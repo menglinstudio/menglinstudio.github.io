@@ -306,7 +306,7 @@
         height: 37px;
         text-align: center;}
     
-    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(5vh + 50px);}
+    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(3vh + 60px);}
     
     /*loading*/
     #wait {
