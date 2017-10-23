@@ -5,6 +5,7 @@
     direction: ltr;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    background: #fafafa;
 }
 
 
@@ -12,273 +13,72 @@
     
     /*p1*/
     #intro { 
-        display: block;
-        width: 100vw;
-        height: 80vh;
-        font-weight: 900;}
-    
-    #introH {
-        display: block;
-        font-size: 60px;
-        font-weight: 900;
-        color: #222;
-        position: absolute;
-        top: calc(40vh - 105px);
-        left: calc(50vw - 130px);
-        color: #ddd;}
-    
-    #introI, #introM {
-        display: block;
-        font-size: 60px;
-        font-weight: 400;
-        color: #222;
-        position: absolute;
-        top: calc(40vh - 35px);
-        left: calc(50vw - 120px);}
-    
-    #introM {
-        font-weight: 900;
-        top: calc(40vh + 35px);
-        left: calc(50vw - 120px);}
+        width: 84vw;
+        height: 600px;
+        margin: auto;}
     
     #tri1 {
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 10vh 20vh 0 0;
-        border-color: #ffcf55 transparent transparent transparent;
         display: block;
-        position: absolute;
-        top: 25px;
-        left: 25px;}
+        width: 76vw;
+        height: 100px;
+        background: #ffcf55;
+        position: relative;
+        top: 80px;
+        z-index: 0;}
     
     #tri2 {
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 0 10vh 20vh;
-        border-color: transparent transparent #ffcf55 transparent;
         display: block;
-        position: absolute;
-        top: calc(70vh - 25px);
-        right: 25px;}
-    
-    #guide {
-        width: 100vw;
-        height: 20vh;
-        background: #fcfcfc;}
-    
-    #guideBox {
-        width: 240px;
+        width: 76vw;
         height: 100px;
-        margin: auto;}
-    
-    .gButton {
-        display: block;
-        cursor: pointer;
-        width: 100px;
-        height: 100px;
-        border-radius: 20px;
-        color: #222;
-        background: #fcfcfc;
-        float: left;
-        margin-top: calc(10vh - 50px);}
-    
-    .gButton:hover {
-        background: #f3f3f3;}
-    
-    .gButton a {
-        display: block;
-        color: #333;
-        font-size: 36px;
-        line-height: 40px;
-        padding-top: 24px;
-        width: 100px;
-        height: 76px;
-        text-align: center;
-        margin: auto;}
-    
-    .gButton h1 {
-        height: 20px;
-        line-height: 18px;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0.5px;}
-    
-    .gA { 
-        margin-left: 40px;}
-    
-    
-    /*p2*/
-    #portFolio {
-        display: block;
-        height: 940px;
-        background: #fafafa;
-        overflow: hidden;}
-    
-    #tri3 {
-        display: block;
-        width: 186px;
-        height: 36px;
-        background: #ffcf55;
+        background: #f2f2f2;
         position: relative;
-        top: 50px;
-        left: 8vw;}
+        top: 20px;
+        left: 8vw;
+        z-index: 0;}
     
-    .tPort, .tAbout {
+    #introBox {
         display: block;
-        width: 250px;
-        height: 36px;
-        font-size: 36px;
+        width: 78vw;
+        top: -100px;
+        left: 6vw;
+        background: transparent;
+        position: relative;
+        z-index: 1;}
+    
+    h1 {
+        display: block;
+        font-size: 28px;
+        line-height: 44px;
         font-weight: 900;
-        letter-spacing: 1px;
-        color: #222;
-        position: relative;
-        left: calc(8vw + 40px);
-        top: 28px;
-        z-index: 1;}   
-    
-    #portPART {
-        width: 84vw;
-        height: 800px;
-        margin-top: 60px;
-        margin-left: 8vw;
-        background: #fafafa;
-        float: left;}
-    
-    .portBox {
-        width: 84vw;
-        height: 90px;
-        background: #f4f4f4;
-        margin-top: 20px;
-        border-radius: 8px;}
-    
-    .portBox:hover {
-        box-shadow: 4px 4px 0px 0px #ddd;
+        padding-bottom: 48px;
+        background: inherit;
     }
     
-    .portBoxA {
-        display: block;
-        width: 84vw;
-        height: 90px;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-        border-bottom-left-radius: 8px;
-        background-size: contain;
-        background-repeat: no-repeat;}
-    
-    .portBoxA h1 {
-        display: table-cell;
-        vertical-align: middle;
-        height: 90px;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 500;
-        padding-left: 136px;
-        color: #222;}
-    
-    .portBoxA h1 span {
-        font-weight: 900;}
-    
-    .A1 { background-image: url(../portImg/1.jpg);}
-    .A2 { background-image: url(../portImg/2.jpg);}
-    .A3 { background-image: url(../portImg/3.jpg);}
-    .A4 { background-image: url(../portImg/4.jpg);}
-    .A5 { background-image: url(../portImg/5.jpg);}
-    .A6 { background-image: url(../portImg/6.jpg);}
-    .AR1 { background-image: url(../portImg/r1.jpg);}
-
-
-    /*p3*/
-    
-    #aboutMe { 
-        display: block;
-        height: auto;
-        background: #f8f8f8;
-        padding-bottom: 30px;}
-    
-    #tri4 {
-        display: block;
-        width: 236px;
-        height: 36px;
-        background: #ffcf55;
-        position: relative;
-        top: 50px;
-        left: 8vw;}
-    
-    #tri5 {
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 0 8vw 16vw;
-        border-color: transparent transparent #fff transparent;
-        display: block;
-        position: relative;
-        top: -12vw;
-        left: 71vw;}
-    
-    #meBox1 {
-        width: 84vw;
-        height: 50vw;
-        overflow: hidden;
-        margin-left: 8vw;
-        margin-top: 80px;}
-    
-    #meBox2, #meBox3, #meBox4 {
-        width: 84vw;
-        margin-left: 8vw;}
-    
-    #meS { 
-        width: 84vw;
-        margin: auto;
-        margin-top: -16vw;}
-    
-    h2, h3, h4, h5, h6 { 
-    color: #222;
-    word-spacing: 0.5px;}
-    
-    h2 { 
-        font-size: 20px;
-        font-weight: 900;
-        font-style: italic;
-        line-height: 27px;
-        padding-top: 36px;
-        color: #f4bc2e;}
-
-    h3 { 
+    h1 span {
         font-size: 28px;
-        line-height: 28px;
-        font-weight: 900;
-        font-style: italic;
-        margin-left: -3px;}
-
-    h4 { 
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 21px;
-        padding-bottom: 8px;}
+        line-height: 32px;
+        font-weight: 500;
+        color: #222;
+        background: inherit;}
     
-    h4 span { 
-        font-size: 13px;
+    h2 {
+        font-size: 16px;
+        line-height: 24px;
         font-weight: 700;
-        line-height: 21px;
-        padding-bottom: 0px;}
+        color: #444;
+        font-style: italic;}
     
-    h5 {
-        font-size: 13px;
-        font-weight: 900;
+    a { 
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
         font-style: italic;
-        line-height: 20px;
-        padding-top: 8px;
-        color: #555;}
-    
-    h6 {
-        font-size: 13px;
-        font-weight: 900;
-        font-style: italic;
-        line-height: 18px;
-        padding-top: 16px;
+        padding-bottom: 4px;
         color: #f4bc2e;}
+    
+    a:hover { box-shadow: 0 3px 0 0 #f4bc2e;}
+    
+   
     
     /*cpright*/
     #copyRight {
