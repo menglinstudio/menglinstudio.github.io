@@ -137,7 +137,8 @@
     
     .sDis, .sDis a, .sDis span {
         color: #888;
-        background: #ddd;}
+        background: #ddd;
+        cursor: default;}
     
     #goTop, #goTop a {
         display: none;
@@ -174,8 +175,7 @@
         background: #f4f4f4;
         clear: both;}
     
-    
-    
+
     /*loading*/
     #wait {
         display: block;
