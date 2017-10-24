@@ -118,7 +118,7 @@
     
     #tri3 {
         display: block;
-        width: 186px;
+        width: 170px;
         height: 36px;
         background: #ffcf55;
         position: relative;
@@ -134,7 +134,7 @@
         letter-spacing: 1px;
         color: #222;
         position: relative;
-        left: calc(8vw + 40px);
+        left: calc(8vw + 25px);
         top: 28px;
         z-index: 1;}   
     
@@ -198,7 +198,7 @@
     
     #tri4 {
         display: block;
-        width: 236px;
+        width: 220px;
         height: 36px;
         background: #ffcf55;
         position: relative;
@@ -296,24 +296,25 @@
     /*go to top*/
     #goTop, #goTop a, #goMeng, #goMeng a, #goPort, #goPort a {
         display: none;
-        width: 50px;
-        height: 52px;
-        border-radius: 12px;
+        width: 40px;
+        height: 42px;
+        border-radius: 8px;
         background: #ffcf55;
         position: fixed;
         top: 3vh;
-        right: 3vh;}
+        right: 3vh;
+        z-index: 2;}
     
     #goTop a, #goMeng a, #goPort a {
         display: block;
         color: #222;
         background: transparent;
-        font-size: 32px;
-        padding-top: 15px;
-        height: 37px;
+        font-size: 28px;
+        padding-top: 13px;
+        height: 23px;
         text-align: center;}
     
-    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(3vh + 60px);}
+    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(3vh + 50px);}
     
     /*loading*/
     #wait {
