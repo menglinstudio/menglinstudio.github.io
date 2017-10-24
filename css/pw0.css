@@ -19,27 +19,15 @@
     
     #tri1 {
         display: block;
-        width: 76vw;
-        height: 100px;
+        width: 60vw;
+        height: 72px;
         background: #ffcf55;
         position: relative;
-        top: 80px;
-        z-index: 0;}
-    
-    #tri2 {
-        display: block;
-        width: 76vw;
-        height: 100px;
-        background: #f2f2f2;
-        position: relative;
-        top: 20px;
-        left: 8vw;
+        top: 60px;
         z-index: 0;}
     
     #introBox {
         display: block;
-        width: 78vw;
-        top: -100px;
         left: 6vw;
         background: transparent;
         position: relative;
@@ -48,11 +36,10 @@
     h1 {
         display: block;
         font-size: 28px;
-        line-height: 44px;
+        line-height: 38px;
         font-weight: 900;
         padding-bottom: 48px;
-        background: inherit;
-    }
+        background: inherit;}
     
     h1 span {
         font-size: 28px;
@@ -69,14 +56,14 @@
         font-style: italic;}
     
     a { 
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 28px;
         font-weight: 700;
         font-style: italic;
         padding-bottom: 4px;
         color: #f4bc2e;}
     
-    a:hover { box-shadow: 0 3px 0 0 #f4bc2e;}
+    a:hover { box-shadow: 0 2px 0 0 #f4bc2e;}
     
    
     
