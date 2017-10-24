@@ -31,7 +31,7 @@
         height: 2px;
         background: #eee;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-bottom: 10px; }
     
     #introBox {
@@ -41,7 +41,7 @@
         position: relative;
         z-index: 1;}
     
-    h1 {
+    #intro h1 {
         display: block;
         font-size: 28px;
         line-height: 38px;
@@ -49,29 +49,27 @@
         padding-bottom: 48px;
         background: inherit;}
     
-    h1 span {
+    #intro h1 span {
         font-size: 28px;
         line-height: 32px;
         font-weight: 500;
         color: #222;
         background: inherit;}
     
-    h2 {
+    #intro h2 {
         font-size: 16px;
         line-height: 24px;
         font-weight: 700;
-        color: #444;
-        font-style: italic;}
+        color: #444;}
     
     h3 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
-        margin-top: 30px;
+        margin-top: 40px;
         margin-left: 8vw;
-        color: #444;
-    }
+        color: #444;}
     
-    a { 
+    #intro a { 
         font-size: 14px;
         line-height: 28px;
         font-weight: 700;
@@ -79,18 +77,88 @@
         padding-bottom: 4px;
         color: #e6a500;}
     
-    a:hover {
-        box-shadow: 0 2px 0 0 #e6a500;
-    }
+    #intro a:hover {
+        box-shadow: 0 2px 0 0 #e6a500;}
     
     .portPhoto {
         width: 84vw;
-        margin-top: 20px;
+        border-radius: 8px;
+        margin-top: 15px;
         margin-left: 8vw;}
     
-    .portLast { margin-bottom: 20px;}
     
-   
+    /*button*/
+    #sButton {
+        display: block;
+        width: 84vw;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;}
+    
+    .sB {
+        display: block;
+        width: 84vw;
+        height: 36px;
+        text-align: center;
+        color: #222;
+        background: #ffcf55;
+        margin-top: 10px;
+        border-radius: 12px;}
+    
+    .sB a {
+        display: block;
+        height: 36px;
+        line-height: 38px;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        color: #222;
+        background: #ffcf55;
+        border-radius: 12px;}
+    
+    .sB span {
+        font-size: 17px;
+        line-height: 36px;
+        vertical-align: -4px;
+        margin-right: 8px;
+        background: #ffcf55;}
+    
+    .sLast a { 
+        text-align: left;
+        margin-left: 12px;}
+    
+    .sNext a { 
+        text-align: right;
+        margin-right: 12px;}
+    
+    .sNext span { 
+        margin-right: 0;
+        margin-left: 8px;}
+    
+    .sDis, .sDis a, .sDis span {
+        color: #888;
+        background: #ddd;}
+    
+    #goTop, #goTop a {
+        display: none;
+        width: 40px;
+        height: 42px;
+        border-radius: 8px;
+        background: #ffcf55;
+        position: fixed;
+        top: 3vh;
+        right: 3vh;
+        z-index: 2;}
+    
+    #goTop a {
+        display: block;
+        color: #222;
+        background: transparent;
+        font-size: 28px;
+        padding-top: 13px;
+        height: 23px;
+        text-align: center;}
+    
     
     /*cpright*/
     #copyRight {
@@ -103,32 +171,9 @@
         letter-spacing: 0.3px;
         text-align: center;
         color: #222;
-        background: #f6f6f6;
+        background: #f4f4f4;
         clear: both;}
     
-    /*go to top*/
-    #goTop, #goTop a, #goMeng, #goMeng a, #goPort, #goPort a {
-        display: none;
-        width: 40px;
-        height: 42px;
-        border-radius: 8px;
-        background: #ffcf55;
-        position: fixed;
-        top: 3vh;
-        right: 3vh;
-        z-index: 2;}
-    
-    #goTop a, #goMeng a, #goPort a {
-        display: block;
-        color: #222;
-        background: transparent;
-        font-size: 28px;
-        font-style: normal;
-        padding-top: 13px;
-        height: 23px;
-        text-align: center;}
-    
-    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(3vh + 50px);}
     
     
     /*loading*/
