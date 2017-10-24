@@ -25,6 +25,15 @@
         top: 60px;
         z-index: 0;}
     
+    #tri2 {
+        display: block;
+        width: 84vw;
+        height: 2px;
+        background: #eee;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px; }
+    
     #introBox {
         display: block;
         left: 6vw;
@@ -60,13 +69,18 @@
         font-weight: 700;
         font-style: italic;
         padding-bottom: 4px;
-        color: #f4bc2e;}
+        color: #e6a500;}
+    
+    a:hover {
+        box-shadow: 0 2px 0 0 #e6a500;
+    }
     
     .portPhoto {
         width: 84vw;
         margin-top: 20px;
-        margin-left: 8vw;
-    }
+        margin-left: 8vw;}
+    
+    .portLast { margin-bottom: 20px;}
     
    
     
@@ -87,25 +101,26 @@
     /*go to top*/
     #goTop, #goTop a, #goMeng, #goMeng a, #goPort, #goPort a {
         display: none;
-        width: 50px;
-        height: 52px;
-        border-radius: 12px;
+        width: 40px;
+        height: 42px;
+        border-radius: 8px;
         background: #ffcf55;
         position: fixed;
         top: 3vh;
-        right: 3vh;}
+        right: 3vh;
+        z-index: 2;}
     
     #goTop a, #goMeng a, #goPort a {
         display: block;
         color: #222;
         background: transparent;
-        font-size: 32px;
+        font-size: 28px;
         font-style: normal;
-        padding-top: 15px;
-        height: 37px;
+        padding-top: 13px;
+        height: 23px;
         text-align: center;}
     
-    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(3vh + 60px);}
+    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(3vh + 50px);}
     
     
     /*loading*/

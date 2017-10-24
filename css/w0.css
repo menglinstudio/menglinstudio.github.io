@@ -85,7 +85,7 @@
         margin-top: calc(10vh - 50px);}
     
     .gButton:hover {
-        background: #f3f3f3;}
+        background: #ddd;}
     
     .gButton a {
         display: block;
@@ -154,7 +154,7 @@
         border-radius: 8px;}
     
     .portBox:hover {
-        box-shadow: 4px 4px 0px 0px #ddd;}
+        box-shadow: 0 0 8px 2px #ddd;}
     
     .portBoxA {
         display: block;
@@ -221,7 +221,8 @@
         height: 50vw;
         overflow: hidden;
         margin-left: 8vw;
-        margin-top: 80px;}
+        margin-top: 80px;
+        border-radius: 8px;}
     
     #meBox2, #meBox3, #meBox4 {
         width: 84vw;
@@ -230,7 +231,8 @@
     #meS { 
         width: 84vw;
         margin: auto;
-        margin-top: -16vw;}
+        margin-top: -16vw;
+        border-radius: 8px;}
     
     h2, h3, h4, h5, h6 { 
     color: #222;
@@ -242,7 +244,7 @@
         font-style: italic;
         line-height: 27px;
         padding-top: 36px;
-        color: #f4bc2e;}
+        color: #e6a500;}
 
     h3 { 
         font-size: 28px;
@@ -277,7 +279,7 @@
         font-style: italic;
         line-height: 18px;
         padding-top: 16px;
-        color: #f4bc2e;}
+        color: #e6a500;}
     
     /*cpright*/
     #copyRight {
