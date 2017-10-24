@@ -14,7 +14,6 @@
     /*p1*/
     #intro { 
         width: 84vw;
-        height: 600px;
         margin: auto;}
     
     #tri1 {
@@ -63,7 +62,11 @@
         padding-bottom: 4px;
         color: #f4bc2e;}
     
-    a:hover { box-shadow: 0 2px 0 0 #f4bc2e;}
+    .portPhoto {
+        width: 84vw;
+        margin-top: 20px;
+        margin-left: 8vw;
+    }
     
    
     
@@ -97,11 +100,13 @@
         color: #222;
         background: transparent;
         font-size: 32px;
+        font-style: normal;
         padding-top: 15px;
         height: 37px;
         text-align: center;}
     
     #goMeng, #goMeng a, #goPort, #goPort a { top: calc(3vh + 60px);}
+    
     
     /*loading*/
     #wait {
