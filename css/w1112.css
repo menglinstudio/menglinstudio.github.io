@@ -10,7 +10,14 @@
 
 @media screen and (min-width:1112px){  
     
-    /*p1*/   
+    /*p1*/
+    
+    #tri1 {
+        border-width: 134px 268px 0 0;}
+    
+    #tri2 {
+        border-width: 0 0 134px 268px;
+        top: calc(80vh - 184px);}
     
     /*p2*/
     #portFolio {

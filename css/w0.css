@@ -303,8 +303,8 @@
         border-radius: 8px;
         background: #ffcf55;
         position: fixed;
-        top: 3vh;
-        right: 3vh;
+        top: 10px;
+        right: 10px;
         z-index: 2;}
     
     #goTop a, #goMeng a, #goPort a {
@@ -316,7 +316,7 @@
         height: 23px;
         text-align: center;}
     
-    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(3vh + 50px);}
+    #goMeng, #goMeng a, #goPort, #goPort a { top: 60px;}
     
     /*loading*/
     #wait {

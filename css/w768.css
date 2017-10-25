@@ -36,11 +36,13 @@
         left: calc(50vw - 60px);}
     
     #tri1 {
+        border-width: 12vw 24vw 0 0;
         top: 50px;
         left: 50px;}
     
     #tri2 {
-        top: calc(70vh - 50px);
+        border-width: 0 0 12vw 24vw;
+        top: calc(80vh - 12vw - 50px);
         right: 50px;}
     
     #guide {
@@ -130,4 +132,14 @@
         width: 648px;
         margin: auto;
         margin-top: -120px;}
+}
+
+
+@media screen and (min-width: 913px){  
+        
+    #goTop, #goTop a, #goMeng, #goMeng a, #goPort, #goPort a {
+        top: 15px;
+        right: 15px;}
+    
+    #goMeng, #goMeng a, #goPort, #goPort a { top: 68px;}
 }

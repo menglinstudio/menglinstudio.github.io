@@ -9,119 +9,46 @@
 }
 
 
-@media screen and (min-width:0px){  
+@media screen and (min-width: 913px){  
     
     /*p1*/
     #intro { 
-        width: 84vw;
+        width: 768px;
         margin: auto;}
     
     #tri1 {
-        display: block;
-        width: 256px;
-        height: 72px;
-        background: #ffcf55;
-        position: relative;
-        top: 60px;
-        z-index: 0;}
+        width: 480px;
+        height: 36px;}
     
     #tri2 {
-        display: block;
-        width: 84vw;
-        height: 2px;
-        background: #eee;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 10px; }
+        width: 768px;}
+    
+    #topicBr { display: none;}
     
     #introBox {
-        display: block;
         left: 40px;
-        background: transparent;
-        position: relative;
-        z-index: 1;}
-    
-    #intro h1 {
-        display: block;
-        font-size: 28px;
-        line-height: 38px;
-        font-weight: 900;
-        padding-bottom: 48px;
-        background: inherit;}
-    
-    #intro h1 span {
-        font-size: 28px;
-        line-height: 32px;
-        font-weight: 500;
-        color: #222;
-        background: inherit;}
+        top: 40px;}
     
     #intro h2 {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 700;
-        color: #444;}
+        padding-top: 40px;}
     
     h3 {
-        font-size: 18px;
-        font-weight: 700;
-        margin-top: 40px;
-        margin-left: 8vw;
-        color: #444;}
-    
-    #intro a { 
-        font-size: 14px;
-        line-height: 28px;
-        font-weight: 700;
-        font-style: italic;
-        padding-bottom: 4px;
-        color: #e6a500;}
-    
-    #intro a:hover {
-        box-shadow: 0 2px 0 0 #e6a500;}
+        margin-left: calc(50vw - 384px);}
     
     .portPhoto {
-        width: 84vw;
-        border-radius: 8px;
-        margin-top: 15px;
-        margin-left: 8vw;}
+        width: 768px;
+        margin-left: calc(50vw - 384px);}
     
     
     /*button*/
     #sButton {
-        display: block;
-        width: 84vw;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 30px;}
+        width: 768px;}
     
     .sB {
-        display: block;
-        width: 84vw;
-        height: 42px;
-        text-align: center;
-        color: #222;
-        background: #ffcf55;
-        margin-top: 10px;
-        border-radius: 12px;}
+        width: 320px;
+        margin: auto;
     
-    .sB a {
-        display: block;
-        height: 42px;
-        line-height: 42px;
-        font-size: 13px;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        color: #222;
-        background: #ffcf55;
-        border-radius: 12px;}
-    
-    .sB span {
-        font-size: 17px;
-        line-height: 48px;
-        vertical-align: -4px;
-        margin-right: 8px;
-        background: #ffcf55;}
+        margin-top: 10px;}
     
     .sLast a { 
         text-align: left;
@@ -141,14 +68,14 @@
         cursor: default;}
     
     #goTop, #goTop a {
-        display: none;
+        display: block;
         width: 40px;
         height: 42px;
         border-radius: 8px;
         background: #ffcf55;
         position: fixed;
-        top: 10px;
-        right: 10px;
+        top: 15px;
+        right: 15px;
         z-index: 2;}
     
     #goTop a {
