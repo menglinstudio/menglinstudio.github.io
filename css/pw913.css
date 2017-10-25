@@ -13,8 +13,7 @@
     
     /*p1*/
     #intro { 
-        width: 768px;
-        margin: auto;}
+        width: 768px;}
     
     #tri1 {
         width: 480px;
@@ -27,11 +26,7 @@
     
     #introBox {
         width: 600px;
-        left: 40px;
-        top: 40px;}
-    
-    #intro h2 {
-        padding-top: 40px;}
+        margin-top: -20px;}
     
     h3 {
         margin-left: calc(50vw - 384px);}

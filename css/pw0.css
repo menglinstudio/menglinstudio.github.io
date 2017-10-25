@@ -13,16 +13,17 @@
     
     /*p1*/
     #intro { 
+        display: block;
         width: 84vw;
-        margin: auto;}
+        margin: auto;
+        margin-bottom: 30px;}
     
     #tri1 {
         display: block;
         width: 256px;
         height: 72px;
         background: #ffcf55;
-        position: relative;
-        top: 60px;
+        margin-top: 60px;
         z-index: 0;}
     
     #tri2 {
@@ -31,15 +32,15 @@
         height: 2px;
         background: #eee;
         margin: auto;
-        margin-top: 30px;
-        margin-bottom: 10px; }
+        margin-bottom: 40px;}
     
     #introBox {
         display: block;
         width: 240px;
-        left: 40px;
+        margin-top: -60px;
+        margin-bottom: 40px;
+        margin-left: 40px;
         background: transparent;
-        position: relative;
         z-index: 1;}
     
     #intro h1 {
@@ -47,7 +48,6 @@
         font-size: 28px;
         line-height: 38px;
         font-weight: 900;
-        padding-bottom: 48px;
         background: inherit;}
     
     #intro h1 span {
@@ -63,13 +63,6 @@
         font-weight: 700;
         color: #444;}
     
-    h3 {
-        font-size: 18px;
-        font-weight: 700;
-        margin-top: 40px;
-        margin-left: 8vw;
-        color: #444;}
-    
     #intro a { 
         font-size: 14px;
         line-height: 28px;
@@ -81,10 +74,18 @@
     #intro a:hover {
         box-shadow: 0 2px 0 0 #e6a500;}
     
+    h3 {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+        margin-left: 8vw;
+        color: #444;}
+    
     .portPhoto {
         width: 84vw;
         border-radius: 8px;
-        margin-top: 15px;
+        margin-top: 10px;
+        margin-bottom: 40px;
         margin-left: 8vw;}
     
     
@@ -93,8 +94,7 @@
         display: block;
         width: 84vw;
         margin: auto;
-        margin-top: 30px;
-        margin-bottom: 30px;}
+        margin-bottom: 40px;}
     
     .sB {
         display: block;
