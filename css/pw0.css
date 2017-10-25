@@ -36,6 +36,7 @@
     
     #introBox {
         display: block;
+        width: 240px;
         left: 40px;
         background: transparent;
         position: relative;
