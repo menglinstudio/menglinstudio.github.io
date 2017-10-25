@@ -26,6 +26,7 @@
     #topicBr { display: none;}
     
     #introBox {
+        width: 600px;
         left: 40px;
         top: 40px;}
     
