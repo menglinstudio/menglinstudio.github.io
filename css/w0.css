@@ -112,7 +112,7 @@
     /*p2*/
     #portFolio {
         display: block;
-        height: 940px;
+        height: 1050px;
         background: #fafafa;
         overflow: hidden;}
     
@@ -186,6 +186,7 @@
     .A5 { background-image: url(../portImg/5.jpg);}
     .A6 { background-image: url(../portImg/6.jpg);}
     .AR1 { background-image: url(../portImg/r1.jpg);}
+    .AD1 { background-image: url(../portImg/d1.jpg);}
 
 
     /*p3*/
