@@ -84,7 +84,7 @@
         border-color: transparent transparent #f6f6f6 transparent;
         display: block;
         position: absolute;
-        bottom: calc(15vh + 4vw);
+        top: calc(85vh - 22vw);
         right: 4vw;}
     
     #guide {
