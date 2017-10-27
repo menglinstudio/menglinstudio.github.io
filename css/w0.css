@@ -51,19 +51,19 @@
         color: #444;
         position: absolute;
         left: 8vw;
-        bottom: calc(75.5vh - 40vw);}
+        top: calc(15vh + 40vw);}
     
     #introI, #introM {
         color: #222;
         font-weight: 700;
-        bottom: calc(66.5vh - 40vw);
+        top: calc(24vh + 40vw);
         left: 14vw;
         z-index: 1;}
     
     #introM {
         font-weight: 900;
         left: 18vw;
-        bottom: calc(57.5vh - 40vw);}
+        top: calc(33vh + 40vw);}
     
     #tri1 {
         width: 0;
@@ -328,7 +328,7 @@
         display: none;
         width: 40px;
         height: 42px;
-        border-radius: 20%;
+        border-radius: 25%;
         background: #ffcf55;
         position: fixed;
         top: 10px;
@@ -410,15 +410,15 @@
     #introH, #introI, #introM {
         font-size: 72px;
         left: calc(50vw - 250px - 20px);
-        bottom: calc(57.5vh - 250px + 150px);}
+        top: calc(33vh + 250px - 150px);}
     
     #introI, #introM {
         left: calc(50vw - 250px + 20px);
-        bottom: calc(57.5vh - 250px + 80px);}
+        top: calc(33vh + 250px - 80px);}
     
     #introM {
         left: calc(50vw - 250px + 60px);
-        bottom: calc(57.5vh - 250px + 10px);}
+        top: calc(33vh + 250px - 10px);}
 }
 
     
