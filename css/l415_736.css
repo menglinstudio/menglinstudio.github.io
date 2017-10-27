@@ -12,22 +12,33 @@
     
     /*p1*/
     #intro { 
-        height: 80vh;}
+        height: 80vh;
+        overflow: hidden;}
     
-    #introH {
-        font-size: 50px;
-        top: calc(40vh - 80px);
-        left: calc(50vw - 101px);}
+    #sun { 
+        width: calc(80vh - 8vw);
+        height: calc(80vh - 8vw);
+        top: 4vw;
+        left: calc(54vw - 40vh);}
+    
+    #selfie {
+        min-width: 130px;
+        min-height: 130px;
+        top: calc(40vh - 65px);
+        right: calc(30vw - 70px);} 
+    
+    #introH, #introI, #introM {
+        font-size: 40px;
+        top: calc(40vh - 55px);
+        left: calc(30vw - 70px);}
     
     #introI, #introM {
-        font-size: 50px;
-        top: calc(40vh - 25px);
-        left: calc(50vw - 96px);}
+        top: calc(40vh - 10px);
+        left: calc(30vw - 50px);}
     
     #introM {
-        font-weight: 900;
-        top: calc(40vh + 30px);
-        left: calc(50vw - 96px);}
+        top: calc(40vh + 35px);
+        left: calc(30vw - 30px);}
     
     #tri1 {
         border-width: 15vh 30vh 0 0;}
@@ -35,6 +46,8 @@
     #tri2 {
         border-width: 0 0 15vh 30vh;
         top: calc(65vh - 25px);}
+    
+    #guide { height: 20vh;}
     
     #guideBox {
         width: 270px;
@@ -45,9 +58,6 @@
         height: 48px;
         border-radius: 18px;
         margin-top: calc(10vh - 24px);}
-    
-    .gButton:hover {
-        background: #f3f3f3;}
     
     .gButton a {
         font-size: 20px;
@@ -68,8 +78,7 @@
     /*p2*/
     #portFolio {
         display: block;
-        height: 840px;
-        background: #fafafa;
+        height: 940px;
         overflow: hidden;}
     
     #tri3 {
