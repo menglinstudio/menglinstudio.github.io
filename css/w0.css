@@ -55,7 +55,6 @@
     
     #introI, #introM {
         color: #222;
-        font-weight: 700;
         top: calc(24vh + 40vw);
         left: 14vw;
         z-index: 1;}
@@ -408,17 +407,17 @@
         right: calc(50vw - 250px);}
     
     #introH, #introI, #introM {
-        font-size: 72px;
-        left: calc(50vw - 250px - 20px);
-        top: calc(33vh + 250px - 150px);}
+        font-size: 70px;
+        left: calc(50vw - 250px - 18px);
+        top: calc(33vh + 250px - 140px);}
     
     #introI, #introM {
-        left: calc(50vw - 250px + 20px);
-        top: calc(33vh + 250px - 80px);}
+        left: calc(50vw - 250px + 18px);
+        top: calc(33vh + 250px - 74px);}
     
     #introM {
-        left: calc(50vw - 250px + 60px);
-        top: calc(33vh + 250px - 10px);}
+        left: calc(50vw - 250px + 54px);
+        top: calc(33vh + 250px - 8px);}
 }
 
     

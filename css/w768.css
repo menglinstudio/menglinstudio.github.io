@@ -16,6 +16,7 @@
         border-width: 134px 268px 0 0;}
     
     #tri2 {
+        top: calc(85vh - 4vw - 134px);
         border-width: 0 0 134px 268px;}
     
     
