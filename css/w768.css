@@ -12,49 +12,11 @@
     
     /*p1*/
     
-    #introH {
-        display: block;
-        font-size: 70px;
-        font-weight: 900;
-        color: #222;
-        position: absolute;
-        top: calc(40vh - 70px);
-        left: calc(50vw - 226px);
-        color: #ddd;}
-    
-    #introI, #introM {
-        display: block;
-        font-size: 70px;
-        font-weight: 400;
-        color: #222;
-        position: absolute;
-        top: calc(40vh + 10px);
-        left: calc(50vw - 216px);}
-    
-    #introM {
-        font-weight: 900;
-        left: calc(50vw - 60px);}
-    
     #tri1 {
-        border-width: 12vw 24vw 0 0;
-        top: 50px;
-        left: 50px;}
+        border-width: 134px 268px 0 0;}
     
     #tri2 {
-        border-width: 0 0 12vw 24vw;
-        top: calc(80vh - 12vw - 50px);
-        right: 50px;}
-    
-    #guide {
-        width: 100vw;
-        height: 20vh;
-        background: #fcfcfc;}
-    
-    #guideBox {
-        width: 280px;}
-    
-    .gA { 
-        margin-left: 80px;}
+        border-width: 0 0 134px 268px;}
     
     
     /*p2*/
