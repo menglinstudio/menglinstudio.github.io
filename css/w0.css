@@ -3,12 +3,13 @@
 *{  
     font-family: 'Roboto', 'Material Icons' !important;
     direction: ltr;
+    text-decoration: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
 
 
-@media screen and (min-width:0px){  
+@media (min-width:0px){  
     
     /*p1*/
     #intro { 
@@ -136,11 +137,9 @@
     
     /*p2*/
     #portFolio {
-        display: block;
         width: 100vw;
-        height: 1150px;
         background: #f7f7f7;
-        overflow: hidden;}
+        padding-bottom: 60px;}
     
     #tri3 {
         display: block;
@@ -162,58 +161,66 @@
         position: relative;
         left: calc(8vw + 25px);
         top: 28px;
-        z-index: 1;}   
+        z-index: 1;} 
     
-    #portPART {
+    #pButton {
         width: 84vw;
-        height: 800px;
-        margin-top: 60px;
-        margin-left: 8vw;
-        background: #f7f7f7;
+        margin: auto;
+        margin-top: 60px;}
+    
+    #pButton a {
+        display: block;
+        cursor: pointer;
+        color: #444;
+        background: #ffdd88;
+        font-weight: 900;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 10px;
+        margin-right: 10px;
+        border-radius: 8px;
         float: left;}
     
-    .portBox {
+    #portBox {
         width: 84vw;
-        height: 90px;
-        background: #f4f4f4;
-        margin-top: 20px;
-        border-radius: 8px;}
+        margin: auto;}
     
-    .portBox:hover {
+    .portfolio {
+        float: left;
+        width: 84vw;
+        margin-top: 20px;
+        box-sizing: border-box;}
+    
+    .gallery {
+        background: #f4f4f4;
+        border-radius: 8px;
+        box-sizing: border-box;}
+
+    .gallery:hover {
         box-shadow: 0 0 8px 2px #ddd;}
     
-    .portBoxA {
-        display: block;
-        width: 84vw;
-        height: 90px;
+    .gallery img {
+        width: 100%;
+        height: auto;
         border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-        border-bottom-left-radius: 8px;
-        background-size: contain;
-        background-repeat: no-repeat;}
+        border-top-right-radius: 8px;}
     
-    .portBoxA h1 {
-        display: table-cell;
-        vertical-align: middle;
-        height: 90px;
-        font-size: 14px;
+    .desc {
+        display: block;
         line-height: 20px;
+        font-size: 14px;
         font-weight: 500;
-        padding-left: 136px;
+        padding: 10px 0;
+        text-align: center;
         color: #222;}
     
-    .portBoxA h1 span {
+    .desc span {
         font-weight: 900;}
     
-    .C1 { background-image: url(../portImg/c1.jpg);}
-    .C2 { background-image: url(../portImg/c2.jpg);}
-    .C3 { background-image: url(../portImg/c3.jpg);}
-    .C4 { background-image: url(../portImg/c4.jpg);}
-    .C5 { background-image: url(../portImg/c5.jpg);}
-    .C6 { background-image: url(../portImg/c6.jpg);}
-    .CR1 { background-image: url(../portImg/cr1.jpg);}
-    .D1 { background-image: url(../portImg/d1.jpg);}
-    .D2 { background-image: url(../portImg/d2.jpg);}
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;}
 
 
     /*p3*/
@@ -346,7 +353,9 @@
         height: 23px;
         text-align: center;}
     
-    #goMeng, #goMeng a, #goPort, #goPort a { top: 60px;}
+    #goPort, #goPort a { top: 60px;}
+    
+    #goMeng, #goMeng a { top: 110px;}
     
     /*loading*/
     #wait {

@@ -8,7 +8,7 @@
 }
 
 
-@media screen and (min-width:768px){  
+@media (min-width:768px){  
     
     /*p1*/
     
@@ -21,8 +21,9 @@
     
     
     /*p2*/
-    #portFolio {
-        height: 1700px;}
+    
+    #pButton {
+        width: 648px;}
     
     #tri3 {
         left: calc(50vw - 324px);}
@@ -30,35 +31,12 @@
     .tPort, .tAbout {
         left: calc(50vw - 284px);} 
     
-    #portPART {
-        width: 648px;
-        height: 1300px;
-        margin-top: 60px;
-        margin-left: calc(50vw - 324px);}
+    #portBox {
+        width: 668px;}
     
-    .portBox {
-        width: 304px;
-        height: 268px;
-        margin-top: 36px;
-        float: left;}
-    
-    .pB768 {
-        margin-left: 40px;}
-    
-    .portBox br {
-        display: none;}
-
-    .portBoxA {
-        width: 304px;
-        height: 276px;}
-    
-    .portBoxA h1 {
-        height: 40px;
-        width: 304px;
-        line-height: 40px;
-        padding: 0;
-        padding-top: 228px;
-        text-align: center;}
+    .portfolio {
+        width: 314px;
+        margin: 20px 10px 0 10px;}
 
 
     /*p3*/
@@ -105,4 +83,6 @@
         right: 15px;}
     
     #goMeng, #goMeng a, #goPort, #goPort a { top: 68px;}
+    
+    #goMeng, #goMeng a { top: 123px;}
 }

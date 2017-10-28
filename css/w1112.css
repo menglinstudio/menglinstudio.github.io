@@ -8,40 +8,35 @@
 }
 
 
-@media screen and (min-width:1112px){  
+@media (min-width:1112px){  
     
     /*p1*/
 
     
     /*p2*/
-    #portFolio {
-        height: 1150px;}
+    
+    #pButton {
+        width: 992px;}
     
     #tri3 {
-        left: calc(50vw - 496px);}
+        left: calc(50vw - 491px);}
     
     .tPort, .tAbout {
-        left: calc(50vw - 456px);} 
+        left: calc(50vw - 451px);} 
     
-    #portPART {
-        width: 992px;
-        height: 1000px;
-        margin-left: calc(50vw - 496px);}
+    #portBox {
+        width: 1002px;}
     
-    .pB768 {
-        margin-left: auto;}
-    
-    .pB1112 {
-        margin-left: 40px;}
+    .portfolio {
+        margin: 20px 10px 0 10px;}
 
     /*p3*/
     
     #aboutMe { 
-        height: 100vh;
         padding-bottom: 0;}
     
     #tri4 {
-        left: calc(50vw - 496px);}
+        left: calc(50vw - 491px);}
     
     #tri5 {
         width: 0;
@@ -56,8 +51,7 @@
     
     #meBox {
         width: 100vw;
-        margin: auto;
-        margin-top: calc(50vh - 292px);}
+        margin: auto;}
     
     #meBox1 {
         width: 740px;
@@ -68,16 +62,16 @@
     
     #meBox2 {
         width: 300px;
-        margin-left: calc(50vw - 456px);
+        margin-left: calc(50vw - 451px);
         margin-top: -520px;}
     
     #meBox3 {
         width: 300px;
-        margin-left: calc(50vw - 456px);}
+        margin-left: calc(50vw - 451px);}
     
     #meBox4 {
         width: 320px;
-        margin-left: calc(50vw + 134px);
+        margin-left: calc(50vw + 129px);
         margin-top: -630px;
         text-align: right; }
     

@@ -63,3 +63,20 @@ $(function (){
 　　})
 　});
 });
+
+
+
+
+function filter(param){
+    if(param == 3){
+        $(".portfolio").hide();
+        $(".other").show();
+        
+    }else if(param == 2){
+        $(".portfolio").hide();
+        $(".app").show();
+        
+    }else {
+        $(".portfolio").show();  
+    }
+    }

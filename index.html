@@ -28,7 +28,7 @@
 
     
 <script type="text/javascript" src="js/jquery1.9.1.js"></script>
-<script type="text/javascript" src="js/jump.js"></script>
+<script type="text/javascript" src="js/motion.js"></script>
 </head>
 
 
@@ -55,7 +55,7 @@
 <div id="guide">
 
 <div id="guideBox">
-<div class="gButton gG">
+<div class="gButton">
     <a href="#portFolio">&#xE3F4;<br><h1>Portfolio</h1></a></div>
 <div class="gButton gA">
     <a href="#aboutMe">&#xE851;<br><h1>MengLin</h1></a></div>
@@ -68,46 +68,91 @@
     <div id="tri3"></div>
     <div class="tPort"><a>Portfolio</a></div>
     
-    
-    <div id="portPART">
-        
-    <div class="portBox">
-    <a class="portBoxA C1" href="c1.html">
-    <h1>Concept #001 <br><span>Business Card</span></h1></a></div>
-        
-    <div class="portBox pB768 pB1112">
-    <a class="portBoxA C2" href="c2.html">
-    <h1>Concept #002 <br><span>Weather</span></h1></a></div>
-        
-    <div class="portBox pB1112">
-    <a class="portBoxA C3" href="c3.html">
-    <h1>Concept #003 <br><span>Music</span></h1></a></div>
-        
-    <div class="portBox pB768">
-    <a class="portBoxA C4" href="c4.html">
-    <h1>Concept #004 <br><span>Chat</span></h1></a></div>
-        
-    <div class="portBox pB1112">
-    <a class="portBoxA C5" href="c5.html">
-    <h1>Concept #005 <br><span>News Subscription</span></h1></a></div>
-        
-    <div class="portBox pB768 pB1112">
-    <a class="portBoxA C6" href="c6.html">
-    <h1>Concept #006 <br><span>Calender</span></h1></a></div>
-    
-    <div class="portBox">
-    <a class="portBoxA CR1" href="cr1.html">
-    <h1>Concept #R001 <br><span>Online Classroom</span></h1></a></div>
-        
-    <div class="portBox pB768 pB1112">
-    <a class="portBoxA D1" href="d1.html">
-    <h1>Design #001 <br><span>Dahou</span></h1></a></div>
-        
-    <div class="portBox pB1112">
-    <a class="portBoxA D2" href="d2.html">
-    <h1>Design #002 <br><span>COWFEE</span></h1></a></div>
-        
+    <div id="pButton">
+        <a onclick="filter(1)">ALL</a>
+        <a onclick="filter(2)">app ui</a>
+        <a onclick="filter(3)">other</a>
     </div>
+    
+    <div class="clearfix"></div>
+    
+    <div id="portBox">
+        
+        <div class="portfolio app">
+        <div class="gallery">
+        <a href="d1.html">
+        <img src="portImg/d1.jpg">
+        <div class="desc">Design #001 <span>Dahou</span></div></a>
+        </div>
+        </div>
+        
+        <div class="portfolio other">
+        <div class="gallery">
+        <a href="d2.html">
+        <img src="portImg/d2.jpg">
+        <div class="desc">Design #002 <span>COWFEE</span></div></a>
+        </div>
+        </div>
+        
+        <div class="portfolio app">
+        <div class="gallery">
+        <a href="c1.html">
+        <img src="portImg/c1.jpg">
+        <div class="desc">Concept #001 <span>Business Card</span></div></a>
+        </div>
+        </div>
+            
+        <div class="portfolio app">
+        <div class="gallery">
+        <a href="c2.html">
+        <img src="portImg/c2.jpg">
+        <div class="desc">Concept #002 <span>Weather</span></div></a>
+        </div>    
+        </div>
+        
+        <div class="portfolio app">
+        <div class="gallery">
+        <a href="c3.html">
+        <img src="portImg/c3.jpg">
+        <div class="desc">Concept #003 <span>Music</span></div></a>
+        </div>    
+        </div>
+        
+        <div class="portfolio app">
+        <div class="gallery">
+        <a href="c4.html">
+        <img src="portImg/c4.jpg">
+        <div class="desc">Concept #004 <span>Chat</span></div></a>
+        </div>    
+        </div>
+        
+        <div class="portfolio app">
+        <div class="gallery">
+        <a href="c5.html">
+        <img src="portImg/c5.jpg">
+        <div class="desc">Concept #005 <span>News Subscription</span></div></a>
+        </div>    
+        </div>
+        
+        <div class="portfolio app">
+        <div class="gallery">
+        <a href="c6.html">
+        <img src="portImg/c6.jpg">
+        <div class="desc">Concept #006 <span>Calender</span></div></a>
+        </div>    
+        </div>
+        
+        <div class="portfolio app">
+        <div class="gallery">
+        <a href="cr1.html">
+        <img src="portImg/cr1.jpg">
+        <div class="desc">Concept #R001 <span>Online Classroom</span></div></a>
+        </div>    
+        </div>
+    
+    </div>
+    
+<div class="clearfix"></div>
     
 </div>
     
@@ -166,7 +211,7 @@
     
 <!--版權宣告-->    
 <div id="copyRight">
-Copyright © 2017 Du Menglin. All rights reserved.
+Copyright © 2017 Du MengLin. All rights reserved.
 </div>
     
     

@@ -76,38 +76,31 @@
     
     
     /*p2*/
-    #portFolio {
-        display: block;
-        height: 1020px;
-        overflow: hidden;}
     
     #tri3 {
         width: 162px;
         height: 30px;
         top: 40px;
-        left: 22vw;}
+        left: 20px;}
     
-    .tPort, .tAbout {
+    .tPort {
         height: 30px;
         font-size: 30px;
         top: 22px;
-        left: calc(22vw + 40px);}   
+        left: 60px;} 
     
-    #portPART {
-        width: 56vw;
-        margin-top: 30px;
-        margin-left: 22vw;}
+    #pButton {
+        width: calc(100vw - 40px);}
     
-    .portBox {
-        width: 56vw;
-        margin-top: 10px;}
-
-    .portBoxA {
-        width: 56vw;}
+    #portBox {
+        width: calc(100vw - 20px);}
     
-    .portBoxA h1 {}
-    
-    .portBoxA h1 span {}
+    .portfolio {
+        float: left;
+        width: calc(50vw - 30px);
+        margin: 0 10px;
+        margin-top: 20px;
+        box-sizing: border-box;}
 
 
     /*p3*/
@@ -117,6 +110,9 @@
         height: 30px;
         top: 40px;
         left: 22vw;}
+    
+    .tAbout {
+        left: calc(22vw + 40px);}
     
     #tri5 {
         border-width: 0 0 6vw 12vw;
@@ -150,14 +146,6 @@
     h3 { 
         font-size: 26px;
         line-height: 26px;}
-
-    h4 {}
-    
-    h4 span {}
-    
-    h5 {}
-    
-    h6 {}
     
     /*cpright*/
     #copyRight {
@@ -179,7 +167,9 @@
         padding-top: 14px;
         height: 28px;}
     
-    #goMeng, #goMeng a, #goPort, #goPort a { top: calc(3vw + 55px);}
+    #goPort, #goPort a { top: calc(3vw + 55px);}
+    
+    #goMeng, #goMeng a { top: calc(3vw + 110px);}
     
     /*loading*/
     #wait {}
