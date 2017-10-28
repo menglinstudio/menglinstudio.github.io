@@ -138,7 +138,7 @@
     #portFolio {
         display: block;
         width: 100vw;
-        height: 1050px;
+        height: 1150px;
         background: #f7f7f7;
         overflow: hidden;}
     
@@ -213,6 +213,7 @@
     .C6 { background-image: url(../portImg/c6.jpg);}
     .CR1 { background-image: url(../portImg/cr1.jpg);}
     .D1 { background-image: url(../portImg/d1.jpg);}
+    .D2 { background-image: url(../portImg/d2.jpg);}
 
 
     /*p3*/
