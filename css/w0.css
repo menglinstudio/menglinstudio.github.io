@@ -180,7 +180,7 @@
         line-height: 32px;
         padding: 0 10px;
         margin-right: 10px;
-        border-radius: 8px;
+        border-radius: 12px;
         float: left;}
     
     #portBox {
@@ -282,7 +282,7 @@
         font-style: italic;
         line-height: 27px;
         padding-top: 36px;
-        color: #f5b719;}
+        color: #e6a500;}
 
     h3 { 
         font-size: 28px;
@@ -311,13 +311,20 @@
         padding-top: 8px;
         color: #555;}
     
+    h5 a {
+        color: #e6a500;
+        padding-bottom: 4px;}
+    
+    h5 a:hover {
+        box-shadow: 0 2px 0 0 #e6a500;}
+        
     h6 {
         font-size: 13px;
         font-weight: 900;
         font-style: italic;
         line-height: 18px;
         padding-top: 16px;
-        color: #f5b719;}
+        color: #e6a500;}
     
     /*cpright*/
     #copyRight {

@@ -12,8 +12,7 @@
 @media screen and (min-width:0px){  
     
     /*p1*/
-    #intro { 
-        display: block;
+    #intro, #content { 
         width: 84vw;
         margin: auto;
         margin-bottom: 30px;}
@@ -47,14 +46,12 @@
         font-size: 18px;
         line-height: 28px;
         font-weight: 700;
-        margin-left: 8vw;
         color: #444;}
     
     h2 {
         font-size: 16px;
         line-height: 24px;
         font-weight: 700;
-        margin-left: 8vw;
         color: #444;}
     
     
@@ -94,10 +91,8 @@
         width: 84vw;
         border-radius: 8px;
         margin-top: 10px;
-        margin-bottom: 40px;
-        margin-left: 8vw;}
-    
-    
+        margin-bottom: 40px;}
+
     /*button*/
     #sButton {
         display: block;

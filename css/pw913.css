@@ -12,7 +12,7 @@
 @media screen and (min-width: 913px){  
     
     /*p1*/
-    #intro { 
+    #intro, #content { 
         width: 768px;}
     
     #tri1 {
@@ -28,15 +28,8 @@
         width: 600px;
         margin-top: -20px;}
     
-    h2 {
-        margin-left: calc(50vw - 384px);}
-    
-    h3 {
-        margin-left: calc(50vw - 384px);}
-    
     .portPhoto {
-        width: 768px;
-        margin-left: calc(50vw - 384px);}
+        width: 768px;}
     
     
     /*button*/
