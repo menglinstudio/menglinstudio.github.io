@@ -28,13 +28,17 @@ $(function (){
 
 
 function filter(param){
-    if(param == 3){
+    if(param == 2){
         $(".portfolio").hide();
         $(".other").show();
         
-    }else if(param == 2){
+    }else if(param == 3){
         $(".portfolio").hide();
         $(".app").show();
+        
+    }else if(param == 4){
+        $(".portfolio").hide();
+        $(".web").show();
         
     }else {
         $(".portfolio").show();  
