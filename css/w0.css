@@ -167,20 +167,21 @@
     #pButton {
         width: 84vw;
         margin: auto;
-        margin-top: 40px;}
+        margin-top: 60px;}
     
     #pButton a {
         display: block;
         cursor: pointer;
         color: #444;
         background: #ffdd88;
+        font-size: 12px;
         font-weight: 900;
-        height: 28px;
-        line-height: 28px;
+        height: 32px;
+        line-height: 32px;
         padding: 0 10px;
         margin-right: 10px;
         border-radius: 8px;
-        float: right;}
+        float: left;}
     
     #portBox {
         width: 84vw;
