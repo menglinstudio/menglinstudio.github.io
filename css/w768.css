@@ -12,10 +12,10 @@
     
     /*p1*/
     
-    #tri1 {
+    #shape1 {
         border-width: 134px 268px 0 0;}
     
-    #tri2 {
+    #shape2 {
         top: calc(85vh - 4vw - 134px);
         border-width: 0 0 134px 268px;}
     
@@ -25,10 +25,10 @@
     #pButton {
         width: 648px;}
     
-    #tri3 {
+    #shape3 {
         left: calc(50vw - 324px);}
     
-    .tPort, .tAbout {
+    .title {
         left: calc(50vw - 284px);} 
     
     #portBox {
@@ -41,10 +41,10 @@
 
     /*p3*/
     
-    #tri4 {
+    #shape4 {
         left: calc(50vw - 324px);}
     
-    #tri5 {
+    #shape5 {
         width: 0;
         height: 0;
         border-style: solid;

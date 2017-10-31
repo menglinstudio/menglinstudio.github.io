@@ -18,10 +18,10 @@
     #pButton {
         width: 982px;}
     
-    #tri3 {
+    #shape3 {
         left: calc(50vw - 491px);}
     
-    .tPort, .tAbout {
+    .title {
         left: calc(50vw - 451px);} 
     
     #portBox {
@@ -35,10 +35,10 @@
     #aboutMe { 
         padding-bottom: 0;}
     
-    #tri4 {
+    #shape4 {
         left: calc(50vw - 491px);}
     
-    #tri5 {
+    #shape5 {
         width: 0;
         height: 0;
         border-style: solid;

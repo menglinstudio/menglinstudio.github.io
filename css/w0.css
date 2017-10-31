@@ -65,7 +65,7 @@
         left: 18vw;
         top: calc(33vh + 40vw);}
     
-    #tri1 {
+    #shape1 {
         width: 0;
         height: 0;
         border-style: solid;
@@ -76,7 +76,7 @@
         top: 4vw;
         left: 4vw;}
     
-    #tri2 {
+    #shape2 {
         width: 0;
         height: 0;
         border-style: solid;
@@ -132,7 +132,7 @@
         background: #f7f7f7;
         padding-bottom: 60px;}
     
-    #tri3 {
+    #shape3 {
         display: block;
         width: 170px;
         height: 36px;
@@ -141,7 +141,7 @@
         top: 50px;
         left: 8vw;}
     
-    .tPort, .tAbout {
+    .title {
         display: block;
         width: 250px;
         height: 36px;
@@ -225,7 +225,7 @@
         padding-bottom: 80px;
         background: #f4f4f4;}
     
-    #tri4 {
+    #shape4 {
         display: block;
         width: 220px;
         height: 36px;
@@ -234,7 +234,7 @@
         top: 50px;
         left: 8vw;}
     
-    #tri5 {
+    #shape5 {
         width: 0;
         height: 0;
         border-style: solid;
