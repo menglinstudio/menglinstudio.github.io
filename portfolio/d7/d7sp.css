@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+@media screen and (min-width:0px){ 
+    
+    #SP {
+        width: 100vw;
+        height: auto;
+        background: #FFF;}
+    
+    /*button*/
+    #tri2 {
+        display: block;
+        width: 84vw;
+        margin: auto;
+        padding-top: 40px;}
+    
+    #sButton {
+        display: block;
+        width: 84vw;
+        margin: auto;
+        margin-bottom: 40px;}
+    
+    .sB {
+        display: block;
+        width: 84vw;
+        height: 42px;
+        text-align: center;
+        color: #222;
+        background: #ffcf55;
+        margin-bottom: 10px;
+        border-radius: 12px;}
+    
+    .sB a {
+        font-family: "Roboto", 'Material Icons' !important;
+        display: block;
+        height: 42px;
+        line-height: 42px;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        color: #222;
+        background: #ffcf55;
+        border-radius: 12px;}
+    
+    .sB span {
+        font-size: 17px;
+        line-height: 48px;
+        vertical-align: -4px;
+        margin-right: 8px;
+        background: #ffcf55;}
+    
+    .sLast a { 
+        font-family: "Roboto", 'Material Icons' !important;
+        text-align: left;
+        margin-left: 12px;}
+    
+    .sNext a { 
+        text-align: right;
+        margin-right: 12px;}
+    
+    .sNext span { 
+        margin-right: 0;
+        margin-left: 8px;}
+    
+    .sDis, .sDis a, .sDis span {
+        color: #888;
+        background: #ddd;
+        cursor: default;}
+    
+    #goTop, #goTop a {
+        font-family: "Roboto", 'Material Icons' !important;
+        display: block;
+        width: 40px;
+        height: 42px;
+        border-radius: 8px;
+        background: #ffcf55;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 2;}
+    
+    #goTop a {
+        display: block;
+        color: #222;
+        background: transparent;
+        font-size: 28px;
+        padding-top: 13px;
+        height: 23px;
+        text-align: center;}
+    
+    /*cpright*/
+    #copyRight {
+        font-family: 'Roboto', 'Material Icons' !important;
+        display: block;
+        width: 100vw;
+        height: 40px;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        color: #222;
+        background: #f4f4f4;
+        clear: both;}
+
+    /*loading*/
+    #wait {
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        background: #fafafa;;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;}
+    
+    .loading {
+        display: block;
+        text-align: center;
+        color: #ffcf55;
+        background: #fafafa;
+        font-size: 32px;
+        width: 50px;
+        height: 37px;
+        padding-top: 13px;
+        position: absolute;
+        top: calc(50vh - 25px);
+        left: calc(50vw - 25px);
+        -webkit-animation: loading 2s infinite linear;
+        -moz-animation: loading 2s infinite linear;
+        -o-animation: loading 2s infinite linear;
+        animation: loading 2s infinite linear;}
+    
+    @keyframes loading {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); } }
+    
+    @-webkit-keyframes loading {
+        from { -webkit-transform: rotate(360deg); }
+        to { -webkit-transform: rotate(0deg); } }
+
+    @-moz-keyframes loading {
+        from { -moz-transform: rotate(360deg); }
+        to { -moz-transform: rotate(0deg); } }
+    
+    @-o-keyframes loading {
+        from { -o-transform: rotate(360deg); }
+        to { -o-transform: rotate(0deg); }}  
+}
+
+
+@media screen and (min-width:913px){ 
+
+    /*button*/
+    #sButton {
+        width: 768px;}
+    
+    .sB {
+        width: 320px;
+        margin: auto;
+    
+        margin-top: 10px;}
+    
+    .sLast a { 
+        text-align: left;
+        margin-left: 12px;}
+    
+    .sNext a { 
+        text-align: right;
+        margin-right: 12px;}
+    
+    .sNext span { 
+        margin-right: 0;
+        margin-left: 8px;}
+    
+    .sDis, .sDis a, .sDis span {
+        color: #888;
+        background: #ddd;
+        cursor: default;}
+    
+    #goTop, #goTop a {
+        display: block;
+        width: 40px;
+        height: 42px;
+        border-radius: 8px;
+        background: #ffcf55;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 2;}
+    
+    #goTop a {
+        display: block;
+        color: #222;
+        background: transparent;
+        font-size: 28px;
+        padding-top: 13px;
+        height: 23px;
+        text-align: center;}
+}
