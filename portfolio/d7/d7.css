@@ -265,12 +265,12 @@
     .trans { display: none;}
     
     #buttons { 
-    width: 45vw;
-    min-width: 450px;
-    height: 72px;}
+        width: 45vw;
+        min-width: 450px;
+        height: 72px;}
     
     #t1, #t2, #t3, #t4, #t5 {
-      margin-left: 10px;}
+        margin-left: 10px;}
     
     #t1 { 
         font-size: 27px;
@@ -296,187 +296,149 @@
     
     #t5 { font-size: 16px;}
 
-.b1, .b2 {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 18px;
-    color: #05547c; 
-    
-    cursor: pointer;}
+    .b1, .b2 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #05547c; 
+        cursor: pointer;}
 
-.b2 { margin-left: 30px;}
+    .b2 { margin-left: 30px;}
 
-.b1:hover, .b2:hover { box-shadow: 0 2px 0 0 #05547c;}
+    .b1:hover, .b2:hover { 
+        box-shadow: 0 2px 0 0 #05547c;}
 
 
 /*homepage*/
-#home {
-    width: 100vw;
-    min-width: 1000px;
-    height: 100vh;
-    min-height: 600px;}
+    #home {
+        min-width: 1000px;
+        height: 100vh;
+        min-height: 600px;}
 
-#homeT {
-    width: 100vw;
-    min-width: 1000px;
-    height: 65vh;
-    min-height: 360px;}
+    #homeT {   
+        min-width: 1000px;
+        height: 60vh;
+        min-height: 360px;}
 
-#hT1, #hT2, #hT3 {
-    font-weight: 600;
-    color: #FFF;
-    margin-left: 40px;}
+    #hT1, #hT2, #hT3 {
+        margin-left: 40px;}
+    
+    #hT1 { 
+        font-size: 86px;
+        line-height: 66px;
+        margin-left: 0;}
 
-#hT1 { 
-    font-size: 86px;
-    line-height: 66px;
-    margin-left: 0;}
+    #hT1 span {
+        font-size: 50px;}
 
-#hT1 span {
-    font-size: 50px;}
+    #hT2 {
+        font-size: 80px;}
 
-#hT2 {
-    font-size: 80px;}
+    #hT3 {
+        font-size: 72px;
+        line-height: 60px;}
 
-#hT3 {
-    font-size: 72px;
-    line-height: 60px;}
+    #hT3 span {
+        font-size: 80px;
+        line-height: 90px;}
 
-#hT3 span {
-    font-size: 80px;
-    line-height: 90px;}
+    #homeE {
+        height: 10vh;
+        min-height: 60px;
+        margin-top: -20vh;}
 
-#homeE {
-    height: 10vh;
-    min-height: 60px;
-    margin-top: -20vh;}
+    .shape1 {
+        width: 60px;
+        height: 2px;}
 
-.shape1 {
-    display: block;
-    background: #fff;
-    width: 60px;
-    height: 2px;}
+    #hE1 {
+        font-size: 30px;
+        color: #FFF;
+        margin: 0 40px;}
 
-#hE1 {
-    font-size: 30px;
-    color: #FFF;
-    margin: 0 40px;}
+    #homeTi {
+        height: 10vh;
+        min-height: 60px;
+        margin-top: 10vh;}
 
-#homeTi {
-    height: 10vh;
-    min-height: 60px;
-    margin-top: 20vh;
-    flex-direction: column;}
+    #hTi1 {
+        font-size: 20px;
+        line-height: 28px;}
 
-#hTi1 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-    color: #fff;
-    text-align: center;}
+    #homeS {
+        height: calc(20vh - 72px);
+        min-height: 48px;}
 
-#homeS {
-    height: calc(20vh - 72px);
-    min-height: 48px;}
+    #scroll, .click {
+        width: 200px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 52px;}
+    
+    .click { margin: 0;}
 
-#scroll, .click {
-    display: block;
-    width: 200px;
-    height: 48px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 52px;
-    color: #fff;
-    text-align: center;
-    border: 2px solid #FFF;}
+    #about {
+        min-width: 1000px;
+        height: 100vh;
+        min-height: 600px;}
 
-#scroll { margin: auto;}
+    #aboutC, #aboutW {
+        width: 50vw;
+        min-width: 500px;
+        height: 100vh;
+        min-height: 600px;
+        float: left;}
 
-#about {
-    width: 100vw;
-    min-width: 1000px;
-    height: 100vh;
-    min-height: 600px;}
+    #aboutC a {
+        font-size: 45px;
+        line-height: 60px;
+        margin-left: 8vw;}
 
-#aboutC, #aboutW {
-    width: 50vw;
-    min-width: 500px;
-    height: 100vh;
-    min-height: 600px;
-    float: left;}
+    #aboutW a {
+        font-size: 18px;
+        line-height: 28px;
+        margin-right: 8vw;
+        text-align: left;}
 
-#aboutC a {
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 60px;
-    margin-left: 8vw;
-    color: #fff;
-    box-shadow: 0 5px 0 0 #fff;}
+    #download {
+        clear: both;
+        min-width: 1000px;
+        height: 100vh;
+        min-height: 600px;}
 
-#aboutW a {
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 700;
-    margin-right: 8vw;
-    color: #fff;}
+    #downloadW, #poster, #manual {
+        height: 100vh;
+        min-height: 600px;
+        margin-right: 2vw;
+        flex-direction: column;
+        float: left;}
 
-.click:hover {
-    color: #05547c;
-    background: #FFF;
-    cursor: pointer;}
+    #downloadW {
+        margin-right: 8vw;
+        margin-left: 15vw;}
 
-#download {
-    clear: both;
-    width: 100vw;
-    min-width: 1000px;
-    height: 100vh;
-    min-height: 600px;}
+    #manual { 
+        margin-right: 15vw;}
 
-#downloadW, #poster, #manual {
-    height: 100vh;
-    min-height: 600px;
-    margin-right: 2vw;
-    flex-direction: column;
-    float: left;}
+    #downloadW { 
+        width: 10vw;
+        min-width: 100px;}
 
-#downloadW {
-    margin-right: 8vw;
-    margin-left: 15vw;}
-
-#manual { margin-right: 15vw;}
-
-#downloadW { 
-    width: 10vw;
-    min-width: 100px;}
-
-#downloadP, #downloadM {
-    width: 25vw;
-    min-width: 250px;
-    box-sizing: border-box;
-    border: 3px solid #fff;
-    background-repeat: no-repeat;
-    background-size: contain;}
-
-#downloadW a {
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 60px;
-    color: #fff;
-    box-shadow: 0 5px 0 0 #fff;}
-
-.c1 { margin-top: 20px;}
+    #downloadW a {
+        font-size: 45px;
+        line-height: 60px;}
+    
+    .c1 { margin-top: 20px;}
 
 /*footer*/
-#footer {
-    height: 60px;
-    width: 100vw;
-    background: rgba(255, 255, 255, 0.7);}
+    #footer {
+        height: 60px;}
 
-#footer a {
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 18px;
-    color: #16648b;
-}
+    #footer a {
+        line-height: 62px;
+        margin-left: 20px;}
+    
+    #footer a:first-child {
+        margin-left: 0}
     
 }
