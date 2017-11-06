@@ -50,13 +50,16 @@
         background: #ffcf55;}
     
     .sLast a { 
-        font-family: "Roboto", 'Material Icons' !important;
         text-align: left;
         margin-left: 12px;}
     
     .sNext a { 
         text-align: right;
         margin-right: 12px;}
+    
+    .sTop a { 
+        text-align: center;
+        margin: 0;}
     
     .sNext span { 
         margin-right: 0;
@@ -67,37 +70,17 @@
         background: #ddd;
         cursor: default;}
     
-    #goTop, #goTop a {
-        font-family: "Roboto", 'Material Icons' !important;
-        display: block;
-        width: 40px;
-        height: 42px;
-        border-radius: 8px;
-        background: #ffcf55;
-        position: fixed;
-        top: 10px;
-        right: 10px;
-        z-index: 2;}
-    
-    #goTop a {
-        display: block;
-        color: #222;
-        background: transparent;
-        font-size: 28px;
-        padding-top: 13px;
-        height: 23px;
-        text-align: center;}
-    
     /*cpright*/
     #copyRight {
         font-family: 'Roboto', 'Material Icons' !important;
         display: block;
-        width: 100vw;
+        width: 88vw;
         height: 40px;
         font-size: 11px;
         font-weight: 700;
         line-height: 40px;
         letter-spacing: 0.3px;
+        margin-left: 6vw;
         text-align: center;
         color: #222;
         background: #f4f4f4;
