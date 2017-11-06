@@ -75,7 +75,7 @@
         font-family: 'Roboto', 'Material Icons' !important;
         display: block;
         width: 100vw;
-        height: 40px;
+        height: 80px;
         font-size: 11px;
         font-weight: 700;
         line-height: 40px;
@@ -159,7 +159,13 @@
         background: #ddd;
         cursor: default;}
     
-    #goTop, #goTop a {
-        top: 15px;
-        right: 15px;}
+    #copyRight {
+        width: calc(100vw - 100px);
+        height: 40px;
+        margin-left: 40px;
+    }
+    
+    #copyRight br {
+        display: none;
+    }
 }

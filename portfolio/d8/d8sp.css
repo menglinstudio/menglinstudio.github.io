@@ -77,7 +77,7 @@
         font-family: 'Roboto', 'Material Icons' !important;
         display: block;
         width: 88vw;
-        height: 40px;
+        height: 80px;
         font-size: 11px;
         font-weight: 700;
         line-height: 40px;
@@ -164,23 +164,13 @@
         background: #ddd;
         cursor: default;}
     
-    #goTop, #goTop a {
-        display: block;
-        width: 40px;
-        height: 42px;
-        border-radius: 8px;
-        background: #ffcf55;
-        position: fixed;
-        top: 15px;
-        right: 15px;
-        z-index: 2;}
+    #copyRight {
+        width: calc(100vw - 100px);
+        height: 40px;
+        margin-left: 40px;
+    }
     
-    #goTop a {
-        display: block;
-        color: #222;
-        background: transparent;
-        font-size: 28px;
-        padding-top: 13px;
-        height: 23px;
-        text-align: center;}
+    #copyRight br {
+        display: none;
+    }
 }
