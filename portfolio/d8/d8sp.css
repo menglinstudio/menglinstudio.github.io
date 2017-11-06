@@ -5,7 +5,9 @@
     #SP {
         width: 100vw;
         height: auto;
-        background: #FFF;}
+        background: #FFF;
+        margin-bottom: 6vw;
+    }
     
     /*button*/
     #tri2 {
@@ -132,8 +134,10 @@
 }
 
 
-@media screen and (min-width:913px){ 
+@media screen and (min-width:999px){ 
 
+    #SP { margin-bottom: 40px;}
+    
     /*button*/
     #sButton {
         width: 768px;}
@@ -141,8 +145,7 @@
     .sB {
         width: 320px;
         margin: auto;
-    
-        margin-top: 10px;}
+        margin-bottom: 10px;}
     
     .sLast a { 
         text-align: left;

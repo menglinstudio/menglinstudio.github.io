@@ -131,7 +131,7 @@
 }
 
 
-@media screen and (min-width:913px){ 
+@media screen and (min-width:999px){ 
 
     /*button*/
     #sButton {
@@ -140,8 +140,7 @@
     .sB {
         width: 320px;
         margin: auto;
-    
-        margin-top: 10px;}
+        margin-bottom: 10px;}
     
     .sLast a { 
         text-align: left;
