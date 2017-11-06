@@ -5,7 +5,7 @@
     /*header*/
     #header {
         position: fixed;
-        z-index: 1;}
+        z-index: 2;}
     
     #logo, #navBar{
         width: calc(94vw - 60px);
@@ -26,7 +26,8 @@
         padding-top: 5px;
         text-align: right;
         margin-right: 6vw;
-        margin: 0;}
+        margin: 0;
+    }
     
     #logo a span {
         color: #00AA90;
@@ -36,35 +37,43 @@
     #hBox {
         width: 100vw;
         height: 6vw;
+        background: #fff;
         position: fixed;
         bottom: 0;
+        z-index: 2;
     }
     
-    #home {
+    #home, #products {
         width: 88vw;
         height: calc(100vh - 6vw - 60px);
         margin-left: 6vw;
-        border: none;
-        border-top: 60px solid #fff;
-        background: #111;
         
+    }
+    
+    #home {
+        border-top: 60px solid #fff;
         background-image: url(home2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
     
-    #tag { 
+    #tag, #tag2 { 
+        display: inline-block;
         font-size: 16px;
         font-weight: 700;
         padding: 4px 10px;
         color: #00AA90;
         background: #fff;
-        position: relative;
-        top: 8vw;
-        left: 5vw;
+        margin-top: 5vw;
+        margin-left: 5vw;
     }
     
-    #tag span {
+    #tag2 { 
+        display: inline;
+        margin: 0;
+    }
+    
+    #tag span, #tag2 span {
         font-weight: 400;
     } 
     
@@ -73,35 +82,69 @@
         font-size: 48px;
         font-weight: 900;
         color: #fff;
-        position: relative;
-        top: 30vw;
-        left: 5vw;
+        margin-top: 20vw;
+        margin-left: 5vw;
     }
     
-    #choice {
+    #choice, #choice2 {
+        display: inline-block;
         font-size: 14px;
         font-weight: 700;
         color: #fff;
-        position: relative;
-        top: 40vw;
-        left: 6vw;
+        margin-top: 10vw;
+        margin-left: 6vw;
         cursor: pointer;}
     
-    #choice span {
+    #choice span, #choice2 span {
         vertical-align: -3px;
     }
+    
+    #choice2 {
+        color: #00AA90;
+        margin: 0;
+        margin-left: 20px;}
     
     #scroll {
         display: block;
         width: 50px;
-        font-size: 40px;
-        line-height: 10px;
+        font-size: 30px;
+        line-height: 8px;
         color: #fff;
         text-align: center;
         position: absolute;
-        top: 90vh;
+        top: 92vh;
         left: calc(50vw - 25px);
     }
+    
+    #item1, #item2 {
+        width: 88vw;
+        height: calc(50vh - 3vw - 30px);
+        background: #f7f7f7;
+    }
+    
+    #item2 {
+        background: #f3f3f3;
+    }
+    
+    #model {
+        width: 40vw;
+        height: 52vw;
+        background-size: contain;
+        margin-top: 6vw;
+        margin-left: 24vw;
+    }
+    
+    #itemBar {
+        width: 88vw;
+        height: calc(50vh - 61vw - 30px);
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;     
+    }
+    
 }
 
 
