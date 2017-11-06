@@ -11,7 +11,7 @@
         width: calc(94vw - 60px);
         height: 60px;
         line-height: 60px;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 900;
         color: #4a4a4a;
         background: #fff;
@@ -35,11 +35,9 @@
     
     #hBox {
         width: 100vw;
-        height: 100vh;
-        background: transparent;
-        box-sizing: border-box;
-        border: 6vw solid #fff;
-        border-top: none;
+        height: 6vw;
+        position: fixed;
+        bottom: 0;
     }
     
     #home {
