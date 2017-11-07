@@ -11,8 +11,7 @@
     
     #back img {
         width: 2000px;
-        position: fixed;
-        right: -100px;}
+        position: fixed;}
     
     /*header*/
     #header {
@@ -239,12 +238,13 @@
 
 
 
-
 @media screen and (min-width:999px){ 
     
     #back img {
         width: auto;
-        height: 100vh;
+        height: auto;
+        background-attachment: fixed;
+        background-position: center;
         background-size: cover;
         left: 0;}   
 
