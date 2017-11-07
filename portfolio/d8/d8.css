@@ -315,3 +315,8 @@
         background-position: 0 -25vw;
     }
 }
+
+
+@media screen and (min-width: 415px) and (max-width: 736px) and (orientation: landscape){ 
+    
+    
