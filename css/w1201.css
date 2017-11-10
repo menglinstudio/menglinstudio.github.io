@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@media (min-width:1201px){  
+    
+    /*p1*/
+    
+    /*p2*/
+
+    #portBox {
+        width: calc(100vw - 300px);
+    }
+    
+    .portfolio {
+        width: calc(25vw - 100px);
+        height: calc(19vw - 80px);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #gallery {
+        width: calc(25vw - 100px);
+        height: calc(19vw - 80px);
+    }
+    
+    #gallery img {
+        width: calc(25vw - 100px);
+        height: calc(19vw - 80px);
+    }
+    
+    #descBox {
+        width: calc(25vw - 100px);
+        height: calc(19vw - 80px);
+        top: calc(0px - 19vw + 80px);
+    }
+    
+    /*p3*/
+    
+    #aboutMe { 
+        width: calc(100vw - 300px);
+        margin-left: 300px;
+    }
+    
+    /*cpright*/
+    
+    #copyRight {
+        width: calc(100vw - 300px);
+        margin-left: 300px;
+    }
+    
+    
+    /*nav*/
+    
+    #floatnav {
+        left: auto;
+        right: 30px;
+    }
+}

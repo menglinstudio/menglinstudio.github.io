@@ -7,12 +7,18 @@ $(function (){
         $(window).scroll(function(){
     var $this = $(this);
     var $thisTop=$this.scrollTop();
+    var $thisWidth=jQuery(window).width();
     var _x = $('#intro1').height();
-    var _y = $('#intro2').height();
+    var _y = $('#intro1').width();
+    var _k = $('#intro2').width();
     var _z = _x + _y;
+    var _l = _y + _k;
                         
-    if($thisTop < _z){
+    if($thisTop < _x){
         $('#floatnav').hide();
+    }
+    else if($thisWidth > _l){
+        $('#floatnav').hide();   
     }
     else{
         $('#floatnav').show ();

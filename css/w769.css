@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@media (min-width:769px){  
+    
+    /*p1*/
+    
+    #selfBox {
+        width: 100vh;
+        height: 100vh;
+        border-top-left-radius: 30vh;
+        overflow: hidden;
+        
+    }
+    
+    #self2 {
+        width: 100vh;
+        margin-top: -15vh;
+        margin-left: 0;
+    }
+    
+    /*p2*/
+
+    .portfolio {
+        width: calc(50vw - 45px);
+        height: calc(37.5vw - 33px);
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    #gallery {
+        width: calc(50vw - 45px);
+        height: calc(37.5vw - 33px);
+    }
+    
+    #gallery img {
+        width: calc(50vw - 45px);
+    }
+    
+    #descBox {
+        width: calc(50vw - 45px);
+        height: calc(37.5vw - 33px);
+        top: calc(0px - 37.5vw + 33px);
+    }
+    
+    /*p3*/
+    
+    .aBox {
+        width: calc(50vw - 45px);
+        margin-left: 35px;
+        float: left;
+    }
+    
+    /*cpright*/
+    
+    #copyRight {
+        height: 100px;
+    }
+    
+    /*nav*/
+    
+    #floatnav {
+        left: auto;
+        right: 30px;
+    }
+}
