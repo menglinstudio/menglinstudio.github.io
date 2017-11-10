@@ -250,69 +250,56 @@
     }
     
     h2, h3, h4, h5, h6 { 
-        color: #222;}
+        color: #222;
+    }
     
     h2 { 
         font-size: 20px;
         font-weight: 900;
-        line-height: 27px;
+        line-height: 26px;
         padding-top: 36px;
         padding-bottom: ;
-        color: #e6a500;}
-
-    h3 { 
-        font-size: 28px;
-        line-height: 28px;
-        font-weight: 900;
-        font-style: italic;
-        margin-left: -3px;}
+        color: #e6a500;
+    }
 
     h4 { 
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 18px;
+        line-height: 20px;
         padding-bottom: 8px;}
     
     h4 span { 
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 700;
-        line-height: 18px;}
-    
-    h5 {
-        font-size: 13px;
-        font-weight: 900;
         line-height: 20px;
-        color: #555;}
-    
-    h5 a {
-        color: #e6a500;
-        padding-bottom: 4px;}
+    }
         
     h6 {
         font-size: 13px;
         font-weight: 900;
         font-style: italic;
-        line-height: 18px;
-        padding-top: 8px;
-        color: #e6a500;}
+        line-height: 19px;
+        padding-top: 10px;
+        color: #e6a500;
+    }
     
     /*cpright*/
     #copyRight {
         display: block;
         width: 100vw;
-        height: 180px;
+        height: 170px;
         font-size: 11px;
         font-weight: 900;
         letter-spacing: 0.3px;
         color: #222;
         background: #f1f1f1;
         margin-top: -40px;
-        clear: both;}
+        clear: both;
+    }
     
     #copy {
         display: block;
         font-size: 10px;
-        line-height: 12px;
         color: #333;
         margin-top: 10px;
         margin-left: 35px;
@@ -321,12 +308,12 @@
     /*go to top*/
     
     #floatnav {
-        display: block;
+        display: none;
         width: 160px;
         height: 60px;
         position: fixed;
-        bottom: 30px;
-        left: 35px;
+        bottom: 20px;
+        left: 30px;
         background: #f4f4f4;
         box-shadow: 0 0 8px 2px #dfdfdf;
         border-radius: 30px;
@@ -348,13 +335,10 @@
         color: #222;
         background: transparent;
         font-size: 28px;
-        padding-top: 11px;
+        padding-top: 10px;
         height: 23px;
-        text-align: center;}
-    
-    #goPort, #goPort a { top: 60px;}
-    
-    #goMeng, #goMeng a { top: 110px;}
+        text-align: center;
+    }
     
     /*loading*/
     #wait {
@@ -365,7 +349,8 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 2;}
+        z-index: 2;
+    }
     
     .loading {
         display: block;
@@ -381,22 +366,27 @@
         -webkit-animation: loading 2s infinite linear;
         -moz-animation: loading 2s infinite linear;
         -o-animation: loading 2s infinite linear;
-        animation: loading 2s infinite linear;}
+        animation: loading 2s infinite linear;
+    }
     
     @keyframes loading {
         from { transform: rotate(360deg); }
-        to { transform: rotate(0deg); } }
+        to { transform: rotate(0deg); } 
+    }
     
     @-webkit-keyframes loading {
         from { -webkit-transform: rotate(360deg); }
-        to { -webkit-transform: rotate(0deg); } }
+        to { -webkit-transform: rotate(0deg); } 
+    }
 
     @-moz-keyframes loading {
         from { -moz-transform: rotate(360deg); }
-        to { -moz-transform: rotate(0deg); } }
+        to { -moz-transform: rotate(0deg); } 
+    }
     
     @-o-keyframes loading {
         from { -o-transform: rotate(360deg); }
-        to { -o-transform: rotate(0deg); }}
+        to { -o-transform: rotate(0deg); }
+    }
 }
     
