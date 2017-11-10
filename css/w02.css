@@ -214,6 +214,7 @@
     .desc {
         display: none;
         box-shadow: 0 0 5px 0 rgba(230, 165, 0, 0.5);
+        margin-right: 0;
     }
     
     #descBox a {
