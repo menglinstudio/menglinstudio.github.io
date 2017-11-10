@@ -1,13 +1,5 @@
 @charset "utf-8";
 
-*{  
-    font-family: 'Roboto', 'Material Icons' !important;
-    direction: ltr;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-}
-
-
 @media (min-width:768px){  
     
     /*p1*/
