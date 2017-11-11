@@ -7,19 +7,17 @@ $(function (){
         $(window).scroll(function(){
     var $this = $(this);
     var $thisTop=$this.scrollTop();
-    var _x = $('#intro').height();
-    var _y = $('#guide').height();
-    var _z = _x + _y;
+    var $thisWidth=jQuery(window).width();
+    var _x = $('#intro1').height();
                         
-    if($thisTop < _z){
-        $('#goTop').hide();
-        $('#goPort').hide();
-        $('#goMeng').hide();
+    if($thisTop < _x){
+        $('#floatnav').hide();
+    }
+    else if($thisWidth > 900){
+        $('#floatnav').hide();   
     }
     else{
-        $('#goTop').show ();
-        $('#goPort').show ();
-        $('#goMeng').show ();
+        $('#floatnav').show ();
 　　　}                
 　　})
 　});
