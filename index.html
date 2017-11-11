@@ -10,189 +10,261 @@
 <meta name="format-detection" content="telephone=no">
 
 <link href="css/reset.css" rel="stylesheet" media="all">
-<link href="css/font.css" rel="stylesheet" media="all">  
+<link href="css/font.css" rel="stylesheet" media="all">
     
 <style>
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900,900i');
 </style> 
  
 <link href="css/w0.css" rel="stylesheet" media="all">
-<link href="css/w768.css" rel="stylesheet" media="all">
-<link href="css/w1112.css" rel="stylesheet" media="all">
-<link href="css/l415_736.css" rel="stylesheet" media="all">  
+<link href="css/w769.css" rel="stylesheet" media="all">
+<link href="css/w901.css" rel="stylesheet" media="all">
+<link href="css/w1321.css" rel="stylesheet" media="all">
+<link href="css/wl415_736.css" rel="stylesheet" media="all">
     
 <link rel="apple-touch-icon" href="apple-touch-icon.jpg">
 <link rel="icon" sizes="192x192" href="apple-touch-icon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="apple-touch-icon.ico">
     
 <script type="text/javascript" src="js/jquery1.9.1.js"></script>
-<script type="text/javascript" src="js/motion.js"></script>
+<script type="text/javascript" src="js/motion2.js"></script>
 </head>
 
 
 <body>
 
-<!--首頁-->  
-<div id="intro"> 
+<!--首頁-->
+<div id="intro">
+    <div id="intro1"> 
+        
+        <div id="shapenone"></div>
     
-    <div id="shape1"></div>
+        <div id="shape1"></div>
     
-    <div id="sun"></div>
-    <img src="meS.jpg" id="selfie">
+        <a id="introH">Hello, i am<br></a>
+        <a id="introM">MengLin.<br></a>    
+        <a id="who">Designer & Pokémon Trainer</a>
+        
+        <div id="shape2"></div>
+        
+        <div id="quickinfo">
+            <h4><span>Taiwan
+            <br>+886 933 353 898
+            <br>menglinlin1203@gmail.com</span></h4>
+        </div>
+        
+        <div id="nav">
+            <div class="button" onclick="location.href='#portFolio'">
+                <span class="Icon">&#xE3B7;</span>
+                <span class="Text">portfolio</span>
+            </div>
+            <br id="navBr">
+            <div class="button" onclick="location.href='#aboutMe'">
+                <span class="Icon">&#xE87C;</span>
+                <span class="Text">about</span>
+            </div>
+            <br id="navBr">
+            <div class="button" onclick="location.href='https://issuu.com/058642'">
+                <span class="Icon">&#xE8D0;</span>
+                <span class="Text">issuu</span>
+            </div>
+            <br id="navBr">
+            <div class="button btnT" onclick="location.href='#intro2'">
+                <span class="Icon">&#xE5D8;</span>
+                <span class="Text">top</span>
+            </div>
+        </div>
+    </div> 
     
-    <a id="introH">Hello,</a>
-    <a id="introI">i am</a>
-    <a id="introM">MengLin.</a>
     
-    <div id="shape2"></div>
+    <div id="intro2">
+        <div id="selfBox"><img src="meS.jpg" id="self2"></div>
+    </div>
     
-</div>  
-    
-<!--按鈕--> 
-<div id="guide">
-    <div class="gButton" onclick="location.href='#portFolio'">
-        <span class="gIcon">&#xE3F4;</span>
-        <span class="gText">Portfolio</span></div>
-    <div class="gButton g2" onclick="location.href='#aboutMe'">
-        <span class="gIcon">&#xE851;</span>
-        <span class="gText">MengLin</span></div>
 </div>
-
+    
 <!--作品集-->     
 <div id="portFolio">
     
-    <div id="shape3"></div>
-    <div class="title"><a>Portfolio</a></div>
+    <div id="shapenone"></div>
     
-    <div id="pButton">
-        <a onclick="filter(1)">ALL</a>
-        <a onclick="filter(4)">Website</a>
-        <a onclick="filter(3)">App UI</a>
-        <a onclick="filter(2)">Other</a>
+    <div id="shape1"></div>
+    <a id="title">portfolio</a>
+    
+    <div id="selector">
+        <a onclick="filter(1)">#ALL</a>
+        <a onclick="filter(4)">#Website</a>
+        <a onclick="filter(3)">#AppUI</a>
+        <a onclick="filter(2)">#Other</a>
     </div>
     
     <div class="clearfix"></div>
     
     <div id="portBox">
         
-        <div class="portfolio web">
-        <div class="gallery">
-        <a href="d8.html">
-        <img src="portImg/d8.jpg">
-        <div class="desc">Design #008 <span>Image Website</span></div></a>
-        </div>    
+        <div class="portfolio web"  onclick="location.href='d8.html'">
+            <div id="gallery">
+                <img src="portImg/d8.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Design #8 
+                    <span class="Text">Image Website</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio web">
-        <div class="gallery">
-        <a href="d7.html">
-        <img src="portImg/d7.jpg">
-        <div class="desc">Design #007 <span>SWD Final Exhibiton </span></div></a>
-        </div>    
+        <div class="portfolio web"  onclick="location.href='d7.html'">
+            <div id="gallery">
+                <img src="portImg/d7.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Design #7 
+                    <span class="Text">SWD Exhibiton</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio web other">
-        <div class="gallery">
-        <a href="d6.html">
-        <img src="portImg/d6.jpg">
-        <div class="desc">Design #006 <span>Esthesia</span></div></a>
-        </div>    
+        <div class="portfolio web other"  onclick="location.href='d6.html'">
+            <div id="gallery">
+                <img src="portImg/d6.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Design #6 
+                    <span class="Text">Esthesia</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio other">
-        <div class="gallery">
-        <a href="d5.html">
-        <img src="portImg/d5.jpg">
-        <div class="desc">Design #005 <span>Paintitude</span></div></a>
-        </div>    
+        <div class="portfolio other"  onclick="location.href='d5.html'">
+            <div id="gallery">
+                <img src="portImg/d5.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Design #5 
+                    <span class="Text">Paintitude</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio app other">
-        <div class="gallery">
-        <a href="d4.html">
-        <img src="portImg/d4.jpg">
-        <div class="desc">Design #004 <span>Catcare</span></div></a>
-        </div>    
+        <div class="portfolio app other"  onclick="location.href='d4.html'">
+            <div id="gallery">
+                <img src="portImg/d4.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Design #4 
+                    <span class="Text">Catcare</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio other">
-        <div class="gallery">
-        <a href="d3.html">
-        <img src="portImg/d3.jpg">
-        <div class="desc">Design #003 <span>ID Forum Banner</span></div></a>
-        </div>    
+        <div class="portfolio other"  onclick="location.href='d3.html'">
+            <div id="gallery">
+                <img src="portImg/d3.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Design #3 
+                    <span class="Text">Forum Banner</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio app web">
-        <div class="gallery">
-        <a href="cr1.html">
-        <img src="portImg/cr1.jpg">
-        <div class="desc">Concept #R001 <span>Online Classroom</span></div></a>
-        </div>    
+        <div class="portfolio web app"  onclick="location.href='cr1.html'">
+            <div id="gallery">
+                <img src="portImg/cr1.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Concept #R1 
+                    <span class="Text">Classroom</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio app">
-        <div class="gallery">
-        <a href="c6.html">
-        <img src="portImg/c6.jpg">
-        <div class="desc">Concept #006 <span>Calender</span></div></a>
-        </div>    
+        <div class="portfolio app"  onclick="location.href='c6.html'">
+            <div id="gallery">
+                <img src="portImg/c6.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Concept #6 
+                    <span class="Text">Calender</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio app">
-        <div class="gallery">
-        <a href="c5.html">
-        <img src="portImg/c5.jpg">
-        <div class="desc">Concept #005 <span>News Subscription</span></div></a>
-        </div>    
+        <div class="portfolio app"  onclick="location.href='c5.html'">
+            <div id="gallery">
+                <img src="portImg/c5.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Concept #5 
+                    <span class="Text">Subscription</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio app">
-        <div class="gallery">
-        <a href="c4.html">
-        <img src="portImg/c4.jpg">
-        <div class="desc">Concept #004 <span>Chat</span></div></a>
-        </div>    
+        <div class="portfolio app"  onclick="location.href='c4.html'">
+            <div id="gallery">
+                <img src="portImg/c4.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Concept #4 
+                    <span class="Text">Chat</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio app">
-        <div class="gallery">
-        <a href="c3.html">
-        <img src="portImg/c3.jpg">
-        <div class="desc">Concept #003 <span>Music</span></div></a>
-        </div>    
+        <div class="portfolio app"  onclick="location.href='c3.html'">
+            <div id="gallery">
+                <img src="portImg/c3.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Concept #5 
+                    <span class="Text">Music</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio app">
-        <div class="gallery">
-        <a href="c2.html">
-        <img src="portImg/c2.jpg">
-        <div class="desc">Concept #002 <span>Weather</span></div></a>
-        </div>    
+        <div class="portfolio app"  onclick="location.href='c2.html'">
+            <div id="gallery">
+                <img src="portImg/c2.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Concept #2 
+                    <span class="Text">Weather</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio app">
-        <div class="gallery">
-        <a href="c1.html">
-        <img src="portImg/c1.jpg">
-        <div class="desc">Concept #001 <span>Business Card</span></div></a>
-        </div>
-        </div>
-        
-        <div class="portfolio other">
-        <div class="gallery">
-        <a href="d2.html">
-        <img src="portImg/d2.jpg">
-        <div class="desc">Design #002 <span>COWFEE</span></div></a>
-        </div>
+        <div class="portfolio app"  onclick="location.href='c1.html'">
+            <div id="gallery">
+                <img src="portImg/c1.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Concept #1 
+                    <span class="Text">Business Card</span></a>
+            </div>        
         </div>
         
-        <div class="portfolio app">
-        <div class="gallery">
-        <a href="d1.html">
-        <img src="portImg/d1.jpg">
-        <div class="desc">Design #001 <span>Dahou</span></div></a>
+        <div class="portfolio other"  onclick="location.href='d2.html'">
+            <div id="gallery">
+                <img src="portImg/d2.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Design #2 
+                    <span class="Text">COWFEE</span></a>
+            </div>        
         </div>
+        
+        <div class="portfolio app"  onclick="location.href='d1.html'">
+            <div id="gallery">
+                <img src="portImg/d1.jpg"></div>
+            <div id="descBox">
+                <a class="desc">
+                    <span class="Icon">&#xE038;　</span>
+                    Design #1 
+                    <span class="Text">Dahou</span></a>
+            </div>        
         </div>
         
     </div>
@@ -205,25 +277,12 @@
 <!--我-->    
 <div id="aboutMe"> 
     
-    <div id="shape4"></div>
-    <div class="title"><a>Du MengLin</a></div>
-
-<div id="meBox">
-<div id="meBox1">
-    <img id="meS" src="meS.jpg"></div>
+    <div id="shapenone"></div>
     
-    <div id="shape5"></div>
+    <div id="shape1"></div>
+    <a id="title">about me</a>
     
-<div id="meBox2">
-    <h2><span>Designer <br>&#38; Pokémon Trainer</span></h2>
-    <h5>Taiwan
-    <br>+886 933 353 898
-    <br>menglinlin1203@gmail.com
-    <br><a href="https://issuu.com/058642">Go to my ISSUU page</a></h5>
-   
-</div>
-    
-<div id="meBox3">    
+<div class="aBox aMove">  
 
     <h2>Education</h2>
     <h6>2016</h6>
@@ -233,17 +292,31 @@
     <h4><span>Illustrator, Indesign, PhotoShop, <br>Sketch, Solidworks, Keyshot, <br> HTML </span>and <span>CSS</span></h4>
     
     <h2>Language</h2>
-    <h4><span>Chinese, English </span>and <span> Learning Japanese</span></h4></div>
+    <h4><span>Chinese, English </span>
+        <br>and <span> Learning Japanese</span></h4>
+    
+    <h2>Interest</h2>
+    <h4>Visiting Exhibition, 
+        <br>Watching Movie and TV series, 
+        <br>Reading Novels and Swimming</h4>
+    
+    <div id="quickinfo2">
+    <h2>Contact</h2>
+    <h4><span>Taiwan
+    <br>+886 933 353 898
+    <br>menglinlin1203@gmail.com</span></h4></div>
+    
+</div>
     
     
- <div id="meBox4">
+<div class="aBox">
     
     <h2>Experience</h2>
     <h6>2015 - 2017</h6>
-    <h4><span>User Interface Designer,</span><br>Moleculear Biomedical Informatics<br>Laboratory, NCKU</h4>
+    <h4><span>User Interface Designer,</span><br>Moleculear Biomedical Informatics Laboratory, NCKU</h4>
     <h6>2016</h6>
     <h4><span>Leader of Advertisement Group, </span><br>NCKUID Graduated Exhibiton</h4>
-    <h4><span>Internship in Exhibition and Education Group </span><br>Chimei Museum</h4>
+    <h4><span>Internship in Exhibition and Education Group, </span><br>Chimei Museum</h4>
     <h6>2015</h6>
     <h4><span>Leader of Advertisement Group,</span><br> NCKU Industrial Design Camp<br></h4>
     
@@ -251,23 +324,30 @@
     <h6>2014</h6>
     <h4><span>Member of ID Bank (Magazine of NCKUID),</span><br> Student Association of NCKUID</h4>
 </div>
-</div>
+    
+    <div class="clearfix"></div>
+    
 </div>
     
     
 <!--版權宣告-->    
 <div id="copyRight">
-Copyright © 2017 Du MengLin. All rights reserved.
+    <div id="shapenone"></div>
+    
+    <div id="shape1"></div>
+    <a id="copy">Copyright © 2017 Du MengLin. All rights reserved.</a>
 </div>
     
     
 <!--選單列--> 
-<div id="goTop">
-    <a href="#intro">&#xE5D8;</a></div>
-<div id="goMeng">
-    <a href="#aboutMe">&#xE851;</a></div>
-<div id="goPort">
-    <a href="#portFolio">&#xE3F4;</a></div>
+<div id="floatnav">
+    <div id="goTop">
+        <a href="#intro">&#xE5D8;</a></div>
+    <div id="goPort">
+        <a href="#portFolio">&#xE3B7;</a></div>
+    <div id="goMeng">
+        <a href="#aboutMe">&#xE87C;</a></div>
+</div>
     
 <!--讀取--> 
 <div id="wait">
