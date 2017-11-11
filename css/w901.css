@@ -17,6 +17,7 @@
         position: fixed;
         top: 0;
         left: 0;
+        z-index: 2;
     }
     
     #shapenone { 
@@ -42,7 +43,21 @@
         width: calc(100vw - 300px);
         flex: 1;
         overflow: hidden;
-        margin-left: calc(100vw - 300px);
+        margin-left: 300px;
+    }
+    
+    #selfBox {
+        width: calc(100vw - 300px);
+        height: 90vh;
+        border-top-left-radius: 60vh;
+        position: relative;
+        top: 10vh;
+        left: 0;
+    }
+    
+    #self2 {
+        width: 90vh;
+        margin-top: 0;
     }
     
     /*p2*/
