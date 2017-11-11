@@ -101,7 +101,6 @@
         font-weight: 700;
         font-style: italic;
         margin-right: 35px;
-        padding-bottom: 4px;
         color: #e6a500;}
     
     #intro2 a:hover {
@@ -109,6 +108,8 @@
     
     #inline {
         font-size: 16px !important;
+        font-weight: 700 !important;
+        font-style: normal !important;
         margin: 0 !important; 
     }
     
