@@ -33,8 +33,6 @@
         height: 35px;
     }
     
-    #selfS { display: none;}
-    
     #shape1, #shape2 {
         display: block;
         width: 20px;
@@ -140,7 +138,7 @@
     #self2 {
         width: 90vh;
         margin-top: -15vh;
-        margin-left: -10vh;
+        margin-left: -5vh;
     }
     
     

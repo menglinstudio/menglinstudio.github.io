@@ -4,6 +4,24 @@
     
     /*p1*/
     
+    #selfBox {
+        width: calc(100vw - 300px);
+        max-width: 900px;
+        height: 100vh;
+        max-height: 900px;
+        border-top-left-radius: 200px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    #self2 {
+        width: 120vh;
+        max-width: 1200px;
+        height: 120vh;
+        max-height: 1200px;
+    }
+    
     /*p2*/
 
     #portBox {
