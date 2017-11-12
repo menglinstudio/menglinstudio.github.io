@@ -150,7 +150,6 @@
     
     #selector {
         width: calc(100vw - 70px);
-        width: calc(100vw - 70px);
         margin: auto;
         margin-top: 40px;}
     
@@ -185,7 +184,7 @@
         border-radius: 8px;
         overflow: hidden;
         margin-top: 20px;
-        margin-left: 35px;
+        margin-left: 30px;
         cursor: pointer;
     }
     
