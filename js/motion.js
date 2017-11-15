@@ -27,18 +27,18 @@ $(function (){
 
 function filter(param){
     if(param == 2){
-        $(".portfolio").hide();
-        $(".other").show();
+        $(".portButton").hide();
+        $(".filterOther").show();
         
     }else if(param == 3){
-        $(".portfolio").hide();
-        $(".app").show();
+        $(".portButton").hide();
+        $(".filterApp").show();
         
     }else if(param == 4){
-        $(".portfolio").hide();
-        $(".web").show();
+        $(".portButton").hide();
+        $(".filterWeb").show();
         
     }else {
-        $(".portfolio").show();  
+        $(".portButton").show();  
     }
     }
