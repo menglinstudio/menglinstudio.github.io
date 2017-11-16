@@ -11,7 +11,7 @@
 h1, .h1 {
   font-size: 40px;
   font-weight: 900;
-  line-height: 30px;
+  line-height: 40px;
   color: #333;
 }
 
@@ -118,7 +118,7 @@ h6, .h6 {
 
 .portFolio {
   background: #f7f7f7;
-  padding: 0 30px;
+  padding: 0 30px 30px 30px;
 }
 
 .aboutMe {
@@ -144,8 +144,21 @@ h6, .h6 {
   background: #ffcf55;
 }
 
+.longLine {
+  display: block;
+  width: auto;
+  height: 2px;
+  border-radius: 2px;
+  background: #ddd;
+  margin: 25px 0 0 0;
+}
+
 .navBar, .filterBar {
   padding: 40px 0 20px 0;
+}
+
+.navBar2 {
+  padding: 20px 0 0px 0;
 }
 
 .navButton {
@@ -230,7 +243,21 @@ h6, .h6 {
   opacity: 0.2;
 }
 
-.selfIntro h1, .portFolio h1, .aboutMe h1, .copyRight h1 {
+.portFolio a {
+  font-weight: 700;
+  color: #edaf0d;
+}
+
+.portFolio a:hover {
+  text-decoration: none;
+  box-shadow: 0 3px 0 0 #ffdd88;
+}
+
+.selfIntro h1 {
+  margin: 2px 0 0 0;
+}
+
+.portFolio h1, .aboutMe h1, .copyRight h1 {
   margin: 10px 0 0 0;
 }
 
@@ -242,8 +269,8 @@ h6, .h6 {
   margin: 20px 0 20px 2px;
 }
 
-.navBar .h4 {
-  font-weight: 900;
+.navBar .h4, .navBar2 .h4 {
+  font-weight: 700;
   margin: 0 0 0 3px;
 }
 
@@ -252,13 +279,21 @@ h6, .h6 {
   margin: 10px 0 0 0;
 }
 
+.portDesk h6 {
+  color: #333;
+}
+
 
 @media (min-width: 768px) {
+  .longLine {
+    margin: 25px 30px 0 0;
+  }
+  
   .portFolio {
     padding: 0 0 0 30px;
   }
   
-  .portButton {
+  .portButton, .portDesk {
     padding: 0 30px 0 0;
     margin-bottom: 30px;
   }
@@ -281,11 +316,18 @@ h6, .h6 {
     width: calc(100% - 300px);
     margin-left: 300px;
   }
-
+  
+  .longLine {
+    margin: 25px 20px 0 0;
+  }
   
   .navBar {
     position: fixed;
     bottom: 0;
+  }
+  
+  .navBar2 {
+    display: none;
   }
   
   .contactInfo, .navBr, .navDis {
@@ -324,7 +366,7 @@ h6, .h6 {
     margin-left: 300px;
   }
   
-  .portButton {
+  .portButton, .portDesk {
     padding: 0 20px 0 0;
     margin-bottom: 20px;
   }
