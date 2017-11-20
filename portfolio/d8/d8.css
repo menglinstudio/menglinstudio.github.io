@@ -193,9 +193,9 @@
     } 
   
   .copyRight {
-  background: #f1f1f1;
-  padding: 0 40px 25px 40px;
-    margin: 0 40px 40px 40px;
+    background: #f0f0f0;
+    padding: 0 40px 25px 40px;
+    margin: 0 6vw 40px 6vw;
 }
   
   .spaceShape {
@@ -380,6 +380,10 @@
         line-height: 24px;
     } 
     
+  
+     .copyRight {
+       margin: 0 40px 40px 40px;
+    }
 }
 
 
