@@ -1,6 +1,7 @@
 <!DOCTYPE html>
+<html>
 <head>
-<title>Hello, I am MengLin. ｜ DEMO ｜ Design #8 Image Website</title>
+<title>Hello, I am MengLin. ｜ DEMO ｜ Air Purifier ｜ Web Design</title>
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -8,23 +9,15 @@
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no">
-
-<link href="css/reset.css" rel="stylesheet" media="all">
+  
+<link href="portfolio/d8/reset.css" rel="stylesheet" media="all">
 <link href="css/font.css" rel="stylesheet" media="all">
 <link href="portfolio/d8/d8.css" rel="stylesheet" media="all">
-<link href="portfolio/d8/d8sp.css" rel="stylesheet" media="all">
     
 <style>
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
     
 @import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900,900i');
-    
-*{  
-    font-family: 'Raleway', 'Material Icons' !important;
-    direction: ltr;
-    text-decoration: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;}
 
 </style> 
 
@@ -34,18 +27,14 @@
     
 <script type="text/javascript" src="js/jquery1.9.1.js"></script>
     
-<script type="text/javascript"></script>
-    
-<script type="text/javascript">
-$(window).load(function(){
-	$('#wait').hide();
-	});    
-</script>
+<script type="text/javascript" src="js/motion.js"></script>
     
 </head>
 
 
 <body>
+    <div id="wait">
+      <a class="loading">&#xE332;</a></div>
 
     <div id="header">
         <div>
@@ -106,28 +95,25 @@ $(window).load(function(){
     </div>  
     
     
-<div id="SP">
-<!--選單列-->
-<div id="floatnav">
-    <div class="goLast">
-        <a href="d7.html">&#xE5C4;</a></div>
-    <div class="goHome">
-        <a href="index.html">&#xE88A;</a></div>
-    <div class="goNext gDis">
-        <a href="d8.html">&#xE5C8;</a></div>
-</div>
     
 <!--版權宣告-->    
-<div id="copyRight">
-    <div id="shapenone"></div>
-    
-    <div id="shape1"></div>
-    <a id="copy">Demo｜Copyright © 2017 Du MengLin. All rights reserved.</a>
-</div>
+<div class="copyRight">
+      <div class="spaceShape"></div>
+      <div class="shortLine"></div>
+      <h4><span>Copyright © 2017 Du MengLin. All rights reserved.</span></h4>
+      <div class="navBar3">
+      <a class="navButton" onclick="location.href='index.html#portFolio'">
+        <span class="Icon">&#xE5C4;</span>
+        <span class="h4">Back</span>
+      </a>
+      <a class="navButton" onclick="location.href='#'">
+        <span class="Icon">&#xE5D8;</span>
+        <span class="h4">top</span>
+      </a>
+    </div>
     </div>
     
-<!--讀取--> 
-<div id="wait">
-    <a class="loading">&#xE332;</a></div>
+
 
 </body>
+</html>

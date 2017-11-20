@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+  *{  font-family: 'Vollkorn', 'Material Icons' !important;
+      direction: ltr;
+      text-decoration: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;}
+
 @media screen and (min-width:0px){
     /*background*/
     #back {
@@ -7,6 +13,7 @@
         height: 100vh;
         overflow: hidden;
         position: fixed;
+        padding: 0;
         z-index: -1;}    
     
     #back img {
@@ -156,17 +163,17 @@
     #scroll, .click {
         display: block;
         width: 180px;
-        height: 28px;
+        height: 32px;
         font-size: 14px;
         font-weight: 600;
         line-height: 32px;
-        color: #fff;
+        color: #fff !important;
         text-align: center;
         border: 2px solid #FFF;
         margin: auto;}
     
     .click:hover {
-        color: #05547c;
+        color: #05547c !important;
         background: #FFF;
         cursor: pointer;}
     
@@ -234,11 +241,20 @@
         font-weight: 600;
         line-height: 20px;
         color: #16648b;}
+  
+  .copyRight {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  h4 span, .h4 {
+    font-family: 'Overpass' !important;
+}
 }
 
 
 
-@media screen and (min-width:999px){ 
+@media screen and (min-width:992px){ 
     
     #back img {
         width: auto;
@@ -376,7 +392,7 @@
         width: 200px;
         height: 48px;
         font-size: 18px;
-        line-height: 52px;}
+        line-height: 48px;}
     
     .click { margin: 0;}
 
@@ -432,6 +448,14 @@
         line-height: 60px;}
     
     .c1 { margin-top: 20px;}
+  
+  .navBar2 {
+    display: inherit !important;
+  }
+  
+  .navBr {
+    display: none !important;
+  }
 
 /*footer*/
     #footer {

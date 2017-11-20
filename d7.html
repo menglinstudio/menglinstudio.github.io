@@ -1,52 +1,46 @@
 <!DOCTYPE html>
+<html>
 <head>
-<title>Hello, I am MengLin. ｜ DEMO ｜ Design #7 Social Web Design 2014</title>
+<title>Hello, I am MengLin. ｜ DEMO ｜ Social Web Design 2014 ｜ Web Design</title>
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="format-detection" content="telephone=no">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="format-detection" content="telephone=no">
+				
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+  <link href="css/font.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <link href="portfolio/d7/d7.css" rel="stylesheet" media="all">
+    
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Vollkorn:400,600');
 
-<link href="css/reset.css" rel="stylesheet" media="all">
-<link href="css/font.css" rel="stylesheet" media="all">
-<link href="portfolio/d7/d7.css" rel="stylesheet" media="all">
-<link href="portfolio/d7/d7sp.css" rel="stylesheet" media="all">
-    
-<style>
-@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,600');
-    
-@import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900,900i');
-    
-*{  
-    font-family: 'Vollkorn', 'Material Icons' !important;
-    direction: ltr;
-    text-decoration: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;}
+  @import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900,900i');
 
-</style> 
+  </style> 
 
-<link rel="apple-touch-icon" href="apple-touch-icon.jpg">
-<link rel="icon" sizes="192x192" href="apple-touch-icon.ico">
-<link rel="shortcut icon" type="image/x-icon" href="apple-touch-icon.ico">
-    
-<script type="text/javascript" src="js/jquery1.9.1.js"></script>
-    
-<script type="text/javascript" src="portfolio/d7/d7.js"></script>
-    
-<script type="text/javascript">
-$(window).load(function(){
-	$('#wait').hide();
-	});    
-</script>
-    
+  <link rel="apple-touch-icon" href="apple-touch-icon.jpg">
+  <link rel="icon" sizes="192x192" href="apple-touch-icon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="apple-touch-icon.ico">
+
+  <script type="text/javascript" src="js/jquery1.9.1.js"></script>
+
+
+  <script type="text/javascript" src="js/motion.js"></script>   
+  <script type="text/javascript" src="portfolio/d7/d7.js"></script>
+
 </head>
 
 
 <body>
-<div id="back"><img src="portfolio/d7/bglight.jpg"></div>
+  <div id="wait">
+    <a class="loading">&#xE332;</a></div>
+  
+  <div id="back">
+    <img src="portfolio/d7/bglight.jpg"></div>
 
 <!--header-->    
 <div id="header">
@@ -132,27 +126,31 @@ $(window).load(function(){
     <a>Copyright © 2014 Social Web Design.</a>
 </div>
     
-<!--選單列-->
-<div id="floatnav">
-    <div class="goLast">
-        <a href="d6.html">&#xE5C4;</a></div>
-    <div class="goHome">
-        <a href="index.html">&#xE88A;</a></div>
-    <div class="goNext">
-        <a href="d8.html">&#xE5C8;</a></div>
-</div>
-    
-<!--版權宣告-->    
-<div id="copyRight">
-    <div id="shapenone"></div>
-    
-    <div id="shape1"></div>
-    <a id="copy">Demo｜Copyright © 2017 Du MengLin. All rights reserved.</a>
+<div class="container-fluid copyRight">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-xl-8">
+      <div class="spaceShape"></div>
+      <div class="shortLine"></div>
+      <h4><span>Copyright © 2017 Du MengLin. All rights reserved.</span></h4>
+      <div class="navBar2">
+      <a class="navButton" onclick="location.href='index.html#portFolio'">
+        <span class="Icon">&#xE5C4;</span>
+        <span class="h4">Back</span>
+      </a>
+      <br class="navBr">
+      <a class="navButton" onclick="location.href='#'">
+        <span class="Icon">&#xE5D8;</span>
+        <span class="h4">top</span>
+      </a>
+    </div>
+    </div>
+  </div>
 </div>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
-<!--讀取--> 
-<div id="wait">
-    <a class="loading">&#xE332;</a></div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
+</html>

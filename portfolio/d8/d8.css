@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+*{  
+    font-family: 'Raleway', 'Material Icons' !important;
+    direction: ltr;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;}
+
 @media screen and (min-width:0px){
     
     /*header*/
@@ -11,7 +18,7 @@
     }
     
     #home {
-        border-top: 60px solid #fff;
+        border-top: 80px solid #fff;
         background-image: url(home.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -184,7 +191,67 @@
         color: #00AA90;
         text-align: center;
     } 
+  
+  .copyRight {
+  background: #f1f1f1;
+  padding: 0 40px 25px 40px;
+    margin: 0 40px 40px 40px;
+}
+  
+  .spaceShape {
+    display: block;
+    height: 30px;
+  }
 
+  .shortLine {
+    display: block;
+    width: 20px;
+    height: 4px;
+    border-radius: 2px;
+    background: #ffcf55;
+  }
+  
+  .copyRight h4 {
+    font-family: 'Overpass' !important;
+    font-size: 10px;
+    margin: 15px 0 0 0;
+  }
+  
+  .copyRight h4 span {
+    font-family: 'Overpass' !important;
+    font-size: 10px;
+    margin: 10px 0 0 0;
+  }
+  
+  .navButton {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 14px;
+    background: #ffcf55;
+    border-radius: 20px;
+    margin: 25px 7px 10px -2px;
+    cursor: pointer;
+  }
+
+  .navButton:hover {
+    background: #ffdd88;
+  }   
+  
+  .h4 {
+  font-size: 14px;
+  line-height: 20px;
+}
+  
+  .navBar3 .h4 {
+    font-family: 'Overpass' !important;
+    font-weight: 700;
+    margin: 0 0 0 3px;
+  }
+
+  .Icon {
+    vertical-align: -3px;
+  }
 }
 
 
