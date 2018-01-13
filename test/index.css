@@ -1,5 +1,9 @@
-*{
+* {
   outline: none;
+}
+
+.navbar-brand {
+  font-weight: 900;
 }
 
 .inputcal {
