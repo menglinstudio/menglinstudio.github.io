@@ -22,7 +22,8 @@
   <link href="index.css" rel="stylesheet">
 
   <!-- Javascript -->
-  <script src="calculate.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="cal.js"></script>
 
   <!-- Icon, Shortcut, Apple-Device-Bookmark -->
   <link rel="apple-touch-icon" href="apple-touch-icon.jpg">
@@ -60,7 +61,8 @@
 
   <body>
     <div class="container-fluid">
-      <input type="text" id="money" placeholder="請輸入數字" />
+      <input type="text" id="money" class="inputcal" placeholder="輸入數字（單位：萬元）" />
+      <input type="text" id="rate" class="inputcal" placeholder="美元匯率" />
       <br>
       <a id="answer">結果</a>
     </div>
