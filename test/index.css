@@ -2,6 +2,11 @@
   outline: none;
 }
 
+input,
+textarea {
+  -webkit-appearance: none;
+}
+
 .navbar-brand {
   font-weight: 900;
 }
