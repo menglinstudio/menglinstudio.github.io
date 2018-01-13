@@ -12,7 +12,7 @@ window.onload = function () { //網頁開始load才執行函數之類的
       return false;
     }
     if (!isNaN(this.value) && this.value != "") { //這也是判斷ㄉ
-      document.getElementById("answer").innerHTML = (parseInt(this.value, 10) * n1) + "萬元"; //在total1那邊顯示apple1乘以n的值
+      document.getElementById("answer").innerHTML = (parseInt(this.value, 10) * n1 + 45) + "萬元"; //在total1那邊顯示apple1乘以n的值
 
     } else {
       document.getElementById("answer").innerHTML = ""; //如果打進去的不是數字就顯示空白
@@ -30,7 +30,7 @@ window.onload = function () { //網頁開始load才執行函數之類的
       return false;
     }
     if (!isNaN(this.value) && this.value != "") { //這也是判斷ㄉ
-      document.getElementById("answer").innerHTML = (parseInt(this.value, 10) * n2) + "萬元"; //在total1那邊顯示apple1乘以n的值
+      document.getElementById("answer").innerHTML = (parseInt(this.value, 10) * n2 + 45) + "萬元"; //在total1那邊顯示apple1乘以n的值
 
     } else {
       document.getElementById("answer").innerHTML = ""; //如果打進去的不是數字就顯示空白
