@@ -15,8 +15,7 @@ window.onload = function () {
     if (isNaN(this.value.valueOf()) || this.value == "" || this.value < 0 || this.value.indexOf(" ") != -1) { //判斷數字不是負的或是空白或是文字
 
       return false;
-    }
-    if (!isNaN(this.value) && this.value != "") { //判斷用
+    } else if (!isNaN(this.value) && this.value != "") { //判斷用
       var a1 = this.value;
       c1 = new Big(a1);
       var d1 = c1 * b1;
@@ -37,6 +36,8 @@ window.onload = function () {
       c2 = new Big(a2);
       var d2 = c2 * b2;
       document.getElementById("answer").innerHTML = d2.toFixed(1) + "萬元";
+    } else {
+      document.getElementById("answer").innerHTML = "空格應輸入數字！";
     }
   };
 }

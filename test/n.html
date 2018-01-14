@@ -16,6 +16,7 @@
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/cwtexyen.css" rel="stylesheet">
 
   <!-- CSS -->
   <link href="font.css" rel="stylesheet">
@@ -35,7 +36,7 @@
 <body>
   <!-- navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Live Cal Test</a>
+    <a class="navbar-brand" href="#">Calculate</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -61,10 +62,13 @@
 
   <body>
     <div class="container-fluid">
-      <input type="text" id="money" class="inputcal" placeholder="輸入數字（單位：萬元）" />
+      <input type="text" id="money" class="inputcal" placeholder="輸入數字（單位：萬）" />
       <input type="text" id="rate" class="inputcal" placeholder="輸入匯率" />
       <br>
-      <a id="answer">Result</a>
+      <p class="explanation">
+        上兩欄輸入數字時進行即時運算<br> 並將小數點後第二位進行四捨五入
+      </p>
+      <a id="answer">結果</a>
     </div>
 
   </body>
