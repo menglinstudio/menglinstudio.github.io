@@ -1,0 +1,18 @@
+<head>
+  <script type="text/javascript">
+    //music陣列用來存放各種音效的路徑
+    //Array("music[0]", "music[1]", "music[2]") 以此類推
+    var music = new Array("123.mp3");
+
+    function playSound(i) {
+      //在Div內放置Embed並指定其音效位置
+      document.getElementById("sounds").innerHTML = "<embed width=0 height=0 src=" + music[i] + " autostart='true'></embed>";
+    }
+
+  </script>
+</head>
+
+<body>
+  <img src="http://blog.xuite.net/_image/logo.gif" alt="指我" onclick="playSound(0);">
+  <div id="sounds"></div>
+</body>
