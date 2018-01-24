@@ -44,7 +44,7 @@ window.onload = function () {
 
     n2 = document.getElementById("money").value; //input的數字放到n裡
     b2 = new Big(n2);
-    if (isNaN(this.value.valueOf()) || this.value == "" || this.value < 0 || this.value.indexOf(" ") != -1) { //判斷數字不是負的或是空白或是文字
+    if (isNaN(this.value.valueOf()) || this.value == "" || this.value < 0 || this.value.indexOf(" ") != -1 ) { //判斷數字不是負的或是空白或是文字
 
       //判斷用
       var a1 = this.value;

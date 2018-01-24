@@ -18,8 +18,17 @@ window.onload = function () {
     if (!isNaN(this.value) && this.value != "") { //判斷用
       var a1 = this.value;
       c1 = new Big(a1);
-      var d1 = c1 * b1;
-      document.getElementById("answer").innerHTML = d1.toFixed(1) + "萬元";
+      var d1 = c1 / 10000 * 0.97337 + 0.035;
+      var d11 = d1 * b1;
+      document.getElementById("answer").innerHTML = d11.toFixed(1) + "萬元";
+    }
+  };
+
+  document.getElementById("money").onkeydown = function () { //打字時執行
+
+    n2 = document.getElementById("money").value;
+    if (isNaN(n2.valueOf()) || n2 == "" || n2 < 0 || n2.indexOf(" ") != -1) {
+      document.getElementById("answer").innerHTML = "請輸入數字";
     }
   };
 
@@ -33,8 +42,9 @@ window.onload = function () {
     if (!isNaN(this.value) && this.value != "") {
       var a2 = this.value;
       c2 = new Big(a2);
-      var d2 = c2 * b2;
-      document.getElementById("answer").innerHTML = d2.toFixed(1) + "萬元";
+      var d2 = b2 / 10000 * 0.97337 + 0.035;
+      var d21 = c2 * d2;
+      document.getElementById("answer").innerHTML = d21.toFixed(1) + "萬元";
     }
   };
 
@@ -42,14 +52,6 @@ window.onload = function () {
 
     n1 = document.getElementById("rate").value;
     if (isNaN(n1.valueOf()) || n1 == "" || n1 < 0 || n1.indexOf(" ") != -1) {
-      document.getElementById("answer").innerHTML = "請輸入數字";
-    }
-  };
-
-  document.getElementById("money").onkeydown = function () { //打字時執行
-
-    n2 = document.getElementById("money").value;
-    if (isNaN(n2.valueOf()) || n2 == "" || n2 < 0 || n2.indexOf(" ") != -1) {
       document.getElementById("answer").innerHTML = "請輸入數字";
     }
   };
