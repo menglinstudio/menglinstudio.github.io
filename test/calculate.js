@@ -18,8 +18,8 @@ window.onload = function () {
     if (!isNaN(this.value) && this.value != "") { //判斷用
       var a1 = this.value;
       c1 = new Big(a1);
-      var d1 = c1 / 10000 * 0.975 + 0.035;
-      var d11 = d1 * b1;
+      var d1 = c1 * 1.4324 + 1420;
+      var d11 = d1 * b1 / 10000 + 28;
       document.getElementById("answer").innerHTML = d11.toFixed(1) + "萬元";
     }
   };
@@ -42,8 +42,8 @@ window.onload = function () {
     if (!isNaN(this.value) && this.value != "") {
       var a2 = this.value;
       c2 = new Big(a2);
-      var d2 = b2 / 10000 * 0.975 + 0.035;
-      var d21 = c2 * d2;
+      var d2 = b2 * 1.4324 + 1420;
+      var d21 = c2 * d2 / 10000 + 28;
       document.getElementById("answer").innerHTML = d21.toFixed(1) + "萬元";
     }
   };
