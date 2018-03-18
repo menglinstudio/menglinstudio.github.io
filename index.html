@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Hello, i am MengLin.</title>
+  <title>Meng Design Studio</title>
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -10,284 +10,102 @@
   <meta name="format-detection" content="telephone=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <link href="css/font.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900,900i');
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:400,400i,500,500i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 
-  </style>
+  <!-- CSS -->
+  <link href="testn.css" rel="stylesheet">
 
+  <!-- Phone Icon -->
   <link rel="apple-touch-icon" href="apple-touch-icon.jpg">
   <link rel="icon" sizes="192x192" href="apple-touch-icon.ico">
   <link rel="shortcut icon" type="image/x-icon" href="apple-touch-icon.ico">
 
-  <script type="text/javascript" src="js/jquery1.9.1.js"></script>
-  <script type="text/javascript" src="js/motion.js"></script>
+  <!-- JS -->
 
 </head>
 
 <body>
-  <div class="container-fluid" id="wait">
-    <a class="loading">&#xE332;</a></div>
-  <div class="container-fluid selfIntro">
-    <div class="col-sm-12">
-      <div class="spaceShape"></div>
-      <div class="shortLine"></div>
-      <h2>Hello, i am</h2>
-      <h1>MengLin</h1>
-      <h3>Designer & Pokémon Trainer</h3>
-      <div class="shortLine"></div>
-      <div class="contactInfo">
-        <h4>
-          <span>Taiwan<br>
-          +886 933 353 898<br>
-          menglinlin1203@gmail.com</span>
-        </h4>
+  <div class="container">
+    <!-- navbar -->
+    <nav id="top" class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="#">Meng DESIGN STUDIO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-      <div class="navBar">
-        <a class="navButton" onclick="location.href='#portFolio'">
-          <span class="Icon">&#xE3B7;</span>
-          <span class="h4">portfolio</span>
-        </a>
-        <br class="navBr">
-        <a class="navButton" onclick="location.href='#aboutMe'">
-          <span class="Icon">&#xE87C;</span>
-          <span class="h4">about</span>
-        </a>
-        <br class="navBr">
-        <a class="navButton" onclick="location.href='https://issuu.com/058642'">
-          <span class="Icon">&#xE8D0;</span>
-          <span class="h4">issuu</span>
-        </a>
-        <br class="navBr">
-        <a class="navButton navDis" onclick="location.href='#selfIntro2'">
-          <span class="Icon">&#xE5D8;</span>
-          <span class="h4">top</span>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid selfIntro2" id="selfIntro2">
-    <div class="col-sm-12 selfImg">
-      <img src="meBig.jpg" class="img-fluid">
-    </div>
-  </div>
-  <div class="container-fluid portFolio" id="portFolio">
-    <div class="spaceShape"></div>
-    <div class="shortLine"></div>
-    <h1>portfolio</h1>
-    <div class="row">
-      <div class="col-sm-12 filterBar">
-        <a class="filter h4" onclick="filter(1)">#ALL</a>
-        <a class="filter h4" onclick="filter(4)">#Website</a>
-        <a class="filter h4" onclick="filter(3)">#AppUI</a>
-        <a class="filter h4" onclick="filter(2)">#Other</a>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterWeb" onclick="location.href='d8.html'">
-        <img src="portImg/d8.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Air Puriflier</span><br> Website Design
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterWeb" onclick="location.href='d7.html'">
-        <img src="portImg/d7.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Social Web Design - Final Exhibition</span><br> Website Design
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterWeb filterOther" onclick="location.href='d6.html'">
-        <img src="portImg/d6.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Ethesia</span><br> Website Design / Binding
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterOther" onclick="location.href='d5.html'">
-        <img src="portImg/d5.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Paintitude</span><br> Product Design
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterApp filterOther" onclick="location.href='d4.html'">
-        <img src="portImg/d4.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Catcare</span><br> App UI / Product Design
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterOther" onclick="location.href='d3.html'">
-        <img src="portImg/d3.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Forum Banner</span><br> Visual Design
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterWeb filterApp" onclick="location.href='cr1.html'">
-        <img src="portImg/cr1.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Online Classroom</span><br> Website / App UI Design Concept
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterApp" onclick="location.href='c6.html'">
-        <img src="portImg/c6.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Calender</span><br> App UI Design Concept
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterApp" onclick="location.href='c5.html'">
-        <img src="portImg/c5.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>News Subscrition</span><br> App UI Design Concept
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterApp" onclick="location.href='c4.html'">
-        <img src="portImg/c4.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Chat</span><br> App UI Design Concept
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterApp" onclick="location.href='c3.html'">
-        <img src="portImg/c3.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Music</span><br> App UI Design Concept
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterApp" onclick="location.href='c2.html'">
-        <img src="portImg/c2.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Weather</span><br> App UI Design Concept
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterApp" onclick="location.href='c1.html'">
-        <img src="portImg/c1.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Business Card</span><br> App UI Design Concept
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterOther" onclick="location.href='d2.html'">
-        <img src="portImg/d2.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>COWFEE</span><br> Visual Design Concept
-          </h4><br>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-3 portButton filterApp" onclick="location.href='d1.html'">
-        <img src="portImg/d1.jpg" class="img-fluid portImg">
-        <div class="portName">
-          <div class="spaceShape"></div>
-          <div class="shortLine"></div>
-          <h4>
-            <span>Dahou</span><br> App UI Design
-          </h4><br>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid aboutMe" id="aboutMe">
-    <div class="spaceShape"></div>
-    <div class="shortLine"></div>
-    <h1>about me</h1>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-xl-5">
-        <div class="contactInfo2">
-          <h6>Contact</h6>
-          <h4><span>Taiwan<br>
-            +886 933 353 898<br>
-            menglinlin1203@gmail.com</span></h4>
-        </div>
-        <h6>Skill</h6>
-        <h4><span>Illustrator, Indesign, PhotoShop, </span><br>
-          <span>Sketch, Solidworks, Keyshot, </span><br>
-          <span>HTML</span> and <span>CSS</span></h4>
-        <h6>Language</h6>
-        <h4><span>Chinese, English</span> <br> and <span>Learning Japanese</span></h4>
-        <h6>Interest</h6>
-        <h4>Visiting Exhibition, <br> Watching Movie and TV series, <br> Reading Novels and Swimming</h4>
-        <h6>Education</h6>
-        <h5>2016</h5>
-        <h4><span>Bachelor of Industrial Design, </span><br> National Cheng Kung University</h4>
-      </div>
-      <div class="col-sm-12 col-md-6 col-xl-6">
-        <h6>Experience</h6>
-        <h5>2015 - 2017</h5>
-        <h4><span>User Interface / Web Designer,</span><br> Moleculear Biomedical Informatics Laboratory, NCKU</h4>
-        <h5>2016</h5>
-        <h4><span>Leader of Advertisement Group,</span><br> Graduated Exhibiton, Department of Industrial Design, NCKU</h4>
-        <h4><span>Internship in Exhibition and Education Group,</span><br> Chimei Museum</h4>
-        <h5>2015</h5>
-        <h4><span>Leader of Advertisement Group,</span><br> Industrial Design Camp, NCKU</h4>
-        <h4><span>Leader of Webmaster Group,</span><br> Student Association, Department of Industrial Design, NCKU</h4>
-        <h5>2012 - 2014</h5>
-        <h4><span>Member of ID Bank (Magazine of NCKUID)</span><br> Student Association, Department of Industrial Design, NCKU</h4>
-
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid copyRight">
-    <div class="spaceShape"></div>
-    <div class="shortLine"></div>
-    <h4><span>Copyright © 2017 Du MengLin. All rights reserved.</span></h4>
+    </nav>
   </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <div class="divide-line"></div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <!-- Top Button -->
+  <a id="top-button" href="#top">&#8648;</a>
+
+  <!-- content -->
+  <div class="portfolio-col">
+    <div class="row no-gutters">
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 ">
+        <img src="../portImg/c1.jpg" class="img-fluid" alt="1">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/c2.jpg" class="img-fluid" alt="2">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/c3.jpg" class="img-fluid" alt="3">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/c4.jpg" class="img-fluid" alt="4">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/c5.jpg" class="img-fluid" alt="5">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/c6.jpg" class="img-fluid" alt="6">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/cr1.jpg" class="img-fluid" alt="r1">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/d1.jpg" class="img-fluid" alt="d1">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/d2.jpg" class="img-fluid" alt="d2">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/d3.jpg" class="img-fluid" alt="d3">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/d4.jpg" class="img-fluid" alt="d4">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/d5.jpg" class="img-fluid" alt="d5">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/d6.jpg" class="img-fluid" alt="d6">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/d7.jpg" class="img-fluid" alt="d7">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <img src="../portImg/d8.jpg" class="img-fluid" alt="d8">
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-
-</html>
