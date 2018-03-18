@@ -3,13 +3,17 @@
   outline: none !important;
 }
 
-.navbar {
-  height: 200px;
+.navbar-brand {
+  height: 150px;
+  font-size: 30.5px;
+  line-height: 200px;
+  font-weight: 700;
+  color: #222 !important;
 }
 
-.navbar-brand {
+.design-studio {
   font-size: 21px;
-  font-weight: 600;
+  font-weight: 400;
   color: #4a4a4a;
 }
 
@@ -17,7 +21,7 @@
   border: none;
   position: absolute;
   right: 5px;
-  top: calc(100px - 0.75em);
+  top: calc(113px - 0.75em);
 }
 
 .divide-line {
@@ -44,4 +48,13 @@
   text-decoration: none;
   line-height: 60px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  #navbarDropdown {
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: calc(113px - 0.75em);
+  }
 }
