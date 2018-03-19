@@ -3,12 +3,19 @@
   outline: none !important;
 }
 
+.navbar {
+  background: #fff;
+  -webkit-box-shadow: 0 1px 0 0 #eee;
+  box-shadow: 0 1px 0 0 #eee;
+}
+
 .navbar-brand {
-  height: 150px;
+  height: 120px;
   font-size: 30.5px;
-  line-height: 200px;
+  line-height: 108px;
   font-weight: 700;
   color: #36474e !important;
+  margin-left: 25px;
 }
 
 .design-studio {
@@ -20,8 +27,8 @@
 .navbar-toggler {
   border: none;
   position: absolute;
-  right: 5px;
-  top: calc(113px - 0.75em);
+  right: 35px;
+  top: 50px;
 }
 
 .navbar-toggler-icon {
@@ -30,12 +37,9 @@
 
 .nav-link {
   text-align: right;
-  padding: 5px !important;
-}
-
-.divide-line {
-  height: 1px;
-  background: #eee;
+  font-weight: 500;
+  margin-right: 35px;
+  padding: 0px 0px 15px 10px !important;
 }
 
 #top-button {
@@ -43,14 +47,14 @@
   display: block;
   height: 60px;
   width: 60px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 30px;
-  -webkit-box-shadow: 0 5px 30px 0px #ddd;
-  box-shadow: 0 5px 30px 0px #ddd;
+  -webkit-box-shadow: 0 5px 30px -5px #ddd;
+  box-shadow: 0 5px 30px -5px #ddd;
   position: fixed;
   left: calc(50vw - 30px);
-  bottom: 30px;
-  z-index: 3;
+  bottom: 25px;
+  z-index: 100;
   /*Arrow-Up*/
   color: #36474e;
   font-size: 21px;
@@ -60,11 +64,58 @@
   text-align: center;
 }
 
+#filter {
+  display: block;
+  margin-top: 136px;
+  margin-bottom: 1px;
+  padding: 18px 32px 8px 32px;
+  -webkit-box-shadow: 0 1px 0 0 #eee;
+  box-shadow: 0 1px 0 0 #eee;
+}
+
+.btn {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+
+.btn-light {
+  background: none;
+  border: none;
+}
+
+.btn-light:hover {
+  background: #4b606a;
+  color: #fff !important;
+  border: none;
+}
+
+#portfolio-col {
+  background: #f7f7f7;
+}
+
+#footer {
+  height: 150px;
+  background: #fff;
+  -webkit-box-shadow: 0 -1px 0 0 #eee;
+  box-shadow: 0 -1px 0 0 #eee;
+}
+
+.copyright {
+  text-align: center;
+  padding: 22px;
+  font-size: 12px;
+  color: #4b606a;
+}
+
 @media (min-width: 768px) {
   #navbarDropdown {
     border: none;
-    position: absolute;
-    right: 5px;
-    top: calc(113px - 0.75em);
+  }
+
+  .nav-link {
+    margin-top: 30px;
   }
 }
