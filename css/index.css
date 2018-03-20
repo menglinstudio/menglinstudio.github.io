@@ -29,8 +29,10 @@
 .navbar-toggler {
   border: none;
   position: absolute;
-  right: 35px;
-  top: 50px;
+  right: 0px;
+  top: 0px;
+  width: 100px;
+  height: 136px;
 }
 
 .navbar-toggler-icon {
@@ -96,6 +98,10 @@
 
 #portfolio-col {
   background: #f7f7f7;
+}
+
+.port-link {
+  cursor: pointer;
 }
 
 #footer {
