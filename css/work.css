@@ -4,9 +4,7 @@
 }
 
 .btn:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  outline: none !important;
 }
 
 .navbar {
@@ -52,6 +50,67 @@
   padding: 0px 0px 15px 10px !important;
 }
 
+.btn-light {
+  background: none;
+  border: 1px solid transparent;
+}
+
+.btn-light:hover {
+  background: #4b606a;
+  color: #fff !important;
+  border: 1px solid transparent;
+}
+
+.btn-gray {
+  background: #ccc;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.btn-gray:hover {
+  background: none;
+  color: #ccc !important;
+  border: 1px solid #ccc;
+}
+
+.work-space {
+  padding: 0px 40px;
+}
+
+.work-title {
+  line-height: 1.5;
+  padding-top: 40px;
+  color: #4a4a4a;
+}
+
+.work-tag {
+  line-height: 1.5;
+  padding-bottom: 20px;
+  color: #bbb;
+}
+
+.work-pic {
+  padding: 0;
+}
+
+.work-ps {
+  font-size: 13px;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+.work-time {
+  color: #ccc;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.divide-line {
+  height: 1px;
+  background: #eee;
+  margin-bottom: 20px;
+}
+
 #top-button {
   /*Button*/
   display: block;
@@ -93,29 +152,14 @@
 
 .btn-light {
   background: none;
-  border: 1px solid transparent;
+  border: none;
 }
 
 .btn-light:hover {
   background: #4b606a;
   color: #fff !important;
-  border: 1px solid transparent;
+  border: none;
 }
-
-.btn-dark {
-  background: #4b606a;
-  color: #fff;
-  border: 1px solid transparent;
-}
-
-.btn-dark:hover {
-  background: none;
-  color: #4b606a !important;
-  border: 1px solid #4b606a;
-}
-
-
-/*work*/
 
 #portfolio-col {
   background: #f7f7f7;
@@ -124,69 +168,6 @@
 .port-link {
   cursor: pointer;
 }
-
-/*about&contact*/
-
-.self-pic {
-  width: 50%;
-  max-width: 250px;
-  margin-top: 176px;
-}
-
-.self-name {
-  font-size: 30.5px;
-  line-height: 1.5;
-  font-weight: 700;
-  color: #36474e;
-  margin-top: 40px;
-}
-
-.work-space {
-  padding: 0px 40px;
-}
-
-.work-title {
-  line-height: 1.5;
-  padding-top: 40px;
-  color: #4a4a4a;
-}
-
-.work-tag {
-  line-height: 1.5;
-  padding-bottom: 20px;
-  color: #bbb;
-}
-
-.work-pic {
-  padding: 0;
-}
-
-.work-ps {
-  font-size: 13px;
-  font-weight: 700;
-  color: #4a4a4a;
-}
-
-.work-ps a,
-.work-ps span {
-  color: #aaa;
-  font-weight: 400;
-}
-
-.work-time {
-  color: #ccc;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-}
-
-.divide-line {
-  height: 1px;
-  background: #eee;
-  margin-bottom: 20px;
-}
-
-
-/*footer*/
 
 #footer {
   height: 150px;
@@ -200,6 +181,12 @@
   padding: 22px;
   font-size: 12px;
   color: #4b606a;
+}
+
+@media (min-width: 576px) {
+  .work-pic {
+    padding: 0 40px;
+  }
 }
 
 @media (min-width: 768px) {

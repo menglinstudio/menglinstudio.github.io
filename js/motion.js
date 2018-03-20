@@ -1,15 +1,15 @@
 function filter(param) {
   if (param == 2) {
     $(".port-link").hide();
-    $(".filter-product").show();
+    $(".filter-pr").show();
 
   } else if (param == 3) {
     $(".port-link").hide();
-    $(".filter-graphic").show();
+    $(".filter-gr").show();
 
   } else if (param == 4) {
     $(".port-link").hide();
-    $(".filter-ui").show();
+    $(".filter-wa").show();
 
   } else {
     $(".port-link").show();
