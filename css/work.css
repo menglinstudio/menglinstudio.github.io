@@ -7,6 +7,10 @@
   outline: none !important;
 }
 
+span {
+  font-family: inherit;
+}
+
 .navbar {
   background: #fff;
   -webkit-box-shadow: 0 1px 0 0 #eee;
@@ -62,7 +66,7 @@
 }
 
 .btn-gray {
-  background: #ccc;
+  background: #ddd;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -71,6 +75,14 @@
   background: none;
   color: #ccc !important;
   border: 1px solid #ccc;
+}
+
+.work-tag,
+.work-pic,
+.work-ps,
+.work-time,
+.work-des {
+  font-family: Roboto, sans-serif;
 }
 
 .work-space {
@@ -103,6 +115,11 @@
   color: #ccc;
   font-weight: 700;
   letter-spacing: 0.5px;
+}
+
+.wa-shadow {
+  -webkit-box-shadow: 0 2px 10px -2px #ddd;
+  box-shadow: 0 2px 10px -2px #ddd;
 }
 
 .divide-line {

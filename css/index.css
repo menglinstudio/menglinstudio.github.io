@@ -9,6 +9,10 @@
   box-shadow: none;
 }
 
+span {
+  font-family: inherit;
+}
+
 .navbar {
   background: #fff;
   -webkit-box-shadow: 0 1px 0 0 #eee;
@@ -139,6 +143,14 @@
   font-weight: 700;
   color: #36474e;
   margin-top: 40px;
+}
+
+.work-tag,
+.work-pic,
+.work-ps,
+.work-time,
+.work-des {
+  font-family: Roboto, sans-serif;
 }
 
 .work-space {
