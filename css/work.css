@@ -14,9 +14,9 @@
 }
 
 .navbar-brand {
-  height: 120px;
+  height: 104px;
   font-size: 30.5px;
-  line-height: 108px;
+  line-height: 92px;
   font-weight: 700;
   color: #36474e !important;
   margin-left: 25px;
@@ -36,7 +36,7 @@
   right: 0px;
   top: 0px;
   width: 100px;
-  height: 136px;
+  height: 120px;
 }
 
 .navbar-toggler-icon {
@@ -46,7 +46,7 @@
 .nav-link {
   text-align: right;
   font-weight: 500;
-  margin-right: 25px;
+  margin-right: 23px;
   padding: 0px 0px 15px 10px !important;
 }
 
@@ -114,14 +114,14 @@
 #top-button {
   /*Button*/
   display: block;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 30px;
   -webkit-box-shadow: 0 5px 30px -5px #ddd;
   box-shadow: 0 5px 30px -5px #ddd;
   position: fixed;
-  left: calc(50vw - 30px);
+  left: calc(50vw - 25px);
   bottom: 25px;
   z-index: 100;
   /*Arrow-Up*/
@@ -129,7 +129,7 @@
   font-size: 21px;
   font-weight: 700;
   text-decoration: none;
-  line-height: 60px;
+  line-height: 50px;
   text-align: center;
 }
 
@@ -170,7 +170,7 @@
 }
 
 #footer {
-  height: 150px;
+  height: 135px;
   background: #fff;
   -webkit-box-shadow: 0 -1px 0 0 #eee;
   box-shadow: 0 -1px 0 0 #eee;
