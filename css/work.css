@@ -20,18 +20,14 @@ span {
 .navbar-brand {
   height: 104px;
   font-size: 30.5px;
-  line-height: 92px;
+  line-height: 84px;
   font-weight: 700;
   color: #36474e !important;
-  margin-left: 25px;
+  margin-left: 23px;
 }
 
 .design-studio {
-  font-size: 14px;
-  line-height: 0px;
-  font-weight: 400;
-  color: #4b606a;
-  vertical-align: 18px;
+  height: 60px;
 }
 
 .navbar-toggler {
