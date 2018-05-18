@@ -114,6 +114,12 @@ span {
   border: 1px solid #4b606a;
 }
 
+.warning {
+  color: #ffa1a1 !important;
+  font-weight: bold;
+  cursor: none;
+}
+
 
 /*work*/
 
