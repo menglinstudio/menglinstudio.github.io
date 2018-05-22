@@ -115,8 +115,7 @@ span {
 }
 
 .warning {
-  color: #ffa1a1 !important;
-  font-weight: bold;
+  color: #ff8282 !important;
   cursor: none;
 }
 

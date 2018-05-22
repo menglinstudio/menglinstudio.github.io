@@ -188,6 +188,11 @@ span {
   color: #4b606a;
 }
 
+.warning {
+  color: #ff8282 !important;
+  cursor: none;
+}
+
 @media (min-width: 576px) {
   .work-pic {
     padding: 0 40px;
