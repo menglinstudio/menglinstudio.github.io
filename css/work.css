@@ -45,10 +45,18 @@ span {
 }
 
 .nav-link {
+  font-size: 14px;
   text-align: right;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+  color: #333333 !important;
   margin-right: 23px;
   padding: 0px 0px 15px 10px !important;
+}
+
+.nav-link:hover {
+  color: #aaaaaa !important;
 }
 
 .btn-light {
@@ -57,7 +65,7 @@ span {
 }
 
 .btn-light:hover {
-  background: #4b606a;
+  background: #36474e;
   color: #fff !important;
   border: 1px solid transparent;
 }
