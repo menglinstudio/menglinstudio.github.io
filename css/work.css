@@ -23,7 +23,7 @@ span {
   line-height: 84px;
   font-weight: 700;
   color: #36474e !important;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .design-studio {
@@ -34,7 +34,7 @@ span {
 .navbar-toggler {
   border: none;
   position: absolute;
-  right: 0px;
+  right: -10px;
   top: 0px;
   width: 100px;
   height: 100px;
@@ -51,7 +51,7 @@ span {
   letter-spacing: 0.8px;
   text-transform: capitalize;
   color: #333333 !important;
-  margin-right: 23px;
+  margin-right: 12px;
   padding: 0px 0px 15px 10px !important;
 }
 
