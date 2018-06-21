@@ -112,18 +112,6 @@ span {
   border: 1px solid transparent;
 }
 
-.btn-dark {
-  background: #36474e;
-  color: #fff;
-  border: 1px solid transparent;
-}
-
-.btn-dark:hover {
-  background: none;
-  color: #36474e !important;
-  border: 1px solid #4b606a;
-}
-
 .warning {
   color: #ff8282 !important;
   cursor: none;
@@ -140,66 +128,6 @@ span {
   cursor: pointer;
 }
 
-/*about&contact*/
-
-.self-pic {
-  width: 100%;
-  margin-top: 164px;
-}
-
-.self-name {
-  font-size: 30.5px;
-  line-height: 1.5;
-  font-weight: 700;
-  color: #36474e;
-  margin-top: 40px;
-}
-
-.work-space {
-  padding: 0px 40px;
-}
-
-.work-title {
-  line-height: 1.5;
-  padding-top: 40px;
-  color: #4a4a4a;
-}
-
-.work-tag {
-  line-height: 1.5;
-  padding-bottom: 20px;
-  color: #bbb;
-}
-
-.work-pic {
-  padding: 0;
-}
-
-.work-ps {
-  font-size: 13px;
-  font-weight: 700;
-  color: #4a4a4a;
-}
-
-.work-ps a,
-.work-ps span {
-  color: #aaa;
-  font-weight: 400;
-}
-
-.work-time {
-  color: #ccc;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-}
-
-.divide-line {
-  height: 1px;
-  background: #eee;
-  margin-bottom: 20px;
-}
-
-
 /*footer*/
 
 #footer {
@@ -213,6 +141,7 @@ span {
   text-align: center;
   padding: 22px;
   font-size: 12px;
+  letter-spacing: 0.5px;
   color: #4b606a;
 }
 

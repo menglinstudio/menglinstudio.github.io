@@ -185,7 +185,8 @@
   }
 
   #homeE {
-    height: 10vh;
+    height: 1vh;
+    margin-bottom: 9vh;
   }
 
   .shape1 {
@@ -225,7 +226,7 @@
   .click {
     display: block;
     width: 180px;
-    height: 28px;
+    height: 32px;
     font-size: 14px;
     font-weight: 600;
     line-height: 32px;
@@ -236,7 +237,7 @@
   }
 
   .click:hover {
-    color: #05547c;
+    color: #05547c !important;
     background: #FFF;
     cursor: pointer;
   }
@@ -343,11 +344,9 @@
 @media screen and (min-width:999px) {
 
   #back img {
-    width: auto;
     height: auto;
     background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-size: contain;
     left: 0;
   }
 
@@ -499,7 +498,7 @@
   #homeE {
     height: 10vh;
     min-height: 60px;
-    margin-top: -20vh;
+    margin-top: -15vh;
   }
 
   .shape1 {
@@ -532,7 +531,7 @@
   #scroll,
   .click {
     width: 200px;
-    height: 48px;
+    height: 52px;
     font-size: 18px;
     line-height: 52px;
   }
