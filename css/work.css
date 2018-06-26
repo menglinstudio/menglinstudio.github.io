@@ -34,9 +34,9 @@ span {
 .navbar-toggler {
   border: none;
   position: absolute;
-  right: -10px;
+  right: 0px;
   top: 0px;
-  width: 90px;
+  width: 70px;
   height: 100px;
 }
 
