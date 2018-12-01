@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
-
 * {
-  font-family: 'Work Sans', 'Noto Sans JP', sans-serif;
+  font-family: "Work Sans", "PingFang TC", "微軟正黑體", sans-serif;
   font-weight: 300;
   letter-spacing: .025rem;
   outline: none !important;
@@ -31,7 +28,7 @@
   display: inline-block;
   margin: 3rem 0 1rem 0;
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 2.5rem;
   -webkit-box-shadow: inset 0 -15px 0 gold;
   box-shadow: inset 0 -15px 0 gold
@@ -113,12 +110,12 @@
   display: inline-block;
   font-size: 2rem;
   line-height: 2rem;
-  font-weight: 700
+  font-weight: 600
 }
 
 .modal-secondary-title {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .modal-header .close {
@@ -151,7 +148,7 @@
 
 .modal-des-title {
   font-size: 1.05rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #999;
 }
 
@@ -188,7 +185,7 @@ a:hover .img-fluid {
   display: inline-block;
   font-size: 2rem;
   line-height: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   padding-top: 2rem
 }
 
@@ -309,7 +306,7 @@ a:hover .img-fluid {
 .project-t {
   padding: 0 1.2rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 3.8rem;
   color: #555
 }
@@ -404,7 +401,7 @@ a:hover .img-fluid {
   display: inline-block;
   margin: 5rem auto 1rem auto;
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 2.5rem;
   text-align: center;
   -webkit-box-shadow: inset 0 -15px 0 gold;
@@ -415,7 +412,7 @@ a:hover .img-fluid {
   width: 90%;
   margin: 1rem auto .5rem auto;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.6rem;
   text-align: left;
   color: #999 !important
@@ -424,7 +421,7 @@ a:hover .img-fluid {
 .details-info {
   margin: 1.5rem auto;
   font-size: .8rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.25rem;
   text-align: center;
   color: #999;
@@ -434,7 +431,7 @@ a:hover .img-fluid {
   width: 90%;
   margin: 1rem auto;
   font-size: .8rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.25rem;
   color: #999;
 }
