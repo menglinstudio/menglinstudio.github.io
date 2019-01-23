@@ -1,0 +1,663 @@
+body
+  background: linear-gradient(to right, #2a2a2a, #4a4a4a)
+  color: white 
+  font-family: Work Sans, Noto Sans TC,-apple-system, system-ui, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+  -webkit-font-smoothing: antialiased
+  @media (min-width:0px)
+    background: #2a2a2a
+  &::-webkit-scrollbar
+    display: none
+
+.flex-set
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  @media (min-width:1200px)
+    flex-direction: row
+
+.flex
+  display: flex
+  align-items: center
+  justify-content: center
+
+a
+  text-decoration: none !important
+
+h2
+  font-size: 48px
+  line-height: 1
+  letter-spacing: 3px
+  transform: scaleX(0.98)
+
+//大螢幕不換行
+.br-m-none
+  @media (min-width:650px)
+    display: none
+
+//寬螢幕不換行
+.br-l-none
+  @media (min-width:1200px)
+    display: none
+
+
+//nav
+nav
+  z-index: 10
+  position: fixed
+  top: 0
+  width: 100%
+  height: 60px
+  border-bottom: 2px solid #4a4a4a
+  background: #2a2a2a
+  box-sizing: content-box
+  @media (min-width:1200px) 
+    left: 0
+    width: 120px
+    height: 100vh
+    min-height: 700px
+    border: none
+    border-right: 2px solid #4a4a4a
+
+.nav-button
+  position: fixed
+  width: 60px
+  height: 60px
+  @media (min-width:1200px)  
+    width: 120px
+    height: 120px
+
+.nav-menu
+  cursor: pointer
+  left: 0
+  border-right: 2px solid #4a4a4a
+  @media (min-width:1200px)
+    top: 0
+    border: none
+    border-bottom: 2px solid #4a4a4a
+  &:hover
+    background: #222
+  
+.nav-logo-vertical
+  width: 18px
+  cursor: pointer
+  display: none
+  @media (min-width:1200px)
+    display: block
+
+.nav-logo-horizontal
+  height: 24px
+  cursor: pointer
+  @media (min-width:1200px)
+    display: none
+    
+.nav-location
+  cursor: pointer
+  right: 0
+  border-left: 2px solid #4a4a4a
+  @media (min-width:1200px) and (max-height:700px)
+    top: 580px
+  @media (min-width:1200px)
+    left: 0
+    bottom: 0
+    border: none
+    border-top: 2px solid #4a4a4a
+  &:hover
+    background: #222
+  
+#menu 
+  z-index: 10
+  user-select: none
+  input#menu-Toggle
+    z-index: 100
+    display: block
+    width: 60px
+    height: 60px
+    opacity: 0
+    cursor: pointer
+    @media (min-width:1200px)
+      width: 120px
+      height: 120px
+    &:checked ~ .nav-menu-close
+      display: none
+    &:checked ~ .nav-menu-open
+      display: block
+    &:checked ~ ul
+      transform: none
+      border-right: 2px solid #4a4a4a
+  .nav-menu-close 
+    width: 24px
+    height: 24px
+    position: fixed
+    z-index: 99
+  .nav-menu-open
+    width: 24px
+    height: 24px
+    position: fixed
+    z-index: 99
+    display: none
+    
+#menu-Tab
+  z-index: 10
+  margin: 0
+  padding: 0
+  position: absolute
+  top: 0
+  left: 0
+  width: 100vw
+  height: 100vh
+  transform: translate(-200vw,0)
+  background: #2a2a2a
+  transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1.0)
+  cursor: auto
+  @media (min-width:1200px)
+    width: 300px
+    transform: translate(-600px,0)
+  @media (min-width:1200px) and (max-height:700px)
+    min-height: 700px
+  li
+    list-style-type: none
+    font-size: 14px
+    text-align: center
+    letter-spacing: 3px
+    margin-bottom: 3vh
+    transform: scaleX(0.98)
+    cursor: pointer
+    @media (min-width:600px)
+      font-size: 16px
+    @media (min-width:1200px)
+      margin: 0 0 3vh 42px
+      text-align: left
+    &:first-child
+      margin-top: 80px
+      @media (min-width:1200px)
+        margin-top: 120px
+    a
+      color: #fff
+  p
+    font-size: 12px
+    text-align: center
+    letter-spacing: 3px
+    transform: scaleX(0.98)
+    color: #ccc
+    margin: 0 0 12px
+    @media (min-width:1200px)
+      margin-left: 42px
+      text-align: left
+  .in-menu-contact
+    width: 100vw
+    height: 120px
+    font-size: 14px
+    letter-spacing: 3px
+    position: absolute
+    bottom: 0
+    cursor: pointer
+    @media (min-width:600px)
+      font-size: 16px
+    @media (min-width:1200px)
+      width: auto
+      left: 42px
+    a
+      color: #fff
+      img
+        width: 24px
+      span
+        display: inline-block
+        padding-top: 4px
+        transform: scaleX(0.98)
+
+//內容
+.overview
+  margin: 60px 0 0 0
+  width: 100vw
+  position: absolute //test
+  @media (min-width:1200px) 
+    margin: 0 0 0 120px
+    //*n
+    width: calc(100vw + 1530px * 6 + 1400px)
+    height: 100vh
+    min-height: 700px
+
+.webtitle
+  justify-content: space-between
+  width: 84vw
+  height: calc(100vh - 60px)
+  min-height: 508px //for-vwbelow320px
+  padding: 0 8vw
+  text-align: left
+  @media (min-width:600px)
+    text-align: center
+  @media (min-width:1200px)
+    justify-content: space-between
+    width: calc(100vw - 120px)
+    height: 100vh
+    min-height: 700px
+    padding: 0
+    text-align: left
+  //標題前空白
+  .space
+    height: 120px
+    @media (min-width:1200px)
+      display: none
+  //標題  
+  h1
+    font-weight: 100
+    line-height: 1.4
+    transform: scaleX(0.98)
+    font-size: 13vw 
+    letter-spacing: 3px
+    padding: 0 0 80px 0
+    @media (min-width:600px)
+      font-size: 56px
+      padding: 0 0 120px 0
+    @media (min-width:1200px)
+      padding: 0 0 0 8vw
+      font-size: 80px
+      letter-spacing: 5px
+    span
+      font-size: 22vw
+      line-height: 1
+      @media (min-width:600px)
+        font-size: 150px
+      @media (min-width:1200px)
+        font-size: 180px
+  //滾動提示  
+  .scroll-instruction
+    height: 100px
+    align-self: start
+    @media (min-width:600px)
+      align-self: center
+      height: 160px
+    @media (min-width:1200px)
+      width: 16vw
+    span
+      margin: 0 0 0 12px
+      height: 26px
+      font-weight: 500
+      line-height: 28px
+      letter-spacing: 3px
+      transform: scaleX(0.98)  
+    .scroll-icon
+      width: 16px
+      height: 26px
+      border-radius: 10px
+      background: white
+      border: 2px solid white
+      float: left
+      &:after
+        display: block
+        content: ""
+        width: 6px
+        height: 6px
+        border-radius: 3px
+        background: #4a4a4a
+        position: relative
+        top: 1px
+        left: 5px
+        /*滾動提示動畫*/
+        animation-name: ScrollIcon
+        animation-duration: 2s
+        animation-timing-function: ease-in
+        animation-fill-mode: both
+        animation-iteration-count: infinite
+  /*滾動提示動畫影格*/  
+  @keyframes ScrollIcon
+    0%
+      opacity: 0
+    20%  
+      opacity: 1
+      transform: translate3d(0, 0%, 0)
+    80%
+      transform: translate3d(0, 7.5px, 0)
+    100%
+      transform: translate3d(0, 7.5px, 0)
+
+.intro
+  align-self: center
+  margin: 200px 0 0 0
+  @media (min-width:1200px)
+    max-height: 700px
+    margin: 0 0 0 400px
+    
+  //網站圖片
+  .intro-scene-phone
+    width: 84vw
+    filter: drop-shadow(0 0 30px rgba(0,0,0,.5))
+    z-index: -98
+    @media (min-width: 600px)
+      width: 300px
+      margin: 0 0 0 -30vw
+    @media (min-width: 800px)
+      display: none
+  .intro-scene
+    display: none
+    filter: drop-shadow(0 0 40px rgba(0,0,0,.5))
+    z-index: -98
+    @media (min-width: 800px)
+      display: block
+      width: 735px
+      margin: 0
+    @media (min-width: 1200px)
+      width: 980px
+      margin: -50px 0 0 0
+
+  //網站介紹
+  .intro-text
+    width: 84vw
+    height: 240px
+    padding: 40px 0
+    background: transparent
+    @media (min-width:600px)
+      margin: -280px 0 0 25vw
+      width: 300px
+      padding: 30px 25px
+      border-radius: 12px
+    @media (min-width:800px)
+      margin: -140px 0 0 400px
+      box-shadow: 0 2px 20px 0 rgba(0,0,0,.1)
+    @media (min-width:1200px)
+      margin: 250px 0 0 -200px
+    p
+      font-size: 16px
+      font-weight: 500
+      line-height: 1.5
+      letter-spacing: 1px
+      transform: scaleX(0.98)
+      margin: 12px 0 0 0
+    .intro-btn
+      display: block
+      margin: 30px 0 0 0
+      padding: 0 25px
+      height: 60px
+      color: white
+      background: black
+      border-radius: 12px
+      box-shadow: 0 2px 20px 0 rgba(0,0,0,.1)
+      @media (min-width:600px)
+        width: 280px
+        margin: 30px 0 0 -60px
+      span
+        display: inline-block
+        font-size: 18px
+        font-weight: 700
+        line-height: 60px
+        letter-spacing: 5px
+        transform: scaleX(0.98)
+      .intro-btn-icon
+        float: right
+
+.intro-first
+  @media (min-width:1200px)
+    margin: 0 0 0 100px
+
+//n.網站名稱
+//1.iAsk
+#intro-iask
+  .intro-text
+    @media (min-width:600px)
+      background: linear-gradient(to bottom,#3C6FAB,#6FA8D5)
+    .intro-btn
+      background: linear-gradient(to right,#3C6FAB,#6FA8D5)
+      @media (min-width:600px)
+        color: #6FA8D5
+        background: white
+        &:hover
+          color: #3C6FAB
+
+//2.interview
+#intro-interview
+  .intro-text
+    @media (min-width:600px)
+      background: linear-gradient(to bottom,#3E9687,#72C7BC)
+    .intro-btn
+      background: linear-gradient(to right,#3E9687,#72C7BC)
+      @media (min-width:600px)
+        color: #72C7BC
+        background: white
+        &:hover
+          color: #3E9687
+
+//3.salary
+#intro-salary
+  .intro-text
+    @media (min-width:600px)
+      background: linear-gradient(to bottom,#4A90E2,#81C3F3)
+    .intro-btn
+      background: linear-gradient(to right,#4A90E2,#81C3F3)
+      @media (min-width:600px)
+        color: #81C3F3
+        background: white
+        &:hover
+          color: #4A90E2
+    //3.salary 薪水平均數字
+    .average-salary
+      font-size: 42px
+      font-weight: 700
+      line-height: 1
+      margin: 8px 0 -4px 0
+      letter-spacing: 2px
+      span
+        font-size: 12px
+        font-weight: 700
+        letter-spacing: .5px
+
+//4.o2o
+#intro-o2o
+  .intro-text
+    @media (min-width:600px)
+      background: linear-gradient(to bottom,#4672e5,#7394eb)
+    .intro-btn
+      background: linear-gradient(to right,#4672e5,#7394eb)
+      @media (min-width:600px)
+        color: #7394eb
+        background: white
+        &:hover
+          color: #4672e5
+
+//5.wajob
+#intro-wajob
+  .intro-text
+    @media (min-width:600px)
+      background: linear-gradient(to bottom,#4180ab,#8db2cc)
+    .intro-btn
+      background: linear-gradient(to right,#4180ab,#8db2cc)
+      @media (min-width:600px)
+        color: #8db2cc
+        background: white
+        &:hover
+          color: #4180ab
+
+//6.helpresume
+#intro-helpresume
+  .intro-text
+    @media (min-width:600px)
+      background: linear-gradient(to bottom,#4b515a,#787c84)
+    .intro-btn
+      background: linear-gradient(to right,#4b515a,#787c84)
+      @media (min-width:600px)
+        color: #787c84
+        background: white
+        &:hover
+          color: #4b515a
+
+
+//聯絡我們
+#contact
+  flex-direction: column
+  margin: 120px 0 0 0
+  padding: 80px 0 0 0
+  @media (min-width:1200px)
+    margin: 0
+    padding: 0 0 0 400px
+  .contact-map
+    width: 84vw
+    height: 500px
+    border-radius: 12px
+    overflow: hidden !important
+    @media (min-width:1200px)
+      width: 800px
+      height: 480px
+    iframe
+      width: 84vw
+      height: 500px
+      @media (min-width:1200px)
+        width: 800px
+        height: 480px
+  .contact-box
+    width: 84vw
+    @media (min-width:1200px)
+        width: 800px
+    h2
+      display: block
+      margin: 40px 0 30px
+      @media (min-width:600px)
+        display: inline-block
+        margin: 32px 0
+    .contact-info
+      display: block
+      @media (min-width:600px)
+        float: right
+        padding: 30px 0 0 0
+      .contact-info-content
+        justify-content: start
+        margin: 0 0 12px
+        img
+          width: 24px
+        p
+          font-size: 12px //for iphone5/se
+          line-height: 1.5
+          letter-spacing: 1px
+          transform: scaleX(0.98)
+          @media (min-width: 321px)
+            font-size: 14px
+            line-height: 1.5
+
+//footer
+#footer
+  width: 84vw
+  height: 80px
+  padding: 0 8vw
+  margin: 100px 0 0 0
+  font-size: 12px
+  color: #aaa
+  line-height: 1.8
+  transform: scaleX(0.98)
+  @media (min-width:600px)
+    text-align: center
+  @media (min-width:650px)
+    line-height: 80px
+    white-space: nowrap
+  @media (min-width:1200px)
+    width: 360px
+    height: 100vh
+    padding: 0
+    margin: 0 0 0 180px
+    line-height: 100vh
+
+/*時間線*/
+.product-line 
+  position: absolute
+  top: calc(100vh - 100px)
+  left: calc(8vw + 8px)
+  width: 1px
+  //*n
+  height: calc(60px + 168vw * 6 + 520px * 6 + 1000px)
+  border-left: 2px dotted #4a4a4a
+  z-index: -100
+  @media (min-width:600px)
+    left: 50vw
+    //*n
+    height: calc(60px + 820px * 6 + 900px)
+  @media (min-width:800px)
+    left: 50vw
+    //*n
+    height: calc(60px + 780px * 6 + 900px)
+  @media (min-width:1200px)
+    height: 1px
+    //*n
+    width: calc(1530px * 6 + 1080px)
+    border: none
+    border-top: 2px dotted #4a4a4a
+    top: 50vh
+    left: calc(100vw - 120px - 2vw)
+
+
+  
+/*背景物件*/
+.small-chara 
+  display: block
+  font-family: Nanum Gothic
+  font-weight: 400
+  font-size: 32px
+  text-align: center
+  width: 50px
+  height: 50px
+  line-height: 1
+  position: fixed
+  z-index: -99
+  
+.small-chara-slash
+  color: #00BE93
+  left: 19vw
+  top: 18vh
+  animation-delay: -0.7s
+  
+.small-chara-cross 
+  color: #e66aff
+  left: 37vw
+  top: 33vh
+  animation-delay: 2.9s
+  
+.small-chara-leftguillemet
+  color: #F8E71C
+  left: 70vw
+  top: 22vh
+  animation-delay: 5.8s
+  
+.small-chara-pi
+  color: #4A90E2
+  left: 83vw
+  top: 33vh
+  font-size: 48px
+  animation-delay: 8.7s
+  
+.small-chara-leftbracket
+  color: #FFCF55
+  left: 8vw
+  top: 75vh
+  animation-delay: 1s  
+  
+.small-chara-colon 
+  color: #B8E986
+  left: 46vw
+  top: 90vh
+  animation-delay: 4.2s  
+  
+.small-chara-rightbracket 
+  color: #cc3b4d
+  left: 78vw
+  top: 65vh
+  animation-delay: 7.2s
+  
+/*小物件動畫*/
+.fadeOut
+  animation-name: fadeOut
+  animation-duration: 4s
+  animation-timing-function: ease-out
+  animation-fill-mode: both
+  animation-iteration-count: infinite
+  
+@keyframes fadeOut
+  0%
+    opacity: 0
+    transform: translate(-200px,150px)
+  15%
+    opacity: 1
+  30%
+    opacity: 1
+  90%
+    opacity: 0
+    transform: translate(200px,-150px)
+  100%
+    opacity: 0
+    transform: translate(200px,-150px)
+  
