@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,700');
-@import url('../css/publicsans_css/publicsans.css');
 
 * {
-  font-family: 'Public Sans', 'Noto Sans JP', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Avenir' , 'Arial' , 'Noto Sans JP', sans-serif;
   font-weight: 400;
   letter-spacing: .025rem;
   outline: none !important;
