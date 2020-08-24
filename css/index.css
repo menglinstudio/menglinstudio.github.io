@@ -1,13 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,700');
 
-* {
-  font-family: -apple-system, BlinkMacSystemFont, 'Avenir' , 'Arial' , 'Noto Sans JP', sans-serif;
+@font-face {
+  font-family: "Basier Circle";
+  font-style: normal;
   font-weight: 400;
-  letter-spacing: .025rem;
+  src: url(../font/basiercircle-400.woff2) format('woff2'), url(../font/basiercircle-400.woff) format('woff');
+}
+
+@font-face {
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/basiercircle-600.woff2) format('woff2'), url(../font/basiercircle-600.woff) format('woff');
+}
+
+* {
+  font-family: "Basier Circle", -apple-system, BlinkMacSystemFont, 'Avenir' , 'Arial' , 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
   outline: none !important;
   text-decoration: none !important;
   -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out
+  transition: all .3s ease-out;
 }
 
 .container-fluid {
