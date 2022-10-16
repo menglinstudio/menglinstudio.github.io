@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <title>MENGLIN studio</title>
   <!-- Required meta tags -->
@@ -10,9 +11,13 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700;900&family=Noto+Sans+TC:wght@400;700;900&display=swap"
+    rel="stylesheet">
   <!-- CSS -->
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index.v22.css">
   <!-- Icon -->
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="icon" sizes="192x192" href="apple-touch-icon.ico">
@@ -25,162 +30,209 @@
 </head>
 
 <body>
-  <div class="content-area">
+  <div class="mls-content">
     <!-- Intro -->
     <div>
-      <a href="index.html"><img src="logo.svg" class="my-logo"></a>
-      <a class="my-name">MENGLIN studio</a><br>
-      <p class="my-des">Hi, I am Menglin.<br>Thank you for dropping by my portfolio. I am currently doing UI/UX design at 3.1416.tw.<br>Seeing design problems with rational eyes; trying to create delightful user experiences.</p>
-      <p class="my-des">Learn more <a class="my-link" data-toggle="modal" data-target="#about-modal">About Me ↗</a>.<br>Or check out some of <a class="my-link" href="#project-section">My Projects ↙</a>.</p>
-    </div>
+      <img src="logo.svg" class="mls-logo">
+      <h1 class="mls-site-title">MENGLIN<span> studio</span></h1><br><br>
+      <div class="mls-site-intro col-12 col-md-10 col-xl-8 r-padding">
+        <p>HI！我是孟霖。感謝您騰出時間前來觀看我的作品集。</p>
+        <p>
+          目前在對稱資訊股份有限公司擔任 UI／UX 設計師，負責「面試趣」、「比薪水」、「小任務」等網站、為公司規劃設計系統和企業識別設計，也協助相關印刷品的設計與製作。</p>
+        <p>我期許自己能持續在這個領域持續深耕，打造兼具使用者體驗與美感的產品、服務。</p><br>
+      </div>
+      <div class="row">
+        <p class="mls-des col-12 col-md-6 col-lg-3">關於我　<a class="mls-link" data-bs-toggle="modal"
+            data-bs-target="#modal-about">About
+            ↗</a></p>
+        <p class="mls-des col-12 col-md-6 col-lg-3">作品集　<a class="mls-link" href="#project-section">Projects ↙</a>
+        </p>
+      </div>
 
-    <div class="divide-line-max"></div>
-
-    <!--  Projects  -->
-    <div id="project-section">
-      <p class="section-title">Projects</p>
-      <p class="modal-secondary-title">UI/UX Design</p>
-        <div class="container-fluid">
+      <!--  Projects  -->
+      <div id="project-section" class="mls-section">
+        <h2>Projects</h2>
+        <div class="mls-list">
+          <h3>UI/UX</h3>
           <div class="row">
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
+            <div class="col-12 col-md-6 col-xl-4 mls-project-content">
               <a href="project/skywork.html">
                 <img class="img-fluid" src="project/skywork/skywork.jpg">
-                <span class="all-project-des-title">SKYWORK ｜ Website ｜ ↗</span></a>
+                <span class="mls-pjt-link">SKYWORK ｜ Web ｜ ↗</span></a>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
+            <div class="col-12 col-md-6 col-xl-4 mls-project-content">
               <a href="project/nckuee.html">
                 <img class="img-fluid" src="project/nckuee/nckuee.jpg">
-                <span class="all-project-des-title">NCKUEE ｜ Website ｜ ↗</span></a>
+                <span class="mls-pjt-link">NCKUEE ｜ Web ｜ ↗</span></a>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
+            <div class="col-12 col-md-6 col-xl-4 mls-project-content">
               <a href="project/dahou.html">
                 <img class="img-fluid" src="project/dahou/dahou.jpg">
-                <span class="all-project-des-title">Dahou ｜ App ｜ ↗</span></a>
+                <span class="mls-pjt-link">Dahou ｜ App ｜ ↗</span></a>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
+            <div class="col-12 col-md-6 col-xl-4 mls-project-content">
               <a href="project/ilecture.html">
                 <img class="img-fluid" src="project/ilecture/ilecture.jpg" ui>
-                <span class="all-project-des-title">iLecture ｜ App ｜ ↗</span></a>
+                <span class="mls-pjt-link">iLecture ｜ App ｜ ↗</span></a>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
-              <a href="project/uiuxconcept.html">
-                <img class="img-fluid" src="project/uiuxconcept/uiuxconcept.jpg">
-                <span class="all-project-des-title">UI/UX Concept ｜ App ｜ ↗</span></a>
-            </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
-              <a href="project/dailyui.html">
-                <img class="img-fluid" src="project/dailyui/dailyui.jpg">
-                <span class="all-project-des-title">Daily UI ｜↗</span></a>
+            <div class="col-12 col-md-6 col-xl-4 mls-project-content">
+              <a href="project/concept.html">
+                <img class="img-fluid" src="project/concept/concept.jpg">
+                <span class="mls-pjt-link">UI Concept ↗</span></a>
             </div>
           </div>
         </div>
-        <div class="divide-line-max"></div>
-        <p class="modal-secondary-title">Graphic Design</p>
-        <div class="container-fluid">
+
+        <div class="mls-list">
+          <h3>Graphic</h3>
           <div class="row">
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
-              <a href="project/mbi_cousre_manual.html">
-                <img class="img-fluid" src="project/mbi_cousre_manual/mbi_cousre_manual.jpg">
-                <span class="all-project-des-title">MBI Course Manual ｜ ↗</span></a>
-            </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
-              <a href="project/hello_water.html">
-                <img class="img-fluid" src="project/hello_water/hello_water.jpg">
-                <span class="all-project-des-title">HELLO WATER Label ｜ ↗</span></a>
-            </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
-              <a href="project/packages.html">
-                <img class="img-fluid" src="project/packages/packages.jpg">
-                <span class="all-project-des-title">Packages ｜ ↗</span></a>
-            </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
-              <a href="project/business_cards.html">
-                <img class="img-fluid" src="project/business_cards/business_cards.jpg">
-                <span class="all-project-des-title">Business Cards ｜ ↗</span></a>
-            </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
+            <div class="col-12 col-md-6 col-xl-4 mls-project-content">
               <a href="project/logofolio.html">
                 <img class="img-fluid" src="project/logofolio/logofolio.jpg">
-                <span class="all-project-des-title">Logofolio ｜ ↗</span></a>
+                <span class="mls-pjt-link">LOGO ↗</span></a>
             </div>
+            <div class="col-12 col-md-6 col-xl-4 mls-project-content">
+              <a href="project/packages.html">
+                <img class="img-fluid" src="project/packages/packages.jpg">
+                <span class="mls-pjt-link">Package ↗</span></a>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 mls-project-content">
+              <a href="project/business_cards.html">
+                <img class="img-fluid" src="project/business_cards/business_cards.jpg">
+                <span class="mls-pjt-link">Business Card ↗</span></a>
+            </div>
+            <!-- <div class="col-12 col-md-6 col-xl-4 mls-project-content">
+              <a href="project/others.html">
+                <img class="img-fluid" src="project/others/others.jpg">
+                <span class="mls-pjt-link">Others ↗</span></a>
+            </div> -->
           </div>
         </div>
-        <div class="divide-line-max"></div>
-        <p class="modal-secondary-title">School Works</p>
-        <div class="container-fluid">
+
+        <div class="mls-list">
+          <h3>School</h3>
           <div class="row">
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
+            <div class="col-12 col-md-6 col-xl-4 mls-project-content">
               <a href="project/esthesia.html">
                 <img class="img-fluid" src="project/esthesia/esthesia.jpg">
-                <span class="all-project-des-title">深覺 Esthesia ｜ ↗</span></a>
-            </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
-              <a href="project/pantitude.html">
-                <img class="img-fluid" src="project/pantitude/pantitude.jpg">
-                <span class="all-project-des-title">Pantitude ｜ ↗</span></a>
-            </div>
-            <div class="col-12 col-sm-6 col-xl-4 all-project-des">
-              <a href="project/catcare.html">
-                <img class="img-fluid" src="project/catcare/catcare.jpg">
-                <span class="all-project-des-title">Catcare ｜ ↗</span></a>
+                <span class="mls-pjt-link">畢業展覽 - 深覺 Esthesia ↗</span></a>
             </div>
           </div>
         </div>
-    </div>
-    <div class="divide-line-max"></div>
-    <div id="footer">
-      ©2019 MENGLIN studio. All rights reserved.
-    </div>
-    <div class="divide-line-max"></div>
-  </div>
 
-  <!-- About -->
-  <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="about-modal" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <a href="index.html"><img src="logo.svg" class="my-logo"></a>
-        <div class="modal-header">
-          <h5 class="modal-title" id="about-modal">About Me</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span class="modal-close" aria-hidden="true">CLOSE ☓</span>
-          </button>
-        </div>
-        <div class="divide-line-max"></div>
-        <p class="modal-des">
-          I graduated from Department of Industrial Design, National Cheng Kung University (NCKU). Recently being a freelance designer at my design studio (MENGLIN studio), designing user interfaces, website lay out, and sometimes graphic design. <br><br>You can check out my <a class="my-link" href="dumenglin_cv.pdf">Resume</a> here!
-        </p>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12 col-xl-6">
-              <div class="divide-line-max"></div>
-              <p class="modal-secondary-title">Skills</p>
-              <p class="modal-des">
-                <span class="modal-des-title">UI/UX Design ｜ </span><br>Xd, Sketch, Zeplin<br><br>
-                <span class="modal-des-title">Graphic Design ｜ </span><br>Ai, Ps, Id<br><br>
-                <span class="modal-des-title">3D Design ｜ </span><br>Solidworks, Keyshot<br><br>
-                <span class="modal-des-title">Website Develope ｜ </span><br>Html, Css<br><br>
-                <span class="modal-des-title">Language ｜ </span><br>Chinese, English, a little bit Japanese</p>
+      </div>
+      <div id="footer">
+        <p>「面試趣」、「比薪水」是對稱資訊股份有限公司所註冊的商標。</p>
+        <p>©2019 - 2022　MENGLIN studio</p>
+      </div>
+
+      <!-- About -->
+      <div class="modal fade mls-sec-about" id="modal-about" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content mls-content">
+            <div class="modal-header r-padding">
+              <h2>About</h2>
+              <button class="mls-modal-btn" type="button" data-bs-dismiss="modal" aria-label="Close">
+                <span class="mls-link" aria-hidden="true">CLOSE ☓</span>
+              </button>
             </div>
-            <div class="col-12 col-xl-6">
-              <div class="divide-line-max"></div>
-              <p class="modal-secondary-title">Experience</p>
-              <p class="modal-des">
-                <span class="modal-des-title">2018 ｜</span><br>Designer @MENGLIN studio<br><br>
-                <span class="modal-des-title">2017.12-2018.03 ｜ </span><br>Designer @Hand Heart Design Firm<br><br>
-                <span class="modal-des-title">2014-2016 ｜ </span><br>Designer @MBI Lab, NCKU<br><br>
-                <span class="modal-des-title">Internship ｜ </span><br>Intern @Exhibition and Education Group, CHIMEI Museum<br><br>
-                <span class="modal-des-title">Student ｜ </span><br>Leader of Graphic Group @Graduation Exhibiton, NCKUID／@Industrial Design Camp, NCKUID</p>
+            <div class="mls-section row">
+              <div class="col-12 col-lg-4 r-padding">
+                <div class="mls-sec-about-me">
+                  <div class="col-12">
+                    <div class="mls-sec-about-img">
+                      <img src="img-me.jpg">
+                    </div>
+                    <h3>杜孟霖</h3>
+                    <p>期許自己能持續在 UI／UX 領域持續深耕，打造兼具使用者體驗與美感的產品、服務。</p>
+                    <div>
+                      <p>
+                        <strong>MAIL</strong>　menglinlin1203@gmail.com<br>
+                        <strong>TEL</strong>　0933 353 898</p>
+                    </div>
+                    <!-- <p class="mls-des">
+                      我的履歷　<a class="mls-link" href="dumenglin_cv.pdf">Download ↙</a>
+                    </p> -->
+                  </div>
+                </div>
+                <div class="mls-sec-about-skill">
+                  <h3>Skills</h3>
+                  <p>
+                    UI/UX<br><span>Figma、Sketch、Adobe XD、Zeplin</span>
+                  </p>
+                  <p>
+                    Graphic<br><span>Illustrator、Photoshop、Indesign</span>
+                  </p>
+                  <p>
+                    Web<br><span>HTML、CSS</span>
+                  </p>
+                  <p>
+                    Language<br><span>中文、英文、少許日文</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="mls-sec-about-exp col-12 col-lg-7 offset-lg-1 r-padding">
+                <h3>Experience</h3>
+                <div class="col-12 row mls-job">
+                  <p class="col-3 col-sm-2 mls-job-duration">NOW<br>/<br>2018.10</p>
+                  <div class="col-9 col-sm-10 r-padding">
+                    <p class="mls-job-title">UI／UX 設計師</p>
+                    <p class="mls-job-company">對稱資訊股份有限公司</p>
+                    <p class="mls-job-des">負責「面試趣」、「比薪水」、「小任務」等網站的 UI/UX
+                      設計、規劃設計系統與規範、企業識別設計，也協助相關印刷品設計與製作。<br>與團隊一同從 0 走向 2000 萬營收。</p>
+                  </div>
+                </div>
+                <div class="col-12 row mls-job">
+                  <p class="col-3 col-sm-2 mls-job-duration">2018</p>
+                  <div class="col-9 col-sm-10 r-padding">
+                    <p class="mls-job-title">網頁設計師</p>
+                    <p class="mls-job-company">手心設計事務所</p>
+                    <p class="mls-job-des">負責網站功能規劃、UX 設計、協助公司同仁理解網站規劃並進行網頁視覺設計、調整網站 CSS。必要時也會協助部分平面設計專案。</p>
+                  </div>
+                </div>
+                <div class="col-12 row mls-job">
+                  <p class="col-3 col-sm-2  mls-job-duration">2018<br>/<br>2016</p>
+                  <div class="col-9 col-sm-10 r-padding">
+                    <p class="mls-job-title">設計師</p>
+                    <p class="mls-job-company">MENGLIN studio</p>
+                    <p class="mls-job-des">兵役期間獨立接案時使用的名稱，設計項目包含 UI/UX 設計、App 設計、視覺設計等。期間也自學 HTML 和 CSS 相關技術與知識。</p>
+                  </div>
+                </div>
+                <div class="col-12 row mls-job">
+                  <p class="col-3 col-sm-2 mls-job-duration">2016<br>/<br>2014</p>
+                  <div class="col-9 col-sm-10 r-padding">
+                    <p class="mls-job-title">UI／UX 設計師</p>
+                    <p class="mls-job-company">國立成功大學 電機系 分子生醫資訊實驗室</p>
+                    <p class="mls-job-des">負責實驗室相關 UI/UX 專案設計、課程展覽網站視覺設計及相關印刷品設計。</p>
+                  </div>
+                </div>
+                <div class="col-12 row mls-job">
+                  <p class="col-3 col-sm-2 mls-job-duration">2016<br>Student</p>
+                  <div class="col-9 col-sm-10 r-padding">
+                    <p class="mls-job-title">文宣組 組長</p>
+                    <p class="mls-job-company">國立成功大學 工業設計系 畢業展覽</p>
+                    <p class="mls-job-des">負責展覽網站設計，專刊設計與出版相關事宜。</p>
+                  </div>
+                </div>
+                <div class="col-12 row mls-job">
+                  <p class="col-3 col-sm-2 mls-job-duration">2015<br>Internship</p>
+                  <div class="col-9 col-sm-10 r-padding">
+                    <p class="mls-job-title">實習生</p>
+                    <p class="mls-job-company">奇美博物館 展示教育組</p>
+                    <p class="mls-job-des">學習展覽佈置相關知識、教育活動協助，並協助博物館商品包裝設計。</p>
+                  </div>
+                </div>
+
+              </div>
+
             </div>
           </div>
         </div>
-        <div class="divide-line-max"></div>
-        <button type="button" class="close" data-dismiss="modal">
-          <span class="modal-close-center" aria-hidden="true">CLOSE ☓</span>
-        </button>
       </div>
-    </div>
-  </div>
-    <script src="//instant.page/1.2.1" type="module" integrity="sha384-/IkE5iZAM/RxPto8B0nvKlMzIyCWtYocF01PbGGp1qElJuxv9J4whdWBRtzZltWn"></script>
+      <script src="//instant.page/1.2.1" type="module"
+        integrity="sha384-/IkE5iZAM/RxPto8B0nvKlMzIyCWtYocF01PbGGp1qElJuxv9J4whdWBRtzZltWn"></script>
 </body>
 
 </html>

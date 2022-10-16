@@ -10,10 +10,14 @@
   <meta name="theme-color" content="#FFD700">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800" rel="stylesheet">
-  <!-- CSS -->
-  <link rel="stylesheet" href="../css/index.css">
+   <!-- Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+     href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700;900&family=Noto+Sans+TC:wght@400;700;900&display=swap"
+     rel="stylesheet">
+   <!-- CSS -->
+   <link rel="stylesheet" href="../css/index.v22.css">
   <!-- Icon -->
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
   <link rel="icon" sizes="192x192" href="../apple-touch-icon.ico">
@@ -22,33 +26,32 @@
 </head>
 
 <body>
-  <div class="content-area">
-    <a href="../index.html"><img src="../logo.svg" class="my-logo"></a>
-    <a class="details-backto" href="../index.html">↖ BACK</a><br>
-    <div class="details-content">
-      <p class="details-title">iLecture</p>
-      <p class="details-info">UI/UX Design<br>Client － MBI Lab, NCKU<br>2017.06</p>
-      <div class="details-line"></div>
+  <div class="mls-content mls-pjt">
+    <a href="../index.html"><img src="../logo.svg" class="mls-logo"></a>
+    <a class="mls-pjt-btn" href="../index.html">↖ BACK</a><br>
+    <div class="mls-pjt-wrap col-12">
+      <p class="mls-title">iLecture</p>
+      <p class="mls-pjt-info">UI/UX Design<br>Client － MBI Lab, NCKU<br>2017.06</p>
+      <div class="mls-line"></div>
     </div>
-    <p class="details-des">
-      iLecture is an online classroom system for teachers teaching in NCKUEE.</p><br>
-    <img class="img-fluid details-img" src="ilecture/ilecture.jpg">
-    <p class="details-seconarytitle">Login Page</p><br>
-    <img class="img-fluid details-img" src="ilecture/ilecture1.jpg">
-    <p class="details-seconarytitle">Dashboard for Teachers</p><br>
-    <img class="img-fluid details-img" src="ilecture/ilecture2.jpg">
-    <p class="details-seconarytitle">App Tabs for Teachers</p><br>
-    <img class="img-fluid details-img" src="ilecture/ilecture3.jpg">
-    <p class="details-seconarytitle">Dashboard for Students</p><br>
-    <img class="img-fluid details-img" src="ilecture/ilecture4.jpg">
-    <p class="details-seconarytitle">App Tabs for Students</p>
-    <div class="details-line-max"></div>
-    <div class="details-content">
-      <a class="details-prev" href="dahou.html">← PREV ｜ Dahou</a><br><br><br>
-      <a class="details-tohome" href="../index.html">→ HOME ←</a><br><br><br>
-      <a class="details-next" href="uiuxconcept.html">UI/UX Concept ｜ NEXT →</a>
+    <div class="mls-pjt-content col-12">
+      <p class="details-des">
+        iLecture is an online classroom system for teachers teaching in NCKUEE.</p>
+      <img class="img-fluid details-img" src="ilecture/ilecture.jpg">
+      <h2>Login Page</h2>
+      <img class="img-fluid details-img" src="ilecture/ilecture1.jpg">
+      <h2>Dashboard for Teachers</h2>
+      <img class="img-fluid details-img" src="ilecture/ilecture2.jpg">
+      <h2>App Tabs for Teachers</h2>
+      <img class="img-fluid details-img" src="ilecture/ilecture3.jpg">
+      <h2>Dashboard for Students</h2>
+      <img class="img-fluid details-img" src="ilecture/ilecture4.jpg">
+      <h2>App Tabs for Students</h2>
+
     </div>
-    <div class="details-line-max"></div>
+    <div id="footer">
+      <a class="mls-pjt-btn" href="../index.html">→ HOME ←</a>
+    </div>
   </div>
 
   <!-- Bootstrap JS -->

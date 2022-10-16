@@ -1,0 +1,513 @@
+* {
+  font-family: "Figtree", "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Avenir", "Arial", sans-serif;
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+a, p, span, img {
+  transition: all 0.24s ease-in;
+}
+
+.fz-h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.fz-h2 {
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
+.fz-h3 {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
+.fz-t1 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.fz-t2 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.fz-t3 {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.r-padding {
+  padding: 0;
+}
+
+button {
+  outline: none;
+  background: transparent;
+  padding: 0.6rem 0;
+  border: none;
+}
+
+.mls-content {
+  width: 80%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+@media (max-width: 576px) {
+  .mls-content {
+    width: calc(100% - 48px);
+  }
+}
+
+.mls-title, .mls-site-title {
+  display: inline-block;
+  margin: 3rem 0 1rem 0;
+  box-shadow: inset 0 -20px 0 #FFD700;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-weight: 900;
+}
+.mls-title span, .mls-site-title span {
+  font-weight: 400;
+}
+
+.mls-logo-container, .mls-logo {
+  display: block;
+  height: 80px;
+  width: 80px;
+}
+
+.mls-site-intro p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1f2123;
+}
+
+.mls-section {
+  padding-top: 4rem;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(31, 33, 35, 0.08);
+}
+.mls-section h2 {
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 400;
+  font-weight: 900;
+  color: #1f2123;
+  margin-bottom: 2rem;
+}
+.mls-section h3 {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 400;
+  font-weight: 700;
+  color: #1f2123;
+  margin-bottom: 1rem;
+}
+
+.mls-list {
+  padding-bottom: 1rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid rgba(31, 33, 35, 0.08);
+}
+
+.mls-project-content {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.mls-pjt-link {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(31, 33, 35, 0.48);
+  margin: 0.6rem auto 1rem auto;
+}
+
+a:hover .mls-pjt-link {
+  color: #1f2123 !important;
+  padding: 0 0.5rem;
+  box-shadow: inset 0 -0.8rem 0 #FFD700;
+}
+
+.mls-des {
+  display: block;
+  margin-top: 1rem;
+  color: rgba(31, 33, 35, 0.48) !important;
+}
+
+.mls-link {
+  display: inline-block;
+  color: rgba(31, 33, 35, 0.48) !important;
+  box-shadow: inset 0 -2px 0 #FFD700;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.mls-link:hover {
+  color: #1f2123 !important;
+  box-shadow: inset 0 -0.7rem 0 #FFD700;
+  padding: 0 0.5rem;
+}
+
+.divide-line {
+  display: block;
+  width: 30%;
+  height: 2px;
+  margin: 4rem 0 4rem 0;
+  background: rgba(31, 33, 35, 0.08);
+}
+
+.modal-backdrop {
+  background: white;
+}
+
+.modal-backdrop.show {
+  opacity: 1;
+}
+
+.modal-dialog {
+  max-width: inherit;
+  width: 100%;
+  margin: 0;
+}
+
+.modal-content {
+  width: 80%;
+  max-width: 1120px;
+  margin: auto;
+  margin-top: 4rem;
+  border-radius: 0;
+  border: none;
+}
+@media (max-width: 576px) {
+  .modal-content {
+    width: calc(100% - 48px);
+  }
+}
+
+.modal-header {
+  border: none;
+  padding: 0;
+}
+.modal-header h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-weight: 900;
+}
+
+.mls-sec-about .mls-section {
+  padding-bottom: 4rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid rgba(31, 33, 35, 0.08);
+}
+
+.mls-sec-about-me {
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid rgba(31, 33, 35, 0.08);
+}
+.mls-sec-about-me .mls-sec-about-img img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 4rem;
+}
+.mls-sec-about-me h3 {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: #1f2123;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.mls-sec-about-me p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1f2123;
+}
+.mls-sec-about-me p strong {
+  display: inline-block;
+  width: 32px;
+}
+
+@media (max-width: 991px) {
+  .mls-sec-about-skill {
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid rgba(31, 33, 35, 0.08);
+  }
+}
+.mls-sec-about-skill h3 {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: #1f2123;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.mls-sec-about-skill p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  font-weight: 700;
+  color: #1f2123;
+  margin: 2rem 0;
+}
+.mls-sec-about-skill p:last-child {
+  margin-bottom: 0;
+}
+.mls-sec-about-skill p span {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(31, 33, 35, 0.68);
+}
+
+.mls-sec-about-exp h3 {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: #1f2123;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.mls-job {
+  margin: 2rem 0;
+}
+.mls-job:last-child {
+  margin-bottom: 0;
+}
+
+.mls-job-duration {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  font-weight: 700;
+  color: #1f2123;
+  display: inline-block;
+  padding: 2px 0;
+}
+
+.mls-job-title {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  font-weight: 700;
+  color: #1f2123;
+  margin-bottom: 0;
+}
+
+.mls-job-company {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #1f2123;
+  margin-bottom: 0.4rem;
+}
+
+.mls-job-des {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(31, 33, 35, 0.68);
+}
+
+a .img-fluid {
+  border-radius: 8px;
+  transform: scale(0.98);
+  opacity: 0.8;
+}
+@media (max-width: 767px) {
+  a .img-fluid {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+a:hover .img-fluid {
+  opacity: 1;
+  transform: scale(1.04);
+  border-radius: 2.5rem;
+}
+
+.modal-close:hover,
+.modal-close-center:hover {
+  color: black !important;
+  box-shadow: inset 0 -0.8rem 0 #FFD700;
+}
+
+/* footer */
+#footer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid rgba(31, 33, 35, 0.08);
+}
+#footer p {
+  margin: 0.25rem auto;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(31, 33, 35, 0.48);
+}
+
+/* project page */
+.mls-pjt-wrap {
+  width: 100%;
+  padding: 2rem 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mls-pjt-btn {
+  display: inline-block;
+  margin-top: 2.5rem;
+  color: rgba(31, 33, 35, 0.48) !important;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.mls-pjt-btn:hover {
+  color: #1f2123 !important;
+  box-shadow: inset 0 -0.8rem 0 #FFD700;
+}
+
+.mls-pjt-info {
+  margin: 1rem auto 0;
+  text-align: center;
+  color: rgba(31, 33, 35, 0.48);
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  font-weight: 700;
+}
+
+.details-tohome {
+  display: inline-block;
+  color: rgba(31, 33, 35, 0.48) !important;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.details-prev {
+  display: inline-block;
+  color: rgba(31, 33, 35, 0.48) !important;
+  cursor: pointer;
+  float: left;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.details-next {
+  display: inline-block;
+  color: rgba(31, 33, 35, 0.48) !important;
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.details-tohome:hover,
+.details-prev:hover,
+.details-next:hover {
+  color: black !important;
+  box-shadow: inset 0 -0.8rem 0 #FFD700;
+}
+
+.details-seconarytitle {
+  width: 90%;
+  margin: 1rem auto 0.5rem auto;
+  text-align: left;
+  color: rgba(31, 33, 35, 0.68) !important;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.mls-pjt-infocollection {
+  width: 90%;
+  margin: 1rem auto;
+  color: rgba(31, 33, 35, 0.68);
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  font-weight: 700;
+}
+
+.mls-pjt-content {
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgba(31, 33, 35, 0.08);
+}
+.mls-pjt-content h2 {
+  width: 90%;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #1f2123;
+  font-weight: 700;
+  margin: 0.5rem auto;
+}
+.mls-pjt-content p {
+  width: 90%;
+  color: rgba(31, 33, 35, 0.68);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0.5rem auto;
+}
+.mls-pjt-content img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 0.5rem auto;
+}
+.mls-pjt-content p + img, .mls-pjt-content h2 + img {
+  margin-top: 4rem;
+}
+.mls-pjt-content img + h2 {
+  margin-top: 1rem;
+}
+
+.mls-line {
+  display: block;
+  width: 30%;
+  height: 1px;
+  margin: 4rem auto;
+  background: rgba(31, 33, 35, 0.08);
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+}
+#footer .mls-pjt-btn {
+  margin: 0 auto;
+}/*# sourceMappingURL=index.v22.css.map */
